@@ -39,7 +39,7 @@
       width: 100%;
       border: 0;
       border-radius: 6px;
-      background-color: #9ee6ed;
+      background-color: #ebeeee;
       height: 50px;
       font-size: 16px;
       color: #000;
@@ -51,7 +51,7 @@
       width: 100%;
       border: 0;
       border-radius: 6px;
-      background: #9ee6ed;
+      background: #ebeeee;
       height: 50px;
       font-size: 16px;
       color: #000;
@@ -61,20 +61,21 @@
     }
 
     .flat-button {
-      color: #9ee6ed;
-      background: 0 0;
+      // color: #fff;
+      // background: 0 0;
+      background: #1f2f3049;
       font: 11px;
       letter-spacing: 3px;
       text-decoration: none;
       padding: 8px 10px;
-      border: 1px solid #9ee6ed;
+      // border: 1px solid #9ee6ed;
       float: right;
       border-radius: 8px;
 
       &:hover {
         color: #fff;
-        background-color: #3cefff;
-        transition-duration: 1s;
+        background-color: #1f2f30;
+        transition-duration: 1.1s;
       }
     }
   }
