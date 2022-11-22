@@ -1,0 +1,34 @@
+.footer-page {
+  background: #000;
+  position: relative;
+  height: 110px;
+  width: 100%;
+  bottom: 0;
+
+  .text-zone {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+
+    p {
+      align-items: flex-start;
+      font-size: 2rem;
+      font-weight: 400;
+      font-family: 'Coolvetica';
+    }
+    .link-container {
+      font-size: 2rem;
+      align-items: flex-end;
+
+      .footer-link {
+        color: #fff;
+        padding: 0 3rem;
+      }
+    }
+  }
+}

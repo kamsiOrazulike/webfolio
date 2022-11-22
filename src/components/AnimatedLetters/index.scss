@@ -1,0 +1,25 @@
+.animate-text {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+
+.animate-text-hover {
+  min-width: 10px;
+  display: inline-block;
+  animation-fill-mode: both;
+
+  &:hover {
+    animation: rubberBand 1s;
+    color: #3cefff;
+  }
+}
+
+//loop goes through indexes 1-35 & delays popup for each letter
+@for $i from 1 through 35 {
+  .animate-text._#{$i} {
+        animation-delay: calc($i / 10)s;
+  }
+}

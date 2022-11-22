@@ -1,0 +1,202 @@
+$width: 150px;
+$height: 150px;
+$color-inline: #00000058;
+$color-outline: #7f7f7f80;
+
+@mixin flex {
+  justify-content: center;
+  align-items: center;
+  @content;
+}
+
+.about-page {
+  background: #48345a;
+
+  .text-zone {
+    .school-emb-container {
+      width: 80px;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background: #fff;
+
+      .school-emb {
+        margin-top: 1em;
+        width: 60%;
+      }
+    }
+
+    div.container-flex {
+      max-width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+
+      .section {
+        // background: #ffffff66;
+        // padding: 0em 2em 0em 0em;
+        margin: auto;
+        // border-radius: 4em;
+        // display: flex;
+        // flex-wrap: wrap;
+        // width: 100%;
+
+        h3 {
+          font-size: 16px;
+          cursor: pointer;
+          font-family: 'Coolvetica';
+          color: #fff;
+          flex-grow: 2;
+          font-weight: 400;
+          position: relative;
+          text-align: right;
+        }
+
+        &:first-child {
+          max-width: 50%;
+        }
+        &:nth-child(2) {
+          max-width: 50%;
+        }
+
+        @media screen and (max-width: 800px) {
+          &:first-child {
+            max-width: 100%;
+          }
+          &:nth-child(2) {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+
+    p.grades {
+      font-size: 14px;
+      color: #3cefff;
+      font-family: sans-serif;
+      font-weight: 400;
+      min-width: fit-content;
+      animation: pulse 1s;
+
+      span.certification {
+        text-decoration: none;
+        font-size: 16px;
+        color: #fff;
+        font-family: sans-serif;
+        font-weight: 400;
+        min-width: fit-content;
+      }
+    }
+  }
+
+  .content-zone {
+    position: relative;
+    margin-top: 40px;
+    padding: 0px 80px;
+    width: 100%;
+    max-height: 90%;
+
+    h1 {
+      font-size: 53px;
+      cursor: pointer;
+      font-family: 'Coolvetica';
+      color: #5f4333;
+      font-weight: 400;
+      margin-top: 0;
+      margin-bottom: 0;
+      position: relative;
+    }
+  }
+
+  .cube-container {
+    perspective: 1000px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    z-index: 99;
+    @include flex;
+
+    .header {
+      position: relative;
+      color: #5f4333;
+    }
+
+    .backendcube {
+      margin: 500px;
+    }
+
+    .frontendcube,
+    .backendcube {
+      transition: transform 2s ease-in;
+      transform-style: preserve-3d;
+      width: $width;
+      height: $height;
+
+      &.cube1 {
+        animation: horizontal-spin 7s infinite linear;
+      }
+
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        color: white;
+        background: $color-inline;
+        border: 1px solid $color-outline;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-family: 'Roboto', sans-serif;
+        font-size: 80px;
+        font-weight: 500;
+        @include flex;
+
+        &.face1 {
+          transform: translateZ(75px);
+        }
+        &.face2 {
+          transform: translateZ(-75px) rotateY(180deg);
+        }
+        &.face3 {
+          transform: rotateX(-90deg) translateY(-75px);
+          transform-origin: top center;
+        }
+        &.face4 {
+          transform: rotateX(90deg) translateY(75px);
+          transform-origin: bottom center;
+        }
+        &.face5 {
+          transform: rotateY(270deg) translateX(-75px);
+          transform-origin: center left;
+        }
+        &.face6 {
+          transform: rotateY(-270deg) translateX(75px);
+          transform-origin: top right;
+        }
+      }
+    }
+  }
+
+  @keyframes horizontal-spin {
+    from {
+      transform: rotateY(0);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @keyframes vertical-spin {
+    from {
+      transform: rotateX(0);
+    }
+    to {
+      transform: rotateX(360deg);
+    }
+  }
+}
