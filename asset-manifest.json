@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/kamsiorazulike.github.io/static/css/main.86c7108a.css",
-    "main.js": "/kamsiorazulike.github.io/static/js/main.9096c18e.js",
+    "main.js": "/kamsiorazulike.github.io/static/js/main.88f79da6.js",
     "static/js/787.00931a38.chunk.js": "/kamsiorazulike.github.io/static/js/787.00931a38.chunk.js",
     "static/media/SouncloudHome.png": "/kamsiorazulike.github.io/static/media/SouncloudHome.603dd179926ad7b93159.png",
     "static/media/LoginScreen.png": "/kamsiorazulike.github.io/static/media/LoginScreen.1f4125a3cc1daeba3269.png",
@@ -14,11 +14,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/kamsiorazulike.github.io/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/kamsiorazulike.github.io/index.html",
     "main.86c7108a.css.map": "/kamsiorazulike.github.io/static/css/main.86c7108a.css.map",
-    "main.9096c18e.js.map": "/kamsiorazulike.github.io/static/js/main.9096c18e.js.map",
+    "main.88f79da6.js.map": "/kamsiorazulike.github.io/static/js/main.88f79da6.js.map",
     "787.00931a38.chunk.js.map": "/kamsiorazulike.github.io/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86c7108a.css",
-    "static/js/main.9096c18e.js"
+    "static/js/main.88f79da6.js"
   ]
 }
