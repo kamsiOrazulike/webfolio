@@ -24,7 +24,7 @@
     cursor: pointer;
     font-size: 53px;
     margin: 0;
-    font-family: 'Coolvetica';
+    font-family: "Coolvetica";
     font-weight: 400;
     text-align: center;
 
@@ -33,7 +33,7 @@
       cursor: pointer;
       font-size: 28px;
       margin: 0;
-      font-family: 'Coolvetica';
+      font-family: "Coolvetica";
       font-weight: 400;
       text-align: center;
     }
@@ -73,7 +73,7 @@
 
   .project1 {
     position: absolute;
-    width: 180px;
+    width: 250px;
     height: auto;
     left: 10px;
 
@@ -85,19 +85,19 @@
       left: -50px;
     }
   }
-  
+
   .project2 {
     position: absolute;
-    width: 230px;
+    width: 250px;
     height: auto;
     right: 10px;
 
     @media screen and (max-width: 800px) {
       position: absolute;
-      width: 100px;
+      width: 80px;
       height: auto;
       top: 200px;
-      left: -60px;
+      left: -50px;
     }
   }
 }

@@ -33,69 +33,64 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page" id="contact">
-        <div className="text-zone">
-          <h1>
-            <AnimatedLetters
-              CharArray={["L", "e", "t", "s", " ", "T", "a", "l", "k", "!"]}
-              CharClass={CharClass}
-              indx={15}
-            />
-            <p>
-              I am mostly interested in Frontend Design and Development
-              opportunities from full-time, permanent roles to shorter term
-              contracts.
-            </p>
-            <p>
-              You can also email me at &nbsp;
-              <a
-                href="mailto:kamsi_orazulike@icloud.com"
-                className="hover-link grow"
-              >
-                <FontAwesomeIcon icon={faEnvelope} />
-                &nbsp;kamsi _orazulike@icloud.com
-              </a>
-              &nbsp;or make use of the form below!
-            </p>
-          </h1>
-
-          <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
-                  <input type="text" name="name" placeholder="Name" required />
-                </li>
-                <li className="half">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                  />
-                </li>
-                <li>
-                  <input
-                    type="text"
-                    name="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </li>
-                <li>
-                  <textarea
-                    placeholder="Message"
-                    name="message"
-                    required
-                  ></textarea>
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul>
-            </form>
-          </div>
+        <h1>
+          <AnimatedLetters
+            CharArray={["L", "e", "t", "s", " ", "T", "a", "l", "k", "!"]}
+            CharClass={CharClass}
+            indx={15}
+          />
+        </h1>
+        <div className="contact-form">
+          <form ref={form} onSubmit={sendEmail}>
+            <ul>
+              <li className="half">
+                <input type="text" name="name" placeholder="Name" required />
+              </li>
+              <li className="half">
+                <input type="email" name="email" placeholder="Email" required />
+              </li>
+              <li>
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+              </li>
+              <li>
+                <textarea
+                  placeholder="Message"
+                  name="message"
+                  required
+                ></textarea>
+              </li>
+              <li>
+                <input type="submit" className="flat-button" value="SEND" />
+              </li>
+            </ul>
+          </form>
         </div>
 
-        {/* <img src={contact} alt="contactMeme" className="imageMeme" /> */}
+        <div className="text-zone">
+          {/* <img src={contact} alt="contactMeme" className="imageMeme" /> */}
+
+          <p>
+            I am mostly interested in Frontend Design and Development
+            opportunities from full-time, permanent roles to shorter term
+            contracts.
+          </p>
+          <p>
+            You can also email me at &nbsp;
+            <a
+              href="mailto:kamsi_orazulike@icloud.com"
+              className="hover-link grow"
+            >
+              <FontAwesomeIcon icon={faEnvelope} />
+              &nbsp;kamsi _orazulike@icloud.com
+            </a>
+            &nbsp;or make use of the form below!
+          </p>
+        </div>
       </div>
     </>
   );

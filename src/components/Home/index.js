@@ -37,6 +37,9 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
+      <img src={Project1} className="project1" alt="project1" />
+            <Link to="/project1"></Link>
+
         <div className="text-zone">
           <LinkScroll
             to="about"
@@ -81,11 +84,8 @@ const Home = () => {
           </LinkScroll>
         </div>
 
-        <img src={Project1} className="project1" alt="project1" />
-        <Link to="/project1"></Link>
-
         <img src={Project2} className="project2" alt="project2"/>
-        <Link to="/project2"></Link>
+            <Link to="/project2"></Link>
       </div>
       <About />
       <Contact />

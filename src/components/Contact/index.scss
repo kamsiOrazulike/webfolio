@@ -1,8 +1,27 @@
 .contact-page {
   background: #34355a;
 
-  .contact-form {
+  h1 {
+    display: flex;
+    font-size: 3rem;
     width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5rem;
+  }
+
+  .text-zone {
+    width: 50%;
+    position: relative;
+    text-align: left; 
+    padding: 35px 10px;
+    max-height: 90%;
+  }
+
+  .contact-form {
+    width: 40%;
+    padding: 0 4rem;
+    flex-grow: 8;
     min-width: 20px;
 
     ul {
@@ -82,8 +101,12 @@
 
   .imageMeme {
     position: absolute;
-    left: 50%;
-    top: 0%;
-    height: auto;
+    bottom: 20%;
+    right: 0%;
+    z-index: 0;
+
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }
