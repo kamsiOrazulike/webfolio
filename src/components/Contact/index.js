@@ -33,13 +33,33 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page" id="contact">
-        <h1>
-          <AnimatedLetters
-            CharArray={["L", "e", "t", "s", " ", "T", "a", "l", "k", "!"]}
-            CharClass={CharClass}
-            indx={15}
-          />
-        </h1>
+        <div className="text-zone">
+          <h1>
+            <AnimatedLetters
+              CharArray={["L", "e", "t", "s", " ", "T", "a", "l", "k", "!"]}
+              CharClass={CharClass}
+              indx={15}
+            />
+          </h1>
+          {/* <img src={contact} alt="contactMeme" className="imageMeme" /> */}
+
+          <p>
+            I am mostly interested in Frontend Design and Development
+            opportunities from full-time, permanent roles to shorter term
+            contracts.
+          </p>
+          <p>
+            You can also email me at <br />
+            <a
+              href="mailto:kamsi_orazulike@icloud.com"
+              className="hover-link grow"
+            >
+              <FontAwesomeIcon icon={faEnvelope} />
+              &nbsp; kamsi _orazulike@icloud.com
+            </a>
+             <br />or make use of the form!
+          </p>
+        </div>
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
             <ul>
@@ -69,27 +89,6 @@ const Contact = () => {
               </li>
             </ul>
           </form>
-        </div>
-
-        <div className="text-zone">
-          {/* <img src={contact} alt="contactMeme" className="imageMeme" /> */}
-
-          <p>
-            I am mostly interested in Frontend Design and Development
-            opportunities from full-time, permanent roles to shorter term
-            contracts.
-          </p>
-          <p>
-            You can also email me at &nbsp;
-            <a
-              href="mailto:kamsi_orazulike@icloud.com"
-              className="hover-link grow"
-            >
-              <FontAwesomeIcon icon={faEnvelope} />
-              &nbsp;kamsi _orazulike@icloud.com
-            </a>
-            &nbsp;or make use of the form below!
-          </p>
         </div>
       </div>
     </>
