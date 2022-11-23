@@ -1,25 +1,24 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.79468f54.css",
-    "main.js": "/webfolio/static/js/main.03616244.js",
+    "main.css": "/webfolio/static/css/main.b0467831.css",
+    "main.js": "/webfolio/static/js/main.190f3754.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
+    "static/media/Me1.png": "/webfolio/static/media/Me1.7892edb7092a1416a24e.png",
     "static/media/SouncloudHome.png": "/webfolio/static/media/SouncloudHome.603dd179926ad7b93159.png",
-    "static/media/GenesisLogin.png": "/webfolio/static/media/GenesisLogin.aa3ced5fcf1c080b5553.png",
+    "static/media/GenesisLogin.png": "/webfolio/static/media/GenesisLogin.db993226cd31dba92d79.png",
     "static/media/LoginScreen.png": "/webfolio/static/media/LoginScreen.1f4125a3cc1daeba3269.png",
     "static/media/Me3.png": "/webfolio/static/media/Me3.95315b530e967c7c06b1.png",
     "static/media/TitleScreen.png": "/webfolio/static/media/TitleScreen.2bff0fca06e32c1a70a0.png",
-    "static/media/Cranleigh-crest.png": "/webfolio/static/media/Cranleigh-crest.40c4074d835e4a33f987.png",
     "static/media/helvetica-neu.ttf": "/webfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/QMULCrest.png": "/webfolio/static/media/QMULCrest.391ba1a95335b1ea0218.png",
     "static/media/LaBelleAurore.woff2": "/webfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.79468f54.css.map": "/webfolio/static/css/main.79468f54.css.map",
-    "main.03616244.js.map": "/webfolio/static/js/main.03616244.js.map",
+    "main.b0467831.css.map": "/webfolio/static/css/main.b0467831.css.map",
+    "main.190f3754.js.map": "/webfolio/static/js/main.190f3754.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79468f54.css",
-    "static/js/main.03616244.js"
+    "static/css/main.b0467831.css",
+    "static/js/main.190f3754.js"
   ]
 }
