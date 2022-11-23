@@ -21,11 +21,14 @@ $color-outline: #7f7f7f80;
   .text-zone {
     position: relative;
     text-align: right;
-    padding: 35px 10px;
-    width: 90%;
+    padding: 35px 80px;
+    width: 50%;
     max-height: 90%;
 
     @media screen and (max-width: 768px) {
+      padding: 35px 10px;
+      width: 90%;
+      max-height: 90%;
       text-align: center;
     }
 
