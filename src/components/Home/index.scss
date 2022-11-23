@@ -88,16 +88,16 @@
   
   .project2 {
     position: absolute;
-    width: 200px;
+    width: 230px;
     height: auto;
     right: 10px;
 
     @media screen and (max-width: 800px) {
       position: absolute;
-      width: 80px;
+      width: 100px;
       height: auto;
       top: 200px;
-      left: -50px;
+      left: -60px;
     }
   }
 }

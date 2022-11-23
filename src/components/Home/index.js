@@ -81,10 +81,10 @@ const Home = () => {
           </LinkScroll>
         </div>
 
-        <img src={Project1} className="project1 slidepop-left" alt="project1" />
+        <img src={Project1} className="project1" alt="project1" />
         <Link to="/project1"></Link>
 
-        <img src={Project2} className="project2 slidepop-right" alt="project2"/>
+        <img src={Project2} className="project2" alt="project2"/>
         <Link to="/project2"></Link>
       </div>
       <About />

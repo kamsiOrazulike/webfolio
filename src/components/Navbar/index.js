@@ -2,7 +2,7 @@ import { Link as LinkRoute } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import "./index.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faHome } from "@fortawesome/free-solid-svg-icons";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
@@ -29,7 +29,6 @@ const Navbar = () => {
           >
             Kamsi Orazulike
           </LinkScroll>
-          <FontAwesomeIcon icon={faBars} className="mobile-icon" />
           <LinkScroll
             className="to-section"
             to="about"

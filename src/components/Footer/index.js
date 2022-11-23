@@ -24,25 +24,6 @@ const Footer = () => {
           </LinkRoute>
         </div>
       </footer>
-
-      {/* <div className="container footer-page">
-        <div className="text-zone">
-          <p>Made using React and CSS/SCSS</p>
-          <div className="link-container">
-            <LinkRoute
-              className="footer-link"
-              to="https://www.linkedin.com/in/kamsiyonnaorazulike"
-              spy="true"
-              smooth="true"
-            >
-              <FontAwesomeIcon icon={faLinkedin} />
-            </LinkRoute>
-            <LinkRoute className="footer-link" to="" spy="true" smooth="true">
-              <FontAwesomeIcon icon={faGithub} />
-            </LinkRoute>
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

@@ -40,13 +40,17 @@
       &.active, &:hover {
         border-bottom: 3px solid #3cefff;
       }
+
+      @media screen and (max-width: 768px) {
+        font-size: 1.3rem;
+      }
     }
 
     .home-link {
       color: #fff;
       justify-self: flex-start;
       cursor: pointer;
-      font-size: 3.2rem;
+      font-size: 3rem;
       position: relative;
       display: flex;
       align-items: center;
@@ -60,62 +64,9 @@
         color: #3cefff;
         transition: all 0.2s;
       }
-    }
-
-    .mobile-icon {
-      display: none;
 
       @media screen and (max-width: 768px) {
-        display: block;
-        color: #fff;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%, 60%);
-        font-size: 2.2rem;
-        cursor: pointer;
-      }
-    }
-
-    .nav-menu {
-      display: flex;
-      align-items: center;
-      list-style: none;
-      text-align: center;
-
-      ul {
-        display: flex;
-        align-items: center;
-        list-style: none;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-
-        li.nav-item {
-          height: 80px;
-
-          a.nav-links {
-            color: #fff;
-            display: flex;
-            align-items: center;
-            text-decoration: none;
-            padding: 0 1rem;
-            height: 100%;
-            font-size: 1.5rem;
-            cursor: pointer;
-            font-family: 'Coolvetica';
-            letter-spacing: 3px;
-            text-transform: uppercase;
-
-            &.active, &:hover {
-              border-bottom: 3px solid #3cefff;
-            }
-          }
-        }
-      }
-
-      @media screen and (max-width: 768px) {
-        display: none;
+        font-size: 2.5rem;
       }
     }
   }
