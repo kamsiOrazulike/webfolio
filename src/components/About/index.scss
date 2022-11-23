@@ -10,9 +10,15 @@ $color-outline: #7f7f7f80;
 }
 
 .about-page {
-  background: #48345a;
-
+  flex-direction: row-reverse;
+  
   .text-zone {
+    position: relative;
+    text-align: right;
+    padding: 0 80px;
+    width: 50%;
+    max-height: 90%;
+
     .school-emb-container {
       width: 80px;
       height: 80px;

@@ -1,38 +1,38 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
-import { Link as LinkScroll } from 'react-scroll'
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { Link as LinkScroll } from "react-scroll";
 
-import About from '../About'
-import Contact from '../Contact'
-import ProfileImg from '../../assets/imgs/Me3.png'
-import Project1 from '../../assets/portfolio-imgs/SouncloudHome.png'
-import Project2 from '../../assets/portfolio-imgs/SouncloudHome.png'
-import AnimatedLetters from '../AnimatedLetters'
-import './index.scss'
+import About from "../About";
+import Contact from "../Contact";
+import ProfileImg from "../../assets/imgs/Me3.png";
+import Project1 from "../../assets/portfolio-imgs/SouncloudHome.png";
+import Project2 from "../../assets/portfolio-imgs/GenesisLogin.png";
+import AnimatedLetters from "../AnimatedLetters";
+import "./index.scss";
 
 const Home = () => {
   //use state hook to define state of my const CharClass
-  const [CharClass, setLetterClass] = useState('animate-text')
-  const nameLetterArray = [' ', 'K', 'a', 'm', 's', 'i']
+  const [CharClass, setLetterClass] = useState("animate-text");
+  const nameLetterArray = [" ", "K", "a", "m", "s", "i"];
   const jobLetterArray = [
-    'W',
-    'e',
-    'b',
-    ' ',
-    'D',
-    'e',
-    'v',
-    'e',
-    'l',
-    'o',
-    'p',
-    'e',
-    'r',
-  ]
+    "W",
+    "e",
+    "b",
+    " ",
+    "D",
+    "e",
+    "v",
+    "e",
+    "l",
+    "o",
+    "p",
+    "e",
+    "r",
+  ];
 
   setTimeout(() => {
-    setLetterClass('animate-text-hover')
-  }, 4000)
+    setLetterClass("animate-text-hover");
+  }, 4000);
 
   return (
     <>
@@ -68,7 +68,6 @@ const Home = () => {
               indx={22}
             />
           </h1>
-          <h2 className="shrink">Frontend Developer | Graphic Design</h2>
           <br />
           <LinkScroll
             to="contact"
@@ -82,25 +81,16 @@ const Home = () => {
           </LinkScroll>
         </div>
 
-        <Link to="/project1">
-          <img
-            src={Project1}
-            className="project1 slidepop-left"
-            alt="project1"
-          />
-        </Link>
-        <Link to="/project2">
-          <img
-            src={Project2}
-            className="project2 slidepop-right"
-            alt="project2"
-          />
-        </Link>
+        <img src={Project1} className="project1 slidepop-left" alt="project1" />
+        <Link to="/project1"></Link>
+
+        <img src={Project2} className="project2 slidepop-right" alt="project2"/>
+        <Link to="/project2"></Link>
       </div>
       <About />
       <Contact />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

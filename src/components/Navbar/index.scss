@@ -19,28 +19,29 @@
     height: 80px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
-    max-width: 1100px;
+    padding: 0 24px 0 24px;
+    max-width: 1200px;
     position: relative;
     z-index: 999;
 
-    .to-top {
+    .to-section {
       color: #fff;
+      justify-self: center;
       cursor: pointer;
-      font-size: 3rem;
-      position: fixed;
-      bottom: 2%;
-      right: 2%;
-
+      font-size: 1.5rem;
+      position: relative;
+      display: flex;
+      align-items: center;
       font-family: 'Coolvetica';
-      margin-left: 18px;
       letter-spacing: 3px;
       text-decoration: none;
+      text-transform: uppercase;
 
-      @media screen and (max-width: 768px) {
-        display: none;
+      &.active, &:hover {
+        border-bottom: 3px solid #3cefff;
       }
     }
+
     .home-link {
       color: #fff;
       justify-self: flex-start;
@@ -81,14 +82,14 @@
       align-items: center;
       list-style: none;
       text-align: center;
-      margin-right: -22px;
 
       ul {
         display: flex;
         align-items: center;
         list-style: none;
         text-align: center;
-        margin-right: -22px;
+        padding: 0;
+        margin: 0;
 
         li.nav-item {
           height: 80px;

@@ -4,6 +4,8 @@
   overflow-x: hidden;
   overflow-y: scroll;
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex-wrap: wrap;
   position: relative;
 }
@@ -32,7 +34,7 @@
   transition: all 0.4s ease-in-out;
 
   &:hover {
-    transform: translateX(+200px);
+    transform: translateX(+100px);
   }
 }
 
@@ -40,7 +42,7 @@
   transition: all 0.4s ease-in-out;
 
   &:hover {
-    transform: translateX(-200px);
+    transform: translateX(-100px);
   }
 }
 
@@ -63,7 +65,7 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 3rem 0;
+  padding: 4rem 0;
 
 
   .text-zone {

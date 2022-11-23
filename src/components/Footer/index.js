@@ -1,16 +1,16 @@
-import './index.scss'
-import { Link as LinkRoute } from 'react-router-dom'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import "./index.scss";
+import { Link as LinkRoute } from "react-router-dom";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
 
   return (
     <>
-      <div className="container footer-page">
-        <div className="text-zone">
-          <p>Made using React and CSS/SCSS</p>
-          <div className='link-container'>
+      <footer>
+        {`Copyright © Kamsiyonna Orazulike - Webfolio ${year}`} <br />
+        <div className="footer-link-container">
           <LinkRoute
             className="footer-link"
             to="https://www.linkedin.com/in/kamsiyonnaorazulike"
@@ -19,19 +19,32 @@ const Footer = () => {
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </LinkRoute>
-          <LinkRoute
-            className="footer-link"
-            to=""
-            spy="true"
-            smooth="true"
-          >
+          <LinkRoute className="footer-link" to="" spy="true" smooth="true">
             <FontAwesomeIcon icon={faGithub} />
           </LinkRoute>
+        </div>
+      </footer>
+
+      {/* <div className="container footer-page">
+        <div className="text-zone">
+          <p>Made using React and CSS/SCSS</p>
+          <div className="link-container">
+            <LinkRoute
+              className="footer-link"
+              to="https://www.linkedin.com/in/kamsiyonnaorazulike"
+              spy="true"
+              smooth="true"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
+            </LinkRoute>
+            <LinkRoute className="footer-link" to="" spy="true" smooth="true">
+              <FontAwesomeIcon icon={faGithub} />
+            </LinkRoute>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
