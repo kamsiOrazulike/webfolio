@@ -50,6 +50,8 @@ const Project1 = () => {
 
           <h2> Project duration: 7 months </h2>
         </div>
+        <img src={homeScreen} className="project1" alt="project1" />
+
         <div className="overview">
           <div className="goals">
             <h3 className="overview-subheaders">Goals</h3>
@@ -76,26 +78,27 @@ const Project1 = () => {
           </div>
           <div className="tools">
             <h3 className="overview-subheaders">Tools</h3>
-            <ul className="icon-list" >
+            <ul className="icon-list">
               <li>
                 <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
               </li>
               <li>
-                <FontAwesomeIcon icon={faCss3} color="#28A4D9"/> &nbsp; CSS/SCSS
+                <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> &nbsp;
+                CSS/SCSS
               </li>
               <li>
-                <FontAwesomeIcon icon={faHtml5} color="#F06529"/> &nbsp; HTML5
+                <FontAwesomeIcon icon={faHtml5} color="#F06529" /> &nbsp; HTML5
               </li>
               <li>
-                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D"/> &nbsp; JavaScript
+                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> &nbsp;
+                JavaScript
               </li>
               <li>
-                <FontAwesomeIcon icon={faReact} color="#5ED4F4"/> &nbsp; React
+                <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> &nbsp; React
               </li>
             </ul>
           </div>
         </div>
-        <img src={homeScreen} className="project1" alt="project1" />
 
         <div className="overview-ctxt">
           <div className="message">
