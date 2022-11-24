@@ -94,6 +94,7 @@ $color-outline: #7f7f7f80;
       display: flex;
       padding-left: 110px;
       flex-direction: column;
+      justify-content: space-between;
       position: relative;
       color: #fff;
       width: 40%;
@@ -104,7 +105,7 @@ $color-outline: #7f7f7f80;
         width: 100%;
         display: flex;
         flex-direction: column;
-        padding-bottom: 4rem;
+        padding: 2rem 0;
       }
 
       .highlight {
@@ -118,6 +119,9 @@ $color-outline: #7f7f7f80;
         padding: 0px;
 
         li {
+          p {
+            margin-bottom: 0px;
+          }
           h4 {
             margin: 0px;
             text-decoration: none;

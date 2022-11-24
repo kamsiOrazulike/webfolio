@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        {`Copyright © Kamsiyonna Orazulike - Webfolio ${year}`} <br />
+        {`Copyright © Kamsiyonna Orazulike - Webfolio ${year}`}
         <div className="footer-link-container">
           <LinkRoute
             className="footer-link"

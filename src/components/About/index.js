@@ -65,9 +65,10 @@ const About = () => {
                     &nbsp;Design, Innovation and Creative Engineering&nbsp;
                   </span>
                   graduate (What a mouthful!). I understand the process of
-                  creating meaningful experiences for users. I empathise with
-                  the user stepping into their shoes in order to discover
-                  problems and design creative solutions.
+                  product development and have a passion for creating meaningful
+                  experiences for my user. I empathise with the user, stepping into
+                  their shoes in order to discover problems and design creative
+                  solutions.
                   <br />
                 </li>
                 <li>
