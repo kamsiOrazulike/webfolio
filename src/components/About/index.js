@@ -39,8 +39,8 @@ const About = () => {
             </h2>
             <div className="goals">
               <p>
-                "I want to use my design and dev skills in an industry that
-                creates products that makes the lives of others easier."
+                "I want to use my design and development skills in an industry
+                that creates products that make the lives of others easier."
                 <br />
               </p>
             </div>
@@ -49,7 +49,7 @@ const About = () => {
           <div className="overview-bio">
             <div className="message">
               <h3 className="overview-subheaders">Bio:</h3>
-              <ul style={{ "list-style": "none", "text-align": "left" }}>
+              <ul>
                 <li>
                   I'm a Software Developer based in London with skills
                   predominantly in <span className="highlight">JavaScript</span>
@@ -78,6 +78,32 @@ const About = () => {
                 </li>
               </ul>
             </div>
+            <div className="message">
+              <h3 className="overview-subheaders">Education:</h3>
+              <ul>
+                <li>
+                  <h4>Queen Mary University of London</h4>
+                  <h5>September 2018 - June 2021</h5>
+                  <p>
+                    First Class BEng: &nbsp;
+                    <span>Design, Innovation and Creative Engineering</span>
+                  </p>
+                  <br />
+                </li>
+                <li>
+                  <h4>Cranleigh School, Surrey</h4>
+                  <h5>September 2018 - June 2021</h5>
+                  <p>
+                    A Levels: Mathematics, Physics, Chemistry, Extended Project
+                  </p>
+                  <p>
+                    Qualification IGCSEs: Mathematics (A*), English Language
+                    (A), English Literature (A)
+                  </p>
+                  <br />
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
@@ -102,16 +128,6 @@ const About = () => {
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
             </div>
           </div>
-        </div>
-
-        <div className="content-zone">
-          {/* <h1>
-            <AnimatedLetters
-              CharClass={CharClass}
-              CharArray={['E', 'd', 'u', 'c', 'a', 't', 'i', 'o', 'n']}
-              indx={15}
-            />
-          </h1> */}
         </div>
       </div>
     </>

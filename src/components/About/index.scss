@@ -26,6 +26,8 @@ $color-outline: #7f7f7f80;
   .text-zone {
     position: relative;
     text-align: right;
+    display: flex;
+    flex-wrap: wrap;
     padding: 0 10px;
     width: 90%;
     max-height: 90%;
@@ -35,11 +37,12 @@ $color-outline: #7f7f7f80;
       width: 90%;
       max-height: 90%;
       text-align: center;
+      display: block;
     }
 
     .box {
       display: flex;
-      width: 30%;
+      width: 25%;
       left: 0;
       flex-direction: column;
       align-items: center;
@@ -56,7 +59,31 @@ $color-outline: #7f7f7f80;
         background: #3cefff;
       }
 
+      .goals {
+        flex-direction: column;
+        width: 90%;
+
+        p {
+          font-weight: 100;
+          text-align: center;
+        }
+
+        @media screen and (max-width: 800px) {
+          flex-direction: column;
+          position: relative;
+          left: 0%;
+          width: 100%;
+          display: flex;
+        }
+      }
+
       @media screen and (max-width: 800px) {
+        .profile-img {
+          width: 200px;
+          margin-bottom: 24px;
+          border-radius: 50%;
+          background: #3cefff;
+        }
         width: 50%;
         position: relative;
         left: 25%;
@@ -65,11 +92,11 @@ $color-outline: #7f7f7f80;
 
     .overview-bio {
       display: flex;
-      position: absolute;
+      padding-left: 30px;
+      flex-direction: column;
+      position: relative;
       color: #fff;
-      width: 40%;
-      left: 32%;
-      top: 10%;
+      width: 50%;
       z-index: 9999;
       font-size: 1.9rem;
 
@@ -77,70 +104,51 @@ $color-outline: #7f7f7f80;
         width: 100%;
         display: flex;
         flex-direction: column;
+        padding-bottom: 4rem;
+      }
+
+      .highlight {
+        color: #3cefff;
+      }
+
+      ul {
+        list-style: none;
+        text-align: left;
+        margin-bottom: 2px;
+        padding: 0px;
+
+        li {
+          h4 {
+            margin: 0px;
+            text-decoration: none;
+          }
+          h5 {
+            margin: 0px;
+            color: #3cefff;
+          }
+        }
       }
 
       h3.overview-subheaders {
         font-size: 2.4rem;
         color: #3cefff;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        margin-right: 0px;
         text-align: left;
         font-weight: 400;
-        margin-left: 4rem;
+        margin: 0px;
         text-decoration: wavy;
       }
 
       @media screen and (max-width: 800px) {
         flex-direction: column;
-        padding: 2rem 3rem;
+        padding: 1rem 0;
         position: relative;
         width: 90%;
+        top: 0%;
         left: 0%;
 
         .message {
           width: 100%;
-          display: flex;
-          flex-direction: column;
-        }
-      }
-    }
-
-    .goals {
-      flex-direction: column;
-      width: 90%;
-
-      p {
-        font-weight: 100;
-        text-align: center;
-      }
-
-      .message {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-      }
-
-      h3.overview-subheaders {
-        font-size: 2.4rem;
-        color: #3cefff;
-        margin-bottom: 0px;
-        margin-top: 0px;
-        margin-right: 0px;
-        text-align: left;
-        font-weight: 400;
-        margin-left: 4rem;
-        text-decoration: wavy;
-      }
-
-      @media screen and (max-width: 800px) {
-        flex-direction: column;
-        position: relative;
-        width: 90%;
-        left: 0%;
-
-        .goals {
-          width: 100%;
+          font-size: 1.6rem;
           display: flex;
           flex-direction: column;
         }

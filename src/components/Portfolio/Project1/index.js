@@ -1,45 +1,48 @@
 import './index.scss'
-// import { useState } from 'react'
+import { useState } from 'react'
 import Loader from 'react-loaders'
 import homeScreen from '../../../assets/portfolio-imgs/SouncloudHome.png'
 import loginScreen from '../../../assets/portfolio-imgs/LoginScreen.png'
 import titleScreen from '../../../assets/portfolio-imgs/TitleScreen.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFigma } from '@fortawesome/free-brands-svg-icons'
-// import AnimatedLetters from '../../AnimatedLetters'
+import AnimatedLetters from '../../AnimatedLetters'
 
 const Project1 = () => {
-  // const [CharClass, setLetterClass] = useState('animate-text')
+  const [CharClass, setLetterClass] = useState('animate-text')
 
-  // setTimeout(() => {
-  //   setLetterClass('animate-text-hover')
-  // }, 4000)
+  setTimeout(() => {
+    setLetterClass('animate-text-hover')
+  }, 4000)
 
   return (
     <>
       <div className="container project1-page">
         <div className="text-zone">
-          {/* <h1 className="large-header">
+          <h2 className="large-header">
             <AnimatedLetters
               CharArray={[
-                'C',
-                'a',
-                's',
-                'e',
-                '  ',
                 'S',
                 't',
-                'u',
-                'd',
-                'y',
-                '  ',
-                '0',
-                '1',
+                'i',
+                'l',
+                'l',
+                ' ',
+                'w',
+                'o',
+                'r',
+                'k',
+                'i',
+                'n',
+                'g',
+                ' ',
+                'o',
+                'n'
               ]}
               CharClass={CharClass}
               indx={15}
             />
-          </h1> */}
+          </h2>
           <h1> Soundcloud Homepage Redesign Project </h1>
           <h2> 1 month UX/UI design & research project </h2>
         </div>
@@ -96,8 +99,8 @@ const Project1 = () => {
             </ul>
           </div>
         </div>
-        <Loader type="ball-pulse" />
       </div>
+      <Loader type="ball-pulse" />
     </>
   )
 }

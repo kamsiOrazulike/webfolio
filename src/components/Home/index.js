@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
-
 import About from "../About";
 import Contact from "../Contact";
 import ProfileImg from "../../assets/imgs/Me3.png";
@@ -37,8 +36,9 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
-      <img src={Project1} className="project1" alt="project1" />
-            <Link to="/project1"></Link>
+        <Link to="/project1">
+          <img src={Project1} className="project1 slidepop-up" alt="project1" />
+        </Link>
 
         <div className="text-zone">
           <LinkScroll
@@ -84,11 +84,13 @@ const Home = () => {
           </LinkScroll>
         </div>
 
-        <img src={Project2} className="project2" alt="project2"/>
-            <Link to="/project2"></Link>
+        <Link to="/project2">
+          <img src={Project2} className="project2 slidepop-up" alt="project2" />
+        </Link>
       </div>
       <About />
       <Contact />
+
     </>
   );
 };
