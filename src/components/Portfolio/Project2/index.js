@@ -27,6 +27,18 @@ const Project1 = () => {
           <h2 className="large-header" id="home">
             <AnimatedLetters
               CharArray={[
+                "P",
+                "a",
+                "g",
+                "e",
+                " ",
+                "D",
+                "e",
+                "s",
+                "i",
+                "g",
+                "n",
+                " ",
                 "I",
                 "n",
                 " ",
