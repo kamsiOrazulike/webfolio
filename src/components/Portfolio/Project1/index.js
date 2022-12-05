@@ -19,36 +19,48 @@ const Project1 = () => {
     <>
       <div className="container project1-page">
         <div className="text-zone">
-          <h2 className="large-header">
+          <h2 className="large-header" id="home">
             <AnimatedLetters
               CharArray={[
-                "S",
-                "t",
-                "i",
-                "l",
-                "l",
+                "I",
+                "n",
                 " ",
-                "w",
-                "o",
+                "P",
                 "r",
-                "k",
-                "i",
-                "n",
-                "g",
-                " ",
                 "o",
-                "n",
+                "g",
+                "r",
+                "e",
+                "s",
+                "s"
               ]}
               CharClass={CharClass}
               indx={15}
             />
           </h2>
-          <h1> Soundcloud Homepage Redesign Project </h1>
-          <h2> 1 month UX/UI design & research project </h2>
+          <h1> Soundcloud Redesign Project </h1>
+          <h2> Project Duration: 1 Month</h2>
         </div>
         <img src={homeScreen} className="project1" alt="project1" />
 
         <div className="overview">
+          <div className="role">
+            <h3 className="overview-subheaders">Role</h3>
+            <ul style={{ "list-style": "none" }}>
+              <li>
+                <b>UX Designer: </b> Idea Generation, Design, Wireframing
+              </li>
+            </ul>
+          </div>
+          <div className="tools">
+            <h3 className="overview-subheaders">Tools</h3>
+            <ul style={{ "list-style": "none" }}>
+              <li>
+                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
+              </li>
+            </ul>
+          </div>
+
           <div className="goals">
             <h3 className="overview-subheaders">Goals</h3>
             <ul style={{ "list-style": "numbers" }}>
@@ -64,22 +76,6 @@ const Project1 = () => {
               </li>
             </ul>
           </div>
-          <div className="role">
-            <h3 className="overview-subheaders">Role</h3>
-            <ul style={{ "list-style": "none" }}>
-              <li>
-                <b>UX Designer |</b> Idea Generation, Design, Wireframing
-              </li>
-            </ul>
-          </div>
-          <div className="tools">
-            <h3 className="overview-subheaders">Tools</h3>
-            <ul style={{ "list-style": "none" }}>
-              <li>
-                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
-              </li>
-            </ul>
-          </div>
         </div>
 
         <div className="overview-ctxt">
@@ -92,10 +88,11 @@ const Project1 = () => {
                 post. Her friends are also musicians, who use Souncloud to post
                 their music and follow the sound of their community. <br />
               </li>
+              <hr />
               <li>
-                Rudo asked me what if the Souncloud interface was as navigatable
-                as Twitter when it came to finding other users/musicians in her
-                community? - So I told her to hold my beer.
+                Rudo asked me if it were possible that the Souncloud interface
+                was redesigned to make it easier to find other playlist and/or
+                musicians.
               </li>
             </ul>
           </div>

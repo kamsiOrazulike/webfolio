@@ -8,26 +8,13 @@ import Project1 from "../../assets/portfolio-imgs/SouncloudHome.png";
 import Project2 from "../../assets/portfolio-imgs/GenesisLogin.png";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const Home = () => {
   //use state hook to define state of my const CharClass
   const [CharClass, setLetterClass] = useState("animate-text");
   const nameLetterArray = [" ", "K", "a", "m", "s", "i"];
-  const jobLetterArray = [
-    "W",
-    "e",
-    "b",
-    " ",
-    "D",
-    "e",
-    "v",
-    "e",
-    "l",
-    "o",
-    "p",
-    "e",
-    "r",
-  ];
 
   setTimeout(() => {
     setLetterClass("animate-text-hover");
@@ -36,9 +23,16 @@ const Home = () => {
   return (
     <>
       <div className="container home-page">
-        <Link to="/project1">
-          <img src={Project1} className="project1 slidepop-up" alt="project1" />
-        </Link>
+        <div className="project-container">
+          <Link to="/project1">
+            <img src={Project1} className="project1" alt="project1" />
+          </Link>
+          <div className="card">
+            <h3>
+              Soundcloud <FontAwesomeIcon icon={faArrowRight} />
+            </h3>
+          </div>
+        </div>
 
         <div className="text-zone">
           <LinkScroll
@@ -65,12 +59,8 @@ const Home = () => {
               indx={16}
             />
             <br />
-            <AnimatedLetters
-              CharClass={CharClass}
-              CharArray={jobLetterArray}
-              indx={22}
-            />
           </h1>
+          <h2> Web Developer | UI Designer</h2>
           <br />
           <LinkScroll
             to="contact"
@@ -84,13 +74,20 @@ const Home = () => {
           </LinkScroll>
         </div>
 
-        <Link to="/project2">
-          <img src={Project2} className="project2 slidepop-up" alt="project2" />
-        </Link>
+        <div className="project-container">
+          <Link to="/project2">
+            <img src={Project2} className="project2" alt="project2" />
+          </Link>
+          <div className="card">
+            <h3>
+              Genesis GO! <FontAwesomeIcon icon={faArrowRight} />
+            </h3>
+          </div>
+        </div>
       </div>
+
       <About />
       <Contact />
-
     </>
   );
 };

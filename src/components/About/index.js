@@ -1,6 +1,6 @@
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
-import Me from "../../assets/imgs/Me1.png";
+import Me from "../../assets/imgs/Me5.png";
 import { useState } from "react";
 import {
   faCss3,
@@ -8,9 +8,6 @@ import {
   faJsSquare,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-// import CranleighCrest from "../../assets/imgs/Cranleigh-crest.png";
-// import QMULCrest from "../../assets/imgs/QMULCrest.png";
-// import { faFigma } from "@fortawesome/free-brands-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -39,8 +36,8 @@ const About = () => {
             </h2>
             <div className="goals">
               <p>
-                "I want to use my design and development skills in an industry
-                that creates products that make the lives of others easier."
+                "I aim to use my skills to develop products that meet and
+                surpass the requests of the user."
                 <br />
               </p>
             </div>
@@ -48,7 +45,7 @@ const About = () => {
 
           <div className="overview-bio">
             <div className="message">
-              <h3 className="overview-subheaders">Bio:</h3>
+              <h3 className="overview-subheaders">Summary:</h3>
               <ul>
                 <li>
                   I'm a Software Developer based in London with skills
@@ -57,8 +54,8 @@ const About = () => {
                   <span className="highlight"> CSS/SCSS</span> and
                   <span className="highlight"> React/TypeScript</span> and a
                   love for Frontend design & animations.
-                  <br />
                 </li>
+                <br />
                 <li>
                   As a
                   <span className="highlight">
@@ -66,11 +63,11 @@ const About = () => {
                   </span>
                   graduate (What a mouthful!). I understand the process of
                   product development and have a passion for creating meaningful
-                  experiences for my user. I empathise with the user, stepping into
-                  their shoes in order to discover problems and design creative
-                  solutions.
-                  <br />
+                  experiences for my user. I empathise with the user, stepping
+                  into their shoes in order to discover problems and design
+                  creative solutions.
                 </li>
+                <br />
                 <li>
                   My passion is to create beautiful and functional solutions
                   that have an overall positive impact on User Experience when
@@ -84,7 +81,7 @@ const About = () => {
               <ul>
                 <li>
                   <h4>Queen Mary University of London</h4>
-                  <h5>September 2018 - June 2021</h5>
+                  <h5 className="highlight">September 2018 - June 2021</h5>
                   <p>
                     First Class BEng: &nbsp;
                     <span>Design, Innovation and Creative Engineering</span>
@@ -93,7 +90,7 @@ const About = () => {
                 </li>
                 <li>
                   <h4>Cranleigh School, Surrey</h4>
-                  <h5>September 2018 - June 2021</h5>
+                  <h5 className="highlight">September 2018 - June 2021</h5>
                   <p>
                     A Levels: Mathematics, Physics, Chemistry, Extended Project
                   </p>

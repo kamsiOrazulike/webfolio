@@ -9,13 +9,8 @@ $color-outline: #7f7f7f80;
   @content;
 }
 
-.highlight {
-  color: #3cefff;
-}
-
 .about-page {
   height: fit-content;
-  background: #272b3a;
 
   @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
@@ -92,12 +87,12 @@ $color-outline: #7f7f7f80;
 
     .overview-bio {
       display: flex;
-      padding-left: 110px;
+      padding-left: 80px;
       flex-direction: column;
       justify-content: space-between;
       position: relative;
       color: #fff;
-      width: 40%;
+      width: 45%;
       z-index: 9999;
       font-size: 1.9rem;
 
@@ -106,10 +101,6 @@ $color-outline: #7f7f7f80;
         display: flex;
         flex-direction: column;
         padding: 2rem 0;
-      }
-
-      .highlight {
-        color: #3cefff;
       }
 
       ul {
@@ -128,16 +119,16 @@ $color-outline: #7f7f7f80;
           }
           h5 {
             margin: 0px;
-            color: #3cefff;
+            color: #fff;
           }
         }
       }
 
       h3.overview-subheaders {
         font-size: 2.4rem;
-        color: #3cefff;
+        color: #fff;
         text-align: left;
-        font-weight: 400;
+        font-weight: 600;
         margin: 0px;
         text-decoration: wavy;
       }
@@ -157,100 +148,6 @@ $color-outline: #7f7f7f80;
           flex-direction: column;
         }
       }
-    }
-
-    .school-emb-container {
-      width: 80px;
-      height: 80px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 50%;
-      background: #fff;
-
-      .school-emb {
-        margin-top: 1em;
-        width: 60%;
-      }
-    }
-
-    div.container-flex {
-      max-width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-
-      .section {
-        margin: auto;
-
-        h3 {
-          font-size: 16px;
-          cursor: pointer;
-          font-family: "Coolvetica";
-          color: #fff;
-          flex-grow: 2;
-          font-weight: 400;
-          position: relative;
-          text-align: right;
-        }
-
-        &:first-child {
-          max-width: 50%;
-        }
-        &:nth-child(2) {
-          max-width: 50%;
-        }
-
-        @media screen and (max-width: 800px) {
-          &:first-child {
-            max-width: 100%;
-          }
-          &:nth-child(2) {
-            max-width: 100%;
-          }
-        }
-      }
-    }
-
-    p.grades {
-      font-size: 14px;
-      color: #3cefff;
-      font-family: sans-serif;
-      font-weight: 400;
-      min-width: fit-content;
-      animation: pulse 1s;
-
-      span.certification {
-        text-decoration: none;
-        font-size: 16px;
-        color: #fff;
-        font-family: sans-serif;
-        font-weight: 400;
-        min-width: fit-content;
-      }
-    }
-  }
-
-  .content-zone {
-    position: relative;
-    margin-top: 40px;
-    padding: 0px 80px;
-    width: 100%;
-    max-height: 90%;
-
-    @media screen and (max-width: 768px) {
-      display: none;
-    }
-
-    h1 {
-      font-size: 53px;
-      cursor: pointer;
-      font-family: "Coolvetica";
-      color: #5f4333;
-      font-weight: 400;
-      margin-top: 0;
-      margin-bottom: 0;
-      position: relative;
     }
   }
 

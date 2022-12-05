@@ -2,6 +2,7 @@ import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
 import homeScreen from "../../../assets/portfolio-imgs/GenesisLogin.png";
+import paymentScreen from "../../../assets/portfolio-imgs/PaymentPage.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFigma,
@@ -23,15 +24,10 @@ const Project1 = () => {
     <>
       <div className="container project1-page">
         <div className="text-zone">
-          <h1 className="large-header">
+          <h2 className="large-header" id="home">
             <AnimatedLetters
               CharArray={[
-                "P",
-                "a",
-                "g",
-                "e",
-                " ",
-                "i",
+                "I",
                 "n",
                 " ",
                 "P",
@@ -46,33 +42,19 @@ const Project1 = () => {
               CharClass={CharClass}
               indx={15}
             />
-          </h1>
-
-          <h2> Project duration: 7 months </h2>
+          </h2>
+          <h1> Genesis GO! </h1>
+          <h2> Project duration: 1 year </h2>
         </div>
-        <img src={homeScreen} className="project1" alt="project1" />
+        <img src={homeScreen} className="project2" alt="project2" />
 
         <div className="overview">
-          <div className="goals">
-            <h3 className="overview-subheaders">Goals</h3>
-            <ul style={{ "list-style": "numbers" }}>
-              <li>
-                Company saw huge traffic coming into the website that wasn't
-                reflected in ticket purchases.
-                <br />
-              </li>
-              <li>
-                The goal was to design a web/mobile GUI that stayed within the
-                guidelines of what was possible for our team to develop.
-                <br />
-              </li>
-            </ul>
-          </div>
           <div className="role">
             <h3 className="overview-subheaders">Role</h3>
             <ul style={{ "list-style": "none" }}>
               <li>
-                <b>UX Designer |</b> Idea Generation, Design, Wireframing
+                <b>UI Designer: </b> Idea Generation, Design, Wireframing <br />
+                <b>Frontend Developer: </b> Programmer
               </li>
             </ul>
           </div>
@@ -98,15 +80,52 @@ const Project1 = () => {
               </li>
             </ul>
           </div>
+          <div className="goals">
+            <h3 className="overview-subheaders">Goals</h3>
+            <ul style={{ "list-style": "numbers" }}>
+              <li>
+                Company saw huge traffic coming into the website that wasn't
+                reflected in ticket purchases.
+                <br />
+              </li>
+              <li>
+                The goal was to design a web/mobile GUI that stayed within the
+                guidelines of what was possible for our team to develop while
+                minimising user interactions in the purchase process.
+                <br />
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div className="overview-ctxt">
           <div className="message">
             <h3 className="overview-subheaders">About the Project</h3>
             <ul style={{ "list-style": "none" }}>
-              <li></li>
+              <li>
+                I begun this project while on a contract as a Frontend Developer
+                with Genesis Group Ltd.
+              </li>
+              <br />
+              <li>
+                As the team was full of developers and because of I already had
+                experience using Figma I took on the challenge of designing the
+                application frontend.
+              </li>
             </ul>
           </div>
+          <>
+            <img
+              src={homeScreen}
+              className="subphoto"
+              alt="originalHomeScreen"
+            />
+            <img
+              src={paymentScreen}
+              className="subphoto"
+              alt="originalHomeScreen"
+            />
+          </>
         </div>
       </div>
       <Loader type="ball-pulse" />

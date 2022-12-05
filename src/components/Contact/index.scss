@@ -1,8 +1,7 @@
 .contact-page {
   background: #34355a;
   align-items: center;
-  justify-content: center;
-  padding: 1rem 0rem;
+  justify-content: space-around;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
@@ -15,14 +14,19 @@
   }
 
   .text-zone {
-    width: 35%;
+    width: 30%;
     display: flex;
     flex-wrap: wrap;
     position: relative;
     text-align: left;
 
+    h1 {
+      text-align: left;
+      margin: 0px;
+    }
+
     p {
-      padding: 0 5rem;
+      width: 100%;
     }
 
     @media screen and (max-width: 800px) {
@@ -39,11 +43,8 @@
   }
 
   .contact-form {
-    width: 40%;
+    width: 60%;
     display: flex;
-    padding: 4rem 1rem 0rem 1rem;
-    flex-grow: 8;
-    min-width: 20px;
 
     ul {
       padding: 0;
@@ -101,20 +102,19 @@
     }
 
     .flat-button {
-      // color: #fff;
-      // background: 0 0;
-      background: #1f2f3049;
+      background: #cbffbe;
       font: 11px;
+      width: 100%;
       letter-spacing: 3px;
       text-decoration: none;
       padding: 8px 10px;
-      // border: 1px solid #9ee6ed;
+      border: 1px solid #cbffbe;
       float: right;
       border-radius: 8px;
 
       &:hover {
-        color: #fff;
-        background-color: #1f2f30;
+        color: #000000;
+        background-color: #5aff31;
         transition-duration: 1.1s;
       }
     }

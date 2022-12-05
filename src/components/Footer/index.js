@@ -1,5 +1,4 @@
 import "./index.scss";
-import { Link as LinkRoute } from "react-router-dom";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -9,19 +8,26 @@ const Footer = () => {
   return (
     <>
       <footer>
+        This project was made using React, Node, SCSS, HTML and Git/GitHub
+        &nbsp;
         {`Copyright © Kamsiyonna Orazulike - Webfolio ${year}`}
         <div className="footer-link-container">
-          <LinkRoute
+          <a
             className="footer-link"
-            to="https://www.linkedin.com/in/kamsiyonnaorazulike"
-            spy="true"
-            smooth="true"
+            href="https://www.linkedin.com/in/kamsiyonnaorazulike"
+            target="_blank"
+            rel="noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} />
-          </LinkRoute>
-          <LinkRoute className="footer-link" to="" spy="true" smooth="true">
+          </a>
+          <a
+            className="footer-link"
+            href="https://github.com/kamsiOrazulike"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} />
-          </LinkRoute>
+          </a>
         </div>
       </footer>
     </>
