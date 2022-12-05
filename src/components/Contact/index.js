@@ -44,9 +44,9 @@ const Contact = () => {
           {/* <img src={contact} alt="contactMeme" className="imageMeme" /> */}
 
           <p>
-            I am mostly interested in Frontend Design and Development
-            opportunities from full-time, permanent roles to shorter term
-            contracts.
+            I am mostly interested in both Design and Development opportunities
+            from full-time, permanent roles to short-term contracts. You can
+            checkout my Github account link attached to the footer!
           </p>
           <p>
             You can also email me at <br />
@@ -57,7 +57,8 @@ const Contact = () => {
               <FontAwesomeIcon icon={faEnvelope} />
               &nbsp; kamsi _orazulike@icloud.com
             </a>
-             <br />or make use of the form!
+            <br />
+            or make use of the form!
           </p>
         </div>
         <div className="contact-form">
