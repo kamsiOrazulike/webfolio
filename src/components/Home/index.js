@@ -26,7 +26,7 @@ const Home = () => {
         <div className="project-container">
           <img src={Project1} className="project1" alt="project1" />
           <div className="card">
-            <Link to="/project1">
+            <Link to="/featured1">
               <h3>
                 Soundcloud <FontAwesomeIcon icon={faArrowRight} />
               </h3>
@@ -73,7 +73,7 @@ const Home = () => {
             GET IN TOUCH
           </LinkScroll>
           <br />
-          <Link to="/project1" className="projects-btn">
+          <Link to="/projects" className="projects-btn">
             PROJECTS
           </Link>
         </div>
@@ -81,7 +81,7 @@ const Home = () => {
         <div className="project-container">
           <img src={Project2} className="project2" alt="project2" />
           <div className="card">
-            <Link to="/project2">
+            <Link to="/featured2">
               <h3>
                 Genesis GO! <FontAwesomeIcon icon={faArrowRight} />
               </h3>
