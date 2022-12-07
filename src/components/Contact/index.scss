@@ -7,12 +7,6 @@
     flex-direction: column;
   }
 
-  h1 {
-    font-size: 3rem;
-    width: 100%;
-    text-align: center;
-  }
-
   .text-zone {
     width: 30%;
     display: flex;
@@ -21,8 +15,10 @@
     text-align: left;
 
     h1 {
-      text-align: left;
+      font-size: 3rem;
+      width: 100%;
       margin: 0px;
+      text-align: center;
     }
 
     p {
