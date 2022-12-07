@@ -7,6 +7,8 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
+  faFigma,
+  faGitAlt
 } from "@fortawesome/free-brands-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -114,10 +116,10 @@ const About = () => {
               <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
             </div>
             <div className="box face3">
-              {/* <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" /> */}
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
             </div>
             <div className="box face4">
-              {/* <FontAwesomeIcon icon={faFigma} color="#fff" /> */}
+              <FontAwesomeIcon icon={faFigma} color="#fff" />
             </div>
             <div className="box face5">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />

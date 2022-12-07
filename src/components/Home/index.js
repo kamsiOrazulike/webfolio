@@ -24,13 +24,13 @@ const Home = () => {
     <>
       <div className="container home-page">
         <div className="project-container">
-          <Link to="/project1">
-            <img src={Project1} className="project1" alt="project1" />
-          </Link>
+          <img src={Project1} className="project1" alt="project1" />
           <div className="card">
-            <h3>
-              Soundcloud <FontAwesomeIcon icon={faArrowRight} />
-            </h3>
+            <Link to="/project1">
+              <h3>
+                Soundcloud <FontAwesomeIcon icon={faArrowRight} />
+              </h3>
+            </Link>
           </div>
         </div>
 
@@ -72,16 +72,20 @@ const Home = () => {
           >
             GET IN TOUCH
           </LinkScroll>
+          <br />
+          <Link to="/project1" className="flat-button">
+            VIEW PROJECTS
+          </Link>
         </div>
 
         <div className="project-container">
-          <Link to="/project2">
-            <img src={Project2} className="project2" alt="project2" />
-          </Link>
+          <img src={Project2} className="project2" alt="project2" />
           <div className="card">
-            <h3>
-              Genesis GO! <FontAwesomeIcon icon={faArrowRight} />
-            </h3>
+            <Link to="/project2">
+              <h3>
+                Genesis GO! <FontAwesomeIcon icon={faArrowRight} />
+              </h3>
+            </Link>
           </div>
         </div>
       </div>

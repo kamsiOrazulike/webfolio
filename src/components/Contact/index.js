@@ -44,9 +44,9 @@ const Contact = () => {
           {/* <img src={contact} alt="contactMeme" className="imageMeme" /> */}
 
           <p>
-            I am mostly interested in both Design and Development opportunities
-            from full-time, permanent roles to short-term contracts. You can
-            checkout my Github account link attached to the footer!
+            I am interested in both Designer and Developer opportunities
+            from permanent positions to short-term contracts. You can
+            checkout my Github account attached to the footer!
           </p>
           <p>
             You can also email me at <br />
