@@ -37,10 +37,10 @@
     font-weight: 400;
     text-align: center;
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
       color: #fff;
       cursor: pointer;
-      font-size: 2.1rem;
+      font-size: 2.5rem;
       margin: 0;
       font-family: "Coolvetica";
       font-weight: 400;
@@ -103,7 +103,7 @@
       }
 
       @media screen and (max-width: 1200px) {
-        width: 150px;
+        width: 200px;
       }
     }
 
