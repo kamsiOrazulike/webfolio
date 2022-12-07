@@ -59,7 +59,8 @@
     animation: fadeIn 1.4s 2s backwards;
   }
 
-  .flat-button {
+  .projects-btn,
+  .contact-btn {
     color: #fff;
     font-size: 13px;
     font-weight: 400;
@@ -130,9 +131,7 @@
       }
 
       @media screen and (max-width: 800px) {
-        bottom: 0px;
-        width: auto;
-        font-size: 0.8em;
+        display: none;
       }
     }
 

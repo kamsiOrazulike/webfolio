@@ -68,13 +68,13 @@ const Home = () => {
             smooth={true}
             offset={-70}
             duration={500}
-            className="flat-button"
+            className="contact-btn"
           >
             GET IN TOUCH
           </LinkScroll>
           <br />
-          <Link to="/project1" className="flat-button">
-            VIEW PROJECTS
+          <Link to="/project1" className="projects-btn">
+            PROJECTS
           </Link>
         </div>
 
