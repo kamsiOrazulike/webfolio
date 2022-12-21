@@ -42,7 +42,7 @@ const Navbar = () => {
             offset={-70}
             duration={500}
           >
-            About Me
+            About
           </LinkScroll>
         </div>
       </div>
