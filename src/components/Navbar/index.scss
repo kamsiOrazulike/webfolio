@@ -13,8 +13,13 @@
     transition: all 0.8s ease;
   }
 
+  .nav-img {
+    width: 120px;
+  }
+
   .navbar-container {
     display: flex;
+    justify-content: space-evenly;
     height: 80px;
     width: 100%;
     padding: 0 24px 0 24px;

@@ -63,10 +63,19 @@
   width: 100%;
   opacity: 0;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 3rem 0;
   flex-direction: row;
+  justify-content: space-around;
   transform-style: preserve-3d;
   animation: fadeIn 1.5s forwards;
   animation-delay: 1s;
+
+  @media screen and (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .home-page,
@@ -83,7 +92,6 @@
   justify-content: center;
   padding: 4rem 0;
 
-
   .text-zone {
     position: relative;
     width: 90%;
@@ -96,7 +104,7 @@
     h1 {
       font-size: 53px;
       cursor: pointer;
-      font-family: 'Coolvetica';
+      font-family: "Coolvetica";
       color: #fff;
       font-weight: 400;
       margin-top: 0;
@@ -105,7 +113,7 @@
       @media screen and (max-width: 768px) {
         font-size: 33px;
         cursor: pointer;
-        font-family: 'Coolvetica';
+        font-family: "Coolvetica";
         color: #fff;
         font-weight: 400;
         margin-top: 0;
@@ -116,7 +124,7 @@
     h2 {
       font-size: 16px;
       cursor: pointer;
-      font-family: 'Coolvetica';
+      font-family: "Coolvetica";
       color: #fff;
       margin-top: 0px;
       position: relative;
@@ -124,7 +132,7 @@
       @media screen and (max-width: 768px) {
         font-size: 12px;
         cursor: pointer;
-        font-family: 'Coolvetica';
+        font-family: "Coolvetica";
         color: #fff;
         margin-top: 0px;
         position: relative;

@@ -4,9 +4,14 @@ import Home from './components/Home'
 import About from './components/About'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
-import Project1 from './components/Featured/Project1'
-import Project2 from './components/Featured/Project2'
+import SoundCloudProject from './components/Featured/SoundCloudUI'
+import GoGenesisProject from './components/Featured/GoGenesisUI'
 import Projects from './components/Projects'
+import GraphicDesigns from './components/Projects/GraphicDesign'
+import HeirsOfNakamoto from './components/Projects/HeirsProject'
+import LBC from './components/Projects/LBCPage'
+import Oasis from './components/Projects/OasisPage'
+
 
 
 import { Route, Routes } from 'react-router-dom'
@@ -19,9 +24,13 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="featured1" element={<Project1 />} />
-        <Route path="featured2" element={<Project2 />} />
+        <Route path="featured1" element={<SoundCloudProject />} />
+        <Route path="featured2" element={<GoGenesisProject />} />
         <Route path="projects" element={<Projects />} />
+        <Route path="designs" element={<GraphicDesigns />} />
+        <Route path="projectnakamoto" element={<HeirsOfNakamoto />} />
+        <Route path="londonbodycontour" element={<LBC />} />
+        <Route path="oasisproject" element={<Oasis />} />
       </Route>
     </Routes>
     <Footer />

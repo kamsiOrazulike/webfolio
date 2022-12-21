@@ -44,7 +44,7 @@ const Home = () => {
           >
             <img src={ProfileImg} alt="me" className="myImage shrink" />
           </LinkScroll>
-          <h1 className="introduction" id="home">
+          <h1 className="introduction" id="top">
             <span className={CharClass}>H</span>
             <span className={`${CharClass} _12`}>i</span>
             <span className={`${CharClass} _13`}>,</span>

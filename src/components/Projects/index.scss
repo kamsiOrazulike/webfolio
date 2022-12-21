@@ -24,15 +24,6 @@
   }
 
   .container {
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 3rem 0;
-    justify-content: space-around;
-
-    @media screen and (max-width: 850px) {
-      display: flex;
-      flex-direction: column;
-    }
 
     .project-overview {
       display: flex;

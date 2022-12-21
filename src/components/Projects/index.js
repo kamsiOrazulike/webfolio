@@ -21,7 +21,7 @@ const Projects = () => {
     <>
       <div className="projects-page">
         <div className="text-zone">
-          <h5 id="home">You are viewing</h5>
+          <h5 id="top">You are viewing</h5>
           <h1>
             <AnimatedLetters
               CharArray={[
@@ -52,14 +52,6 @@ const Projects = () => {
             </div>
 
             <div className="project-overview">
-              <h1> Heirs of Nakamoto </h1>
-              <h2> Project duration: 2 months (ongoing) </h2>
-              <Link>
-                <img src={HON} className="cover" alt="project1" />
-              </Link>
-            </div>
-
-            <div className="project-overview">
               <h1> Go Genesis! UI Design </h1>
               <h2> Project duration: 1 year </h2>
               <Link to="/featured2">
@@ -68,17 +60,9 @@ const Projects = () => {
             </div>
 
             <div className="project-overview">
-              <h1> My Illustrations </h1>
-              <h2> Project duration: Ongoing</h2>
-              <Link>
-                <img src={ByKamsi} className="cover" alt="project1" />
-              </Link>
-            </div>
-
-            <div className="project-overview">
               <h1> Oasis Community </h1>
-              <h2> Project duration: 1 year </h2>
-              <Link>
+              <h2> Project duration: 1 year (ongoing) </h2>
+              <Link to="#">
                 <img src={Oasis} className="cover" alt="project1" />
               </Link>
             </div>
@@ -86,8 +70,24 @@ const Projects = () => {
             <div className="project-overview">
               <h1> London Body Contour </h1>
               <h2> Project duration: 8 months (ongoing) </h2>
-              <Link to="/featured2">
+              <Link to="#">
                 <img src={LBC} className="cover" alt="project1" />
+              </Link>
+            </div>
+
+            <div className="project-overview">
+              <h1> Heirs of Nakamoto </h1>
+              <h2> Project duration: 2 months (ongoing) </h2>
+              <Link to="#">
+                <img src={HON} className="cover" alt="project1" />
+              </Link>
+            </div>
+
+            <div className="project-overview">
+              <h1> My Illustrations </h1>
+              <h2> Project duration: 3+ years (ongoing)</h2>
+              <Link to="#">
+                <img src={ByKamsi} className="cover" alt="project1" />
               </Link>
             </div>
 

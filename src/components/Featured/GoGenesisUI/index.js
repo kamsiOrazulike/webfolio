@@ -13,8 +13,21 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import AnimatedLetters from "../../AnimatedLetters";
 
-const Project1 = () => {
+const GoGenesisProject = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
+  const TitleArray = [
+    "G",
+    "o",
+    " ",
+    "G",
+    "e",
+    "n",
+    "e",
+    "s",
+    "i",
+    "s",
+    "!",
+  ];
 
   setTimeout(() => {
     setLetterClass("animate-text-hover");
@@ -24,39 +37,14 @@ const Project1 = () => {
     <>
       <div className="project1-page">
         <div className="text-zone">
-          <h2 className="large-header" id="home">
+          <h1 id="top">
             <AnimatedLetters
-              CharArray={[
-                "P",
-                "a",
-                "g",
-                "e",
-                " ",
-                "D",
-                "e",
-                "s",
-                "i",
-                "g",
-                "n",
-                " ",
-                "I",
-                "n",
-                " ",
-                "P",
-                "r",
-                "o",
-                "g",
-                "r",
-                "e",
-                "s",
-                "s",
-              ]}
+              CharArray={TitleArray}
               CharClass={CharClass}
               indx={15}
             />
-          </h2>
-          <h1> Genesis GO! </h1>
-          <h2> Project duration: 1 year </h2>
+          </h1>
+          <h2> Project duration: 1 year (ongoing) </h2>
         </div>
         <img src={homeScreen} className="project2" alt="project2" />
 
@@ -145,4 +133,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default GoGenesisProject;

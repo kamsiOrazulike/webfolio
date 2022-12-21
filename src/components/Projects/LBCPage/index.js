@@ -1,14 +1,12 @@
 import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
-import homeScreen from "../../../assets/portfolio-imgs/SouncloudHome.png";
-import originalHome from "../../../assets/portfolio-imgs/originalHomeScreen.png";
-// import titleScreen from "../../../assets/portfolio-imgs/TitleScreen.png";
+import Logo from "../../../assets/imgs/LBCLogo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
 import AnimatedLetters from "../../AnimatedLetters";
 
-const Project1 = () => {
+const LBCProject = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
 
   setTimeout(() => {
@@ -19,29 +17,36 @@ const Project1 = () => {
     <>
       <div className="container project1-page">
         <div className="text-zone">
-          <h2 className="large-header" id="home">
+          <h1 id="top">
             <AnimatedLetters
               CharArray={[
-                "I",
+                "L",
+                "o",
+                "n",
+                "d",
+                "o",
                 "n",
                 " ",
-                "P",
-                "r",
+                "B",
                 "o",
-                "g",
+                "d",
+                "y",
+                " ",
+                "C",
+                "o",
+                "n",
+                "t",
+                "o",
+                "u",
                 "r",
-                "e",
-                "s",
-                "s"
               ]}
               CharClass={CharClass}
               indx={15}
             />
-          </h2>
-          <h1> Soundcloud Redesign Project </h1>
-          <h2> Project Duration: 1 Month</h2>
+          </h1>
+          <h2> 1 year Anniversary Rebrand </h2>
         </div>
-        <img src={homeScreen} className="project1" alt="project1" />
+        <img src={Logo} className="project1" alt="project1" />
 
         <div className="overview">
           <div className="role">
@@ -98,12 +103,7 @@ const Project1 = () => {
           </div>
           <>
             <img
-              src={homeScreen}
-              className="subphoto"
-              alt="originalHomeScreen"
-            />
-            <img
-              src={originalHome}
+              src={Logo}
               className="subphoto"
               alt="originalHomeScreen"
             />
@@ -115,4 +115,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default LBCProject;
