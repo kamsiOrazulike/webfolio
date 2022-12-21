@@ -8,7 +8,9 @@ import {
   faJsSquare,
   faReact,
   faFigma,
-  faGitAlt
+  faGitAlt,
+  faPython,
+  faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -22,7 +24,7 @@ const About = () => {
 
   return (
     <>
-      <div className="container about-page" id="about">
+      <div className="about-page" id="about">
         <div className="text-zone">
           <div className="box">
             <h1>
@@ -50,12 +52,14 @@ const About = () => {
               <h3 className="overview-subheaders">Summary:</h3>
               <ul>
                 <li>
-                  I'm a Software Developer based in London with skills
-                  predominantly in <span className="highlight">JavaScript</span>
-                  , <span className="highlight">HMTL</span>,
+                  I'm a Software Developer based in London with 2 years
+                  experience using tech stacks:
+                  <span className="highlight">JavaScript</span>,
+                  <span className="highlight">HMTL</span>,
                   <span className="highlight"> CSS/SCSS</span> and
-                  <span className="highlight"> React/TypeScript</span> and a
-                  love for Frontend design & animations.
+                  <span className="highlight"> React/TypeScript</span>. I also
+                  love Graphic design & animations and also create some of my
+                  own.
                 </li>
                 <br />
                 <li>
@@ -64,7 +68,7 @@ const About = () => {
                     &nbsp;Design, Innovation and Creative Engineering&nbsp;
                   </span>
                   graduate (What a mouthful!). I understand the process of
-                  product development and have a passion for creating meaningful
+                  product development and have a strong desite to create meaningful
                   experiences for my user. I empathise with the user, stepping
                   into their shoes in order to discover problems and design
                   creative solutions.
@@ -72,7 +76,7 @@ const About = () => {
                 <br />
                 <li>
                   My passion is to create beautiful and functional solutions
-                  that have an overall positive impact on User Experience when
+                  that have an direct positive impact on User Experience when
                   using a digital product.
                   <br />
                 </li>
@@ -115,14 +119,26 @@ const About = () => {
             <div className="box face2">
               <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
             </div>
-            <div className="box face3">
-              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-            </div>
-            <div className="box face4">
-              <FontAwesomeIcon icon={faFigma} color="#fff" />
-            </div>
+            <div className="box face3" />
+            <div className="box face4" />
             <div className="box face5">
               <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="box face6">
+              <FontAwesomeIcon icon={faFigma} color="#FFFFFF" />
+            </div>
+          </div>
+          <div className="backendcube cube2">
+            <div className="box face1">
+              <FontAwesomeIcon icon={faPython} color="#646464" />
+            </div>
+            <div className="box face2">
+              <FontAwesomeIcon icon={faNodeJs} color="#68A063" />
+            </div>
+            <div className="box face3" />
+            <div className="box face4" />
+            <div className="box face5">
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
             </div>
             <div className="box face6">
               <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />

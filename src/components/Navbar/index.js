@@ -21,16 +21,6 @@ const Navbar = () => {
           </LinkRoute>
           <LinkScroll
             className="to-section"
-            to="home"
-            spy={true}
-            smooth={true}
-            offset={-400}
-            duration={500}
-          >
-            Kamsi Orazulike
-          </LinkScroll>
-          <LinkScroll
-            className="to-section"
             to="about"
             spy={true}
             smooth={true}
@@ -39,6 +29,9 @@ const Navbar = () => {
           >
             About Me
           </LinkScroll>
+          <LinkRoute className="to-section" to="projects">
+            Projects
+          </LinkRoute>
         </div>
       </div>
     </>

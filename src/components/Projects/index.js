@@ -1,7 +1,14 @@
 import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
+import { Link } from "react-router-dom";
 import AnimatedLetters from "../AnimatedLetters";
+import SoundcloudUI from "../../assets/portfolio-imgs/SouncloudHome.png";
+import GoGenesisUI from "../../assets/portfolio-imgs/GenesisLogin.png";
+import HON from "../../assets/imgs/cardbackdesign.png";
+import Oasis from "../../assets/imgs/OasisFinal.png";
+import LBC from "../../assets/imgs/LBCLogo.png";
+import ByKamsi from "../../assets/imgs/Me6.png";
 
 const Projects = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
@@ -12,10 +19,10 @@ const Projects = () => {
 
   return (
     <>
-      <div className="container projects-page">
+      <div className="projects-page">
         <div className="text-zone">
           <h5 id="home">You are viewing</h5>
-          <h2>
+          <h1>
             <AnimatedLetters
               CharArray={[
                 "M",
@@ -33,7 +40,58 @@ const Projects = () => {
               CharClass={CharClass}
               indx={15}
             />
-          </h2>
+          </h1>
+          <div className="container">
+
+            <div className="project-overview">
+              <h1> Soundcloud UI Redesign </h1>
+              <h2> Project duration: 1 month (ongoing) </h2>
+              <Link to="/featured1">
+                <img src={SoundcloudUI} className="cover" alt="project1" />
+              </Link>
+            </div>
+
+            <div className="project-overview">
+              <h1> Heirs of Nakamoto </h1>
+              <h2> Project duration: 2 months (ongoing) </h2>
+              <Link>
+                <img src={HON} className="cover" alt="project1" />
+              </Link>
+            </div>
+
+            <div className="project-overview">
+              <h1> Go Genesis! UI Design </h1>
+              <h2> Project duration: 1 year </h2>
+              <Link to="/featured2">
+                <img src={GoGenesisUI} className="cover" alt="project1" />
+              </Link>
+            </div>
+
+            <div className="project-overview">
+              <h1> My Illustrations </h1>
+              <h2> Project duration: Ongoing</h2>
+              <Link>
+                <img src={ByKamsi} className="cover" alt="project1" />
+              </Link>
+            </div>
+
+            <div className="project-overview">
+              <h1> Oasis Community </h1>
+              <h2> Project duration: 1 year </h2>
+              <Link>
+                <img src={Oasis} className="cover" alt="project1" />
+              </Link>
+            </div>
+
+            <div className="project-overview">
+              <h1> London Body Contour </h1>
+              <h2> Project duration: 8 months (ongoing) </h2>
+              <Link to="/featured2">
+                <img src={LBC} className="cover" alt="project1" />
+              </Link>
+            </div>
+
+          </div>
         </div>
       </div>
       <Loader type="ball-pulse" />

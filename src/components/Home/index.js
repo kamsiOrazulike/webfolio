@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home-page">
+      <div className="home-page">
         <div className="project-container">
           <img src={Project1} className="project1" alt="project1" />
           <div className="card">

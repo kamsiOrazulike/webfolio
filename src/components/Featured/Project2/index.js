@@ -22,7 +22,7 @@ const Project1 = () => {
 
   return (
     <>
-      <div className="container project1-page">
+      <div className="project1-page">
         <div className="text-zone">
           <h2 className="large-header" id="home">
             <AnimatedLetters
