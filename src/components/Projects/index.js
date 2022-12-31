@@ -54,7 +54,7 @@ const Projects = () => {
             <div className="project-overview">
               <h1> Go Genesis! UI Design </h1>
               <h2> Project duration: 1 year </h2>
-              <Link to="/featured2">
+              <Link to="#">
                 <img src={GoGenesisUI} className="cover" alt="project1" />
               </Link>
             </div>
