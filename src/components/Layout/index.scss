@@ -72,20 +72,6 @@ $color-outline: #7f7f7f80;
   }
 }
 
-.to-top {
-  position: fixed;
-  z-index: 9999999;
-  color: #00000067;
-  font-size: 3rem;
-  bottom: 5%;
-  right: 5%;
-
-  &:hover {
-    color: #000000;
-    animation-duration: 1.2s;
-  }
-}
-
 .container {
   width: 100%;
   opacity: 0;

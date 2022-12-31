@@ -13,9 +13,33 @@
     transition: all 0.8s ease;
   }
 
+  .home-link {
+    color: #fff;
+    justify-self: flex-start;
+    cursor: pointer;
+    margin: 0 2rem;
+    font-size: 3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: "Coolvetica";
+    letter-spacing: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover {
+      font-size: 3rem;
+      transition: all 0.2s;
+    }
+
+    @media screen and (max-width: 768px) {
+      font-size: 2.5rem;
+    }
+  }
+
   .navbar-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     height: 80px;
     width: 100%;
     padding: 0 24px 0 24px;
@@ -31,40 +55,18 @@
       position: relative;
       display: flex;
       align-items: center;
-      font-family: 'Coolvetica';
+      font-family: "Coolvetica";
       letter-spacing: 3px;
       text-decoration: none;
       text-transform: uppercase;
 
-      &.active, &:hover {
+      &.active,
+      &:hover {
         border-bottom: 3px solid #3cefff;
       }
 
       @media screen and (max-width: 768px) {
         font-size: 1.3rem;
-      }
-    }
-
-    .home-link {
-      color: #fff;
-      justify-self: flex-start;
-      cursor: pointer;
-      font-size: 3rem;
-      position: relative;
-      display: flex;
-      align-items: center;
-      font-family: 'Coolvetica';
-      letter-spacing: 3px;
-      text-decoration: none;
-      text-transform: uppercase;
-      
-      &:hover {
-        font-size: 3rem;
-        transition: all 0.2s;
-      }
-
-      @media screen and (max-width: 768px) {
-        font-size: 2.5rem;
       }
     }
   }

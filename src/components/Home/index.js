@@ -1,9 +1,9 @@
 import { useState } from "react";
-// import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import About from "../About";
 import Contact from "../Contact";
 import Featured from "../Featured";
+import Loader from "react-loaders";
 import {
   faCss3,
   faHtml5,
@@ -17,7 +17,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
+import ArrowToTop from "../ArrowToTop";
 
 const Home = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
@@ -71,10 +71,6 @@ const Home = () => {
             VIEW RESUME
           </LinkScroll>
           <br />
-
-          {/* <Link to="/projects" className="shrink projects-btn">
-            PROJECTS
-          </Link> */}
         </div>
 
         <div className="cube-container">
@@ -112,16 +108,8 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <LinkScroll
-        to="top"
-        spy={true}
-        smooth={true}
-        offset={-200}
-        duration={500}
-        className="grow to-top"
-      >
-        <FontAwesomeIcon icon={faArrowCircleUp} />
-      </LinkScroll>
+      <ArrowToTop />
+      <Loader type="ball-pulse" />
 
       <Featured />
       <About />

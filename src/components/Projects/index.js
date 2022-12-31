@@ -9,6 +9,7 @@ import HON from "../../assets/imgs/cardbackdesign.png";
 import Oasis from "../../assets/imgs/OasisFinal.png";
 import LBC from "../../assets/imgs/LBCLogo.png";
 import ByKamsi from "../../assets/imgs/Me6.png";
+import ArrowToTop from "../ArrowToTop";
 
 const Projects = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
@@ -94,6 +95,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <ArrowToTop />
       <Loader type="ball-pulse" />
     </>
   );

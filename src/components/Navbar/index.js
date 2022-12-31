@@ -8,16 +8,17 @@ const Navbar = () => {
   return (
     <>
       <div className="nav">
+        <LinkRoute
+          className="home-link"
+          to="/"
+          spy="true"
+          offset={-70}
+          duration={500}
+        >
+          <FontAwesomeIcon icon={faHome} />
+        </LinkRoute>
+
         <div className="navbar-container">
-          <LinkRoute
-            className="home-link"
-            to="/"
-            spy="true"
-            offset={-70}
-            duration={500}
-          >
-            <FontAwesomeIcon icon={faHome} />
-          </LinkRoute>
           <LinkScroll
             className="to-section"
             to="featured"

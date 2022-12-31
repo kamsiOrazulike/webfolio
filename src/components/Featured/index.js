@@ -1,7 +1,6 @@
 import "./index.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Loader from "react-loaders";
 import homeScreen from "../../assets/portfolio-imgs/SoundcloudUI/SouncloudHome.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
@@ -69,7 +68,6 @@ const FeaturedProject = () => {
           </div>
         </div>
       </div>
-      <Loader type="ball-pulse" />
     </>
   );
 };
