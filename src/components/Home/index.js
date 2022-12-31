@@ -14,7 +14,6 @@ import {
   faPython,
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
-import Me from "../../assets/imgs/Me5.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
@@ -32,7 +31,6 @@ const Home = () => {
     <>
       <div className="home-page">
         <div className="text-zone">
-        <img src={Me} alt="me" className="myImage" />
           <h1 className="introduction" id="top">
             <span className={CharClass}>H</span>
             <span className={`${CharClass} _12`}>i</span>

@@ -1,6 +1,6 @@
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
-import Me from "../../assets/imgs/Me3.png";
+import Me from "../../assets/imgs/Me5.png";
 import { useState } from "react";
 
 const About = () => {

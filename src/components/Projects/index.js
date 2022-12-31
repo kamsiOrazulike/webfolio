@@ -22,7 +22,6 @@ const Projects = () => {
     <>
       <div className="projects-page">
         <div className="text-zone">
-          <h5 id="top">You are viewing</h5>
           <h1>
             <AnimatedLetters
               CharArray={[

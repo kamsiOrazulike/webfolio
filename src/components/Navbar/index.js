@@ -39,6 +39,16 @@ const Navbar = () => {
           >
             About
           </LinkScroll>
+          <LinkScroll
+            className="to-section"
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            Contact
+          </LinkScroll>
         </div>
       </div>
     </>
