@@ -1,6 +1,6 @@
 import "./index.scss";
 import AnimatedLetters from "../AnimatedLetters";
-import Me from "../../assets/imgs/Me5.png";
+import Me from "../../assets/imgs/Me3.png";
 import { useState } from "react";
 
 const About = () => {
@@ -23,42 +23,6 @@ const About = () => {
               />
             </h1>
           </div>
-          <div className="overview-bio">
-            <div className="message">
-              <h3 className="overview-subheaders">Summary:</h3>
-              <ul>
-                <li>
-                  I'm a Software Developer based in London with 2 years
-                  experience using tech stacks:&nbsp;
-                  <span className="highlight">JavaScript</span>,
-                  <span className="highlight"> HMTL</span>,
-                  <span className="highlight"> CSS/SCSS</span> and
-                  <span className="highlight"> React/TypeScript</span>. I also
-                  love Graphic design & animations and also create some of my
-                  own.
-                </li>
-                <br />
-                <li>
-                  As a
-                  <span className="highlight">
-                    &nbsp;Design, Innovation and Creative Engineering&nbsp;
-                  </span>
-                  graduate. I understand the process of product development and
-                  have a strong desite to create meaningful experiences for my
-                  user. I empathise with the user, stepping into their shoes in
-                  order to discover problems and design creative solutions.
-                </li>
-                <br />
-                <li>
-                  My passion is to create beautiful and functional solutions
-                  that have an direct positive impact on User Experience when
-                  using a digital product.
-                  <br />
-                </li>
-              </ul>
-            </div>
-          </div>
-
           <div className="box">
             <img src={Me} alt="me" className="profile-img" />
             <h2>
@@ -93,6 +57,41 @@ const About = () => {
                     Qualification IGCSEs: Mathematics (A*), English Language
                     (A), English Literature (A)
                   </p>
+                  <br />
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="overview-bio">
+            <div className="message">
+              <h3 className="overview-subheaders">Summary:</h3>
+              <ul>
+                <li>
+                  I'm a Software Developer based in London with 2 years
+                  experience using tech stacks:&nbsp;
+                  <span className="highlight">JavaScript</span>,
+                  <span className="highlight"> HMTL</span>,
+                  <span className="highlight"> CSS/SCSS</span> and
+                  <span className="highlight"> React/TypeScript</span>. I also
+                  love Graphic design & animations and also create some of my
+                  own.
+                </li>
+                <br />
+                <li>
+                  As a
+                  <span className="highlight">
+                    &nbsp;Design, Innovation and Creative Engineering&nbsp;
+                  </span>
+                  graduate. I understand the process of product development and
+                  have a strong desite to create meaningful experiences for my
+                  user. I empathise with the user, stepping into their shoes in
+                  order to discover problems and design creative solutions.
+                </li>
+                <br />
+                <li>
+                  My passion is to create beautiful and functional solutions
+                  that have an direct positive impact on User Experience when
+                  using a digital product.
                   <br />
                 </li>
               </ul>
