@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.4ac8e67d.css",
-    "main.js": "/webfolio/static/js/main.5a014d4f.js",
+    "main.css": "/webfolio/static/css/main.c8723812.css",
+    "main.js": "/webfolio/static/js/main.d5a53eac.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/SouncloudHome.png": "/webfolio/static/media/SouncloudHome.603dd179926ad7b93159.png",
     "static/media/originalHomeScreen.png": "/webfolio/static/media/originalHomeScreen.449f45b9e66e108e93e5.png",
@@ -17,12 +17,12 @@
     "static/media/LaBelleAurore.woff2": "/webfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.4ac8e67d.css.map": "/webfolio/static/css/main.4ac8e67d.css.map",
-    "main.5a014d4f.js.map": "/webfolio/static/js/main.5a014d4f.js.map",
+    "main.c8723812.css.map": "/webfolio/static/css/main.c8723812.css.map",
+    "main.d5a53eac.js.map": "/webfolio/static/js/main.d5a53eac.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ac8e67d.css",
-    "static/js/main.5a014d4f.js"
+    "static/css/main.c8723812.css",
+    "static/js/main.d5a53eac.js"
   ]
 }
