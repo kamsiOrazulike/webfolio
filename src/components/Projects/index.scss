@@ -1,92 +1,90 @@
 .projects-page {
-  .text-zone {
-    width: 100%;
-    text-align: center;
-
-    h2 {
+    .text-zone {
+      width: 100%;
       text-align: center;
-      margin: 0;
-      color: #8dff54;
-      justify-self: center;
-      font-size: 5em;
-      position: relative;
-    }
-
-    h5 {
-      text-align: center;
-      letter-spacing: 0px;
-      margin: 0;
-      color: #8dff54;
-      justify-self: center;
-      font-size: 2em;
-      position: relative;
-    }
-  }
-
-  .container {
-
-    .project-overview {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-      align-items: center;
-      padding: 3rem 0;
-      color: #fff;
-      width: 45%;
-      position: relative;
-      z-index: 9999;
-      font-size: 1.9rem;
-
-      h1 {
-        font-size: 3rem;
-        margin: 0;
-      }
+  
       h2 {
-        font-size: 2rem;
+        text-align: center;
         margin: 0;
-      }
-
-      .cover {
+        justify-self: center;
         position: relative;
-        width: 250px;
-        height: auto;
-        padding: 2rem 0;
-        z-index: 999;
       }
-
-      .message,
-      .goals,
-      .role,
-      .tools {
-        width: 95%;
+  
+      h5 {
+        text-align: center;
+        letter-spacing: 0px;
+        margin: 0;
+        color: #8dff54;
+        justify-self: center;
+        font-size: 2em;
+        position: relative;
+      }
+    }
+  
+    .container {
+      .project-overview {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: column;
-      }
-
-      h3.overview-subheaders {
-        font-size: 2.1rem;
-        color: #d485ca;
-        margin-bottom: 0px;
-        font-weight: 400;
-        margin-left: 2rem;
-        text-decoration: wavy;
-      }
-
-      @media screen and (max-width: 800px) {
-        flex-direction: column;
+        align-items: center;
+        padding: 3rem 0;
+        color: #fff;
+        width: 45%;
+        position: relative;
         z-index: 9999;
-        width: 100%;
-        padding: 2rem 3rem;
-
+        font-size: 1.9rem;
+  
+        h1 {
+          font-size: 3rem;
+          margin: 0;
+        }
+        h2 {
+          font-size: 2rem;
+          margin: 0;
+        }
+  
+        .cover {
+          position: relative;
+          width: 250px;
+          height: auto;
+          padding: 2rem 0;
+          z-index: 999;
+        }
+  
         .message,
         .goals,
         .role,
         .tools {
-          width: 100%;
+          width: 95%;
           display: flex;
           flex-direction: column;
+        }
+  
+        h3.overview-subheaders {
+          font-size: 2.1rem;
+          color: #d485ca;
+          margin-bottom: 0px;
+          font-weight: 400;
+          margin-left: 2rem;
+          text-decoration: wavy;
+        }
+  
+        @media screen and (max-width: 800px) {
+          flex-direction: column;
+          z-index: 9999;
+          width: 100%;
+          padding: 2rem 3rem;
+  
+          .message,
+          .goals,
+          .role,
+          .tools {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+          }
         }
       }
     }
   }
-}
+  

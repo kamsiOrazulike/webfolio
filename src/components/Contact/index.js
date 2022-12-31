@@ -44,12 +44,12 @@ const Contact = () => {
           {/* <img src={contact} alt="contactMeme" className="imageMeme" /> */}
 
           <p>
-            I am interested in both Designer and Developer opportunities
-            from permanent positions to short-term contracts. You can
-            checkout my Github account attached to the footer!
+            I am interested in both Designer and Developer opportunities from
+            permanent positions to short-term contracts. You can checkout my
+            Github account attached to the footer!
           </p>
           <p>
-            You can also email me at <br />
+            You can also shoot me an email: <br />
             <a
               href="mailto:kamsi_orazulike@icloud.com"
               className="hover-link grow"
@@ -58,7 +58,6 @@ const Contact = () => {
               &nbsp; kamsi _orazulike@icloud.com
             </a>
             <br />
-            or make use of the form!
           </p>
         </div>
         <div className="contact-form">

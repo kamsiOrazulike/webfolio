@@ -1,9 +1,9 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import About from "../About";
 import Contact from "../Contact";
-import Featured from "../Featured/SoundCloudUI";
+import Featured from "../Featured";
 import {
   faCss3,
   faHtml5,
@@ -15,9 +15,6 @@ import {
   faNodeJs,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import ProfileImg from "../../assets/imgs/Me3.png";
-// import Project1 from "../../assets/portfolio-imgs/SouncloudHome.png";
-// import Project2 from "../../assets/portfolio-imgs/GenesisLogin.png";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import { faArrowCircleUp } from "@fortawesome/free-solid-svg-icons";
@@ -53,6 +50,17 @@ const Home = () => {
           <h2> Web Developer | UI Designer</h2>
           <br />
           <LinkScroll
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+            className="shrink contact-btn"
+          >
+            CONTACT ME
+          </LinkScroll>
+          <br />
+          <LinkScroll
             to="about"
             spy={true}
             smooth={true}
@@ -63,9 +71,10 @@ const Home = () => {
             VIEW RESUME
           </LinkScroll>
           <br />
-          <Link to="/projects" className="shrink projects-btn">
+
+          {/* <Link to="/projects" className="shrink projects-btn">
             PROJECTS
-          </Link>
+          </Link> */}
         </div>
 
         <div className="cube-container">

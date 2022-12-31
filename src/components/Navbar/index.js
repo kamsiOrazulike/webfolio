@@ -20,6 +20,16 @@ const Navbar = () => {
           </LinkRoute>
           <LinkScroll
             className="to-section"
+            to="featured"
+            spy={true}
+            smooth={true}
+            offset={-80}
+            duration={500}
+          >
+            Projects
+          </LinkScroll>
+          <LinkScroll
+            className="to-section"
             to="about"
             spy={true}
             smooth={true}

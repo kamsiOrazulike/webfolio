@@ -16,7 +16,7 @@ const HeirsProject = () => {
 
   return (
     <>
-      <div className="container project1-page">
+      <div className="container projects-page">
         <div className="text-zone">
           <h1 id="top">
             Heirs of 
@@ -36,7 +36,7 @@ const HeirsProject = () => {
             />
           </h1>
         </div>
-        <img src={CardBack} className="project1" alt="project1" />
+        <img src={CardBack} className="project-img" alt="projectimage" />
 
         <div className="overview">
           <div className="role">

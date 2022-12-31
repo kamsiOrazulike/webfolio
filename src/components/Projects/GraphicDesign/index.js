@@ -13,7 +13,7 @@ const GraphicDesignPage = () => {
 
   return (
     <>
-      <div className="container project1-page">
+      <div className="container projects-page">
         <div className="text-zone">
           <h1 id="top">
             <AnimatedLetters
@@ -25,7 +25,7 @@ const GraphicDesignPage = () => {
         </div>
 
         <div className="container">
-          <img src={Me} className="artwork" alt="myself" />
+          <img src={Me} alt="myself" />
 
           <div className="overview">
             <div className="role">

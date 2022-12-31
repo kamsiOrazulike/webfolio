@@ -15,7 +15,7 @@ const LBCProject = () => {
 
   return (
     <>
-      <div className="container project1-page">
+      <div className="container projects-page">
         <div className="text-zone">
           <h1 id="top">
             <AnimatedLetters
@@ -32,7 +32,7 @@ const LBCProject = () => {
           </h1>
           <h2> 1 year Anniversary Rebrand </h2>
         </div>
-        <img src={Logo} className="project1" alt="project1" />
+        <img src={Logo} alt="projectimage" />
 
         <div className="overview">
           <div className="role">

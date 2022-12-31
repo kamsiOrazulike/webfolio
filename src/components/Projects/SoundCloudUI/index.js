@@ -1,32 +1,37 @@
 import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
-import homeScreen from "../../../assets/portfolio-imgs/GenesisLogin.png";
-import paymentScreen from "../../../assets/portfolio-imgs/PaymentPage.png";
+import homeScreen from "../../../assets/portfolio-imgs/SoundcloudUI/SouncloudHome.png";
+import originalHome from "../../../assets/portfolio-imgs/SoundcloudUI/originalHomeScreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faFigma,
-  faCss3,
-  faHtml5,
-  faJsSquare,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
+import { faFigma } from "@fortawesome/free-brands-svg-icons";
 import AnimatedLetters from "../../AnimatedLetters";
 
-const GoGenesisProject = () => {
+const SoundCloudProject = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
   const TitleArray = [
-    "G",
+    "S",
     "o",
-    " ",
-    "G",
-    "e",
+    "u",
     "n",
+    "d",
+    "c",
+    "l",
+    "o",
+    "u",
+    "d",
+    " ",
+    "U",
+    "I",
+    " ",
+    "R",
+    "e",
+    "d",
     "e",
     "s",
     "i",
-    "s",
-    "!",
+    "g",
+    "n",
   ];
 
   setTimeout(() => {
@@ -35,7 +40,7 @@ const GoGenesisProject = () => {
 
   return (
     <>
-      <div className="project1-page">
+      <div className="container projects-page">
         <div className="text-zone">
           <h1 id="top">
             <AnimatedLetters
@@ -44,73 +49,60 @@ const GoGenesisProject = () => {
               indx={15}
             />
           </h1>
-          <h2> Project duration: 1 year (ongoing) </h2>
+          <h2> Project duration: 1 month (ongoing) </h2>
         </div>
-        <img src={homeScreen} className="project2" alt="project2" />
+        <img src={homeScreen} className="project-img" alt="project1" />
 
         <div className="overview">
           <div className="role">
             <h3 className="overview-subheaders">Role</h3>
             <ul style={{ "list-style": "none" }}>
               <li>
-                <b>UI Designer: </b> Idea Generation, Design, Wireframing <br />
-                <b>Frontend Developer: </b> Programmer
+                <b>UX Designer: </b> Idea Generation, Design, Wireframing
               </li>
             </ul>
           </div>
           <div className="tools">
             <h3 className="overview-subheaders">Tools</h3>
-            <ul className="icon-list">
+            <ul style={{ "list-style": "none" }}>
               <li>
                 <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
               </li>
-              <li>
-                <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> &nbsp;
-                CSS/SCSS
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faHtml5} color="#F06529" /> &nbsp; HTML5
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> &nbsp;
-                JavaScript
-              </li>
-              <li>
-                <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> &nbsp; React
-              </li>
             </ul>
           </div>
+
           <div className="goals">
             <h3 className="overview-subheaders">Goals</h3>
             <ul style={{ "list-style": "numbers" }}>
               <li>
-                Company saw huge traffic coming into the website that wasn't
-                reflected in ticket purchases.
-                <br />
+                To deliver a holistic, valuable and user-centric experience that
+                guides both Soundcloud artists and listeners through the
+                interface.
               </li>
               <li>
-                The goal was to design a web/mobile GUI that stayed within the
-                guidelines of what was possible for our team to develop while
-                minimising user interactions in the purchase process.
-                <br />
+                To <i>minimise</i> time spent for new users to navigate the
+                application and prioritise the finding of new artists. Taking
+                inspiration from the twitter application layout.
               </li>
             </ul>
           </div>
         </div>
 
-        <div className="overview-ctxt">
+        <div className="overview-col">
           <div className="message">
             <h3 className="overview-subheaders">About the Project</h3>
             <ul style={{ "list-style": "none" }}>
               <li>
-                I begun this project while on a contract as a Frontend Developer
-                with Genesis Group Ltd.
+                Rudo, a musician and avid Souncloud user, wishes that it was
+                easier for her to to find out what her friends listen to and
+                post. Her friends are also musicians, who use Souncloud to post
+                their music and follow the sound of their community. <br />
               </li>
-              <br />
+              <hr />
               <li>
-                As the team was full of developers and because of I already had
-                experience using Figma I took on the challenge of designing the
-                application frontend.
+                Rudo asked me if it were possible that the Souncloud interface
+                was redesigned to make it easier to find other playlist and/or
+                musicians.
               </li>
             </ul>
           </div>
@@ -121,7 +113,7 @@ const GoGenesisProject = () => {
               alt="originalHomeScreen"
             />
             <img
-              src={paymentScreen}
+              src={originalHome}
               className="subphoto"
               alt="originalHomeScreen"
             />
@@ -133,4 +125,4 @@ const GoGenesisProject = () => {
   );
 };
 
-export default GoGenesisProject;
+export default SoundCloudProject;

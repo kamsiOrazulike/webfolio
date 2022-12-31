@@ -1,25 +1,15 @@
 import "./index.scss";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Loader from "react-loaders";
-import homeScreen from "../../../assets/portfolio-imgs/SouncloudHome.png";
-// import originalHome from "../../../assets/portfolio-imgs/originalHomeScreen.png";
-// import titleScreen from "../../../assets/portfolio-imgs/TitleScreen.png";
+import homeScreen from "../../assets/portfolio-imgs/SoundcloudUI/SouncloudHome.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
-import AnimatedLetters from "../../AnimatedLetters";
+import AnimatedLetters from "../AnimatedLetters";
 
-const SoundCloudProject = () => {
+const FeaturedProject = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
-  const TitleArray = [
-    "F",
-    "e",
-    "a",
-    "t",
-    "u",
-    "r",
-    "e",
-    "d"
-  ];
+  const TitleArray = ["F", "e", "a", "t", "u", "r", "e", "d"];
 
   setTimeout(() => {
     setLetterClass("animate-text-hover");
@@ -27,7 +17,7 @@ const SoundCloudProject = () => {
 
   return (
     <>
-      <div className="featured">
+      <div className="featured-page" id="featured">
         <div className="text-zone">
           <div className="title">
             <h1 id="top">
@@ -40,10 +30,9 @@ const SoundCloudProject = () => {
             <h2> Project duration: 1 month (ongoing) </h2>
           </div>
 
-
-          <div className="overview">
           <img src={homeScreen} className="grow project" alt="project1" />
 
+          <div className="overview">
             <div className="role">
               <h3 className="overview-subheaders">Role</h3>
               <ul style={{ "list-style": "none" }}>
@@ -70,50 +59,19 @@ const SoundCloudProject = () => {
                   application
                 </li>
                 <li>
-                  To maximise time spent for new users to navigate the
+                  To minimise time spent for new users to navigate the
                   application and prioritise the finding of new artists by
                   adopting the twitter style formatting
                 </li>
               </ul>
             </div>
+            <Link to="/projects" className="button-link"> See more </Link>
           </div>
         </div>
-
-        {/* <div className="overview-ctxt">
-          <div className="message">
-            <h3 className="overview-subheaders">About the Project</h3>
-            <ul style={{ "list-style": "none" }}>
-              <li>
-                Rudo, a musician and avid Souncloud user, wishes that it was
-                easier for her to to find out what her friends listen to and
-                post. Her friends are also musicians, who use Souncloud to post
-                their music and follow the sound of their community. <br />
-              </li>
-              <hr />
-              <li>
-                Rudo asked me if it were possible that the Souncloud interface
-                was redesigned to make it easier to find other playlist and/or
-                musicians.
-              </li>
-            </ul>
-          </div>
-          <>
-            <img
-              src={homeScreen}
-              className="subphoto"
-              alt="originalHomeScreen"
-            />
-            <img
-              src={originalHome}
-              className="subphoto"
-              alt="originalHomeScreen"
-            />
-          </>
-        </div> */}
       </div>
       <Loader type="ball-pulse" />
     </>
   );
 };
 
-export default SoundCloudProject;
+export default FeaturedProject;
