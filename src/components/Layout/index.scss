@@ -1,3 +1,16 @@
+$width: 150px;
+$height: 150px;
+$color-inline: #00000092;
+$color-outline: #7f7f7f80;
+
+@mixin flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @content;
+}
+
 .page {
   width: 100%;
   height: 100%;
@@ -15,7 +28,7 @@
 }
 
 .highlight {
-  color: #3cefff;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -59,6 +72,20 @@
   }
 }
 
+.to-top {
+  position: fixed;
+  z-index: 9999999;
+  color: #00000067;
+  font-size: 3rem;
+  bottom: 5%;
+  right: 5%;
+
+  &:hover {
+    color: #000000;
+    animation-duration: 1.2s;
+  }
+}
+
 .container {
   width: 100%;
   opacity: 0;
@@ -81,7 +108,7 @@
 .home-page,
 .about-page,
 .contact-page,
-.project1-page,
+.featured,
 .project2-page,
 .projects-page {
   width: 100%;
@@ -90,72 +117,57 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 4rem 0;
+  padding: 3rem 0;
 
   .text-zone {
     position: relative;
-    width: 90%;
-    max-height: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: auto;
+
+    .title {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 0 0 5rem 0;
+    }
 
     @media screen and (max-width: 768px) {
       text-align: center;
     }
 
     h1 {
-      font-size: 53px;
+      font-size: 5rem;
       cursor: pointer;
       font-family: "Coolvetica";
-      color: #fff;
+      color: #000;
       font-weight: 400;
-      margin-top: 0;
+      margin: 0;
       position: relative;
-
-      @media screen and (max-width: 768px) {
-        font-size: 33px;
-        cursor: pointer;
-        font-family: "Coolvetica";
-        color: #fff;
-        font-weight: 400;
-        margin-top: 0;
-        position: relative;
-      }
     }
 
     h2 {
-      font-size: 16px;
+      font-size: 1.4rem;
+      color: #000;
+      position: relative;
+      color: #000;
       cursor: pointer;
-      font-family: "Coolvetica";
-      color: #fff;
-      margin-top: 0px;
-      position: relative;
-
-      @media screen and (max-width: 768px) {
-        font-size: 12px;
-        cursor: pointer;
-        font-family: "Coolvetica";
-        color: #fff;
-        margin-top: 0px;
-        position: relative;
-      }
-    }
-
-    .myImage {
-      width: 150px;
-      height: auto;
-      position: relative;
-      border-radius: 50%;
-
-      @media screen and (max-width: 768px) {
-        width: 90px;
-        height: auto;
-        position: relative;
-        border-radius: 50%;
-      }
+      text-align: center;
+      margin: 0;
+      font-weight: 100;
+      font-family: sans-serif;
+      letter-spacing: 3px;
+      animation: fadeIn 1.4s 2s backwards;
     }
 
     p {
       font-size: 16px;
-      color: #fff;
+      color: #000;
       font-family: sans-serif;
       font-weight: 400;
       min-width: fit-content;
@@ -166,13 +178,13 @@
       span.hover-link {
         text-decoration: none;
         font-size: 16px;
-        color: #fff;
+        color: #000;
         font-family: sans-serif;
         font-weight: 400;
         min-width: fit-content;
 
         &:hover {
-          color: #3cefff;
+          color: #000;
         }
       }
 
@@ -198,10 +210,107 @@
         animation-delay: 1.7s;
       }
     }
+  }
 
-    a {
-      text-decoration: none;
-      color: #fff;
+  .cube-container {
+    perspective: 1000px;
+    position: relative;
+    text-align: center;
+    z-index: 99;
+    @include flex;
+
+    @media screen and (max-width: 768px) {
+      position: inherit;
+      margin: 0px;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .header {
+      position: relative;
+      color: #5f4333;
+    }
+
+    .backendcube {
+      margin: 500px;
+    }
+
+    .frontendcube,
+    .backendcube {
+      transition: transform 2s ease-in;
+      transform-style: preserve-3d;
+      width: $width;
+      height: $height;
+
+      &.cube1 {
+        animation: horizontal-spin 7s infinite linear;
+        margin: 4rem;
+      }
+      &.cube2 {
+        animation: horizontal-spin 7s infinite linear;
+        animation-direction: reverse;
+        margin: 4rem;
+      }
+
+      .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        color: white;
+        background: $color-inline;
+        border: 1px solid $color-outline;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-family: "Roboto", sans-serif;
+        font-size: 80px;
+        font-weight: 500;
+        @include flex;
+
+        &.face1 {
+          transform: translateZ(75px);
+        }
+        &.face2 {
+          transform: translateZ(-75px) rotateY(180deg);
+        }
+        &.face3 {
+          transform: rotateX(-90deg) translateY(-75px);
+          transform-origin: top center;
+        }
+        &.face4 {
+          transform: rotateX(90deg) translateY(75px);
+          transform-origin: bottom center;
+        }
+        &.face5 {
+          transform: rotateY(270deg) translateX(-75px);
+          transform-origin: center left;
+        }
+        &.face6 {
+          transform: rotateY(-270deg) translateX(75px);
+          transform-origin: top right;
+        }
+      }
+    }
+  }
+
+  @keyframes horizontal-spin {
+    from {
+      transform: rotateY(0);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @keyframes vertical-spin {
+    from {
+      transform: rotateX(0);
+    }
+    to {
+      transform: rotateX(360deg);
     }
   }
 }

@@ -2,7 +2,7 @@ import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
 import homeScreen from "../../../assets/portfolio-imgs/SouncloudHome.png";
-import originalHome from "../../../assets/portfolio-imgs/originalHomeScreen.png";
+// import originalHome from "../../../assets/portfolio-imgs/originalHomeScreen.png";
 // import titleScreen from "../../../assets/portfolio-imgs/TitleScreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
@@ -11,28 +11,14 @@ import AnimatedLetters from "../../AnimatedLetters";
 const SoundCloudProject = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
   const TitleArray = [
-    "S",
-    "o",
-    "u",
-    "n",
-    "d",
-    "c",
-    "l",
-    "o",
-    "u",
-    "d",
-    " ",
-    "U",
-    "I",
-    " ",
-    "R",
+    "F",
     "e",
-    "d",
+    "a",
+    "t",
+    "u",
+    "r",
     "e",
-    "s",
-    "i",
-    "g",
-    "n",
+    "d"
   ];
 
   setTimeout(() => {
@@ -41,55 +27,59 @@ const SoundCloudProject = () => {
 
   return (
     <>
-      <div className="container project1-page">
+      <div className="featured">
         <div className="text-zone">
-        <h1 id="top">
-            <AnimatedLetters
-              CharArray={TitleArray}
-              CharClass={CharClass}
-              indx={15}
-            />
-          </h1>
-          <h2> Project duration: 1 year (ongoing) </h2>
+          <div className="title">
+            <h1 id="top">
+              <AnimatedLetters
+                CharArray={TitleArray}
+                CharClass={CharClass}
+                indx={15}
+              />
+            </h1>
+            <h2> Project duration: 1 month (ongoing) </h2>
+          </div>
+
+
+          <div className="overview">
+          <img src={homeScreen} className="grow project" alt="project1" />
+
+            <div className="role">
+              <h3 className="overview-subheaders">Role</h3>
+              <ul style={{ "list-style": "none" }}>
+                <li>
+                  <b>UX Designer: </b> Idea Generation, Design, Wireframing
+                </li>
+              </ul>
+            </div>
+            <div className="tools">
+              <h3 className="overview-subheaders">Tools</h3>
+              <ul style={{ "list-style": "none" }}>
+                <li>
+                  <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
+                </li>
+              </ul>
+            </div>
+
+            <div className="goals">
+              <h3 className="overview-subheaders">Goals</h3>
+              <ul style={{ "list-style": "numbers" }}>
+                <li>
+                  To deliver a holistic, valuable and user-centric experience
+                  that guides both Soundcloud artists and listeners through the
+                  application
+                </li>
+                <li>
+                  To maximise time spent for new users to navigate the
+                  application and prioritise the finding of new artists by
+                  adopting the twitter style formatting
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <img src={homeScreen} className="project1" alt="project1" />
 
-        <div className="overview">
-          <div className="role">
-            <h3 className="overview-subheaders">Role</h3>
-            <ul style={{ "list-style": "none" }}>
-              <li>
-                <b>UX Designer: </b> Idea Generation, Design, Wireframing
-              </li>
-            </ul>
-          </div>
-          <div className="tools">
-            <h3 className="overview-subheaders">Tools</h3>
-            <ul style={{ "list-style": "none" }}>
-              <li>
-                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
-              </li>
-            </ul>
-          </div>
-
-          <div className="goals">
-            <h3 className="overview-subheaders">Goals</h3>
-            <ul style={{ "list-style": "numbers" }}>
-              <li>
-                To deliver a holistic, valuable and user-centric experience that
-                guides both Soundcloud artists and listeners through the
-                application
-              </li>
-              <li>
-                To maximise time spent for new users to navigate the application
-                and prioritise the finding of new artists by adopting the
-                twitter style formatting
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div className="overview-ctxt">
+        {/* <div className="overview-ctxt">
           <div className="message">
             <h3 className="overview-subheaders">About the Project</h3>
             <ul style={{ "list-style": "none" }}>
@@ -119,7 +109,7 @@ const SoundCloudProject = () => {
               alt="originalHomeScreen"
             />
           </>
-        </div>
+        </div> */}
       </div>
       <Loader type="ball-pulse" />
     </>

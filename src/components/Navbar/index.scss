@@ -7,14 +7,10 @@
   font-size: 1rem;
   position: sticky;
   top: 0;
-  z-index: 999999;
+  z-index: 10;
 
   @media screen and (max-width: 960px) {
     transition: all 0.8s ease;
-  }
-
-  .nav-img {
-    width: 120px;
   }
 
   .navbar-container {
@@ -25,35 +21,13 @@
     padding: 0 24px 0 24px;
     max-width: 1200px;
     position: relative;
-    z-index: 999;
-
-    .home-link {
-      color: #3cefff;
-      cursor: pointer;
-      font-size: 3rem;
-      position: relative;
-      display: flex;
-      align-items: center;
-      font-family: "Coolvetica";
-      text-decoration: none;
-      
-      &:hover {
-        font-size: 3rem;
-        color: #fff;
-        transition: all 0.2s;
-      }
-
-      @media screen and (max-width: 768px) {
-        font-size: 2.5rem;
-      }
-    }
+    z-index: 99999;
 
     .to-section {
       color: #fff;
       justify-self: center;
       cursor: pointer;
       font-size: 1.5rem;
-      padding: 0 4rem;
       position: relative;
       display: flex;
       align-items: center;
@@ -68,6 +42,30 @@
 
       @media screen and (max-width: 768px) {
         font-size: 1.3rem;
+      }
+    }
+
+    .home-link {
+      color: #fff;
+      justify-self: flex-start;
+      cursor: pointer;
+      font-size: 3rem;
+      position: relative;
+      display: flex;
+      align-items: center;
+      font-family: 'Coolvetica';
+      letter-spacing: 3px;
+      text-decoration: none;
+      text-transform: uppercase;
+      
+      &:hover {
+        font-size: 3rem;
+        color: #3cefff;
+        transition: all 0.2s;
+      }
+
+      @media screen and (max-width: 768px) {
+        font-size: 2.5rem;
       }
     }
   }
