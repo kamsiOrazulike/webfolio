@@ -3,19 +3,14 @@ import { Link as LinkScroll } from "react-scroll";
 import "./index.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
+import MobileMenuButton from "./MobileMenu";
 
 const Navbar = () => {
   return (
     <>
       <div className="nav">
-        <LinkRoute
-          className="home-link"
-          to="/"
-          spy="true"
-          offset={-70}
-          duration={500}
-        >
-          <FontAwesomeIcon icon={faHome} />
+        <LinkRoute to="/" spy="true" offset={-70} duration={500}>
+          <FontAwesomeIcon icon={faHome} className="home-link grow" />
         </LinkRoute>
 
         <div className="navbar-container">
@@ -50,6 +45,8 @@ const Navbar = () => {
             Contact
           </LinkScroll>
         </div>
+
+        <MobileMenuButton />
       </div>
     </>
   );

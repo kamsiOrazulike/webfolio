@@ -51,7 +51,7 @@ const GoGenesisProject = () => {
         <div className="overview">
           <div className="role">
             <h3 className="overview-subheaders">Role</h3>
-            <ul style={{ "list-style": "none" }}>
+            <ul style={{ "listStyle": "none" }}>
               <li>
                 <b>UI Designer: </b> Idea Generation, Design, Wireframing <br />
                 <b>Frontend Developer: </b> Programmer
@@ -82,7 +82,7 @@ const GoGenesisProject = () => {
           </div>
           <div className="goals">
             <h3 className="overview-subheaders">Goals</h3>
-            <ul style={{ "list-style": "numbers" }}>
+            <ul style={{ "listStyle": "numbers" }}>
               <li>
                 Company saw huge traffic coming into the website that wasn't
                 reflected in ticket purchases.
@@ -101,7 +101,7 @@ const GoGenesisProject = () => {
         <div className="overview-ctxt">
           <div className="message">
             <h3 className="overview-subheaders">About the Project</h3>
-            <ul style={{ "list-style": "none" }}>
+            <ul style={{ "listStyle": "none" }}>
               <li>
                 I begun this project while on a contract as a Frontend Developer
                 with Genesis Group Ltd.

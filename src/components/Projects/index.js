@@ -22,7 +22,7 @@ const Projects = () => {
     <>
       <div className="projects-page">
         <div className="text-zone">
-          <h1>
+          <h1 id="top">
             <AnimatedLetters
               CharArray={[
                 "M",
@@ -77,7 +77,7 @@ const Projects = () => {
 
             <div className="project-overview">
               <h1> Heirs of Nakamoto </h1>
-              <h2> Project duration: 2 months (ongoing) </h2>
+              <h2> Project duration: 3 months (ongoing) </h2>
               <Link to="#">
                 <img src={HON} className="cover" alt="project1" />
               </Link>

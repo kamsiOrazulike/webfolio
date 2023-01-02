@@ -40,7 +40,7 @@ const SoundCloudProject = () => {
 
   return (
     <>
-      <div className="container projects-page">
+      <div className="projects-page">
         <div className="text-zone">
           <h1 id="top">
             <AnimatedLetters
@@ -56,7 +56,7 @@ const SoundCloudProject = () => {
         <div className="overview">
           <div className="role">
             <h3 className="overview-subheaders">Role</h3>
-            <ul style={{ "list-style": "none" }}>
+            <ul style={{ "listStyle": "none" }}>
               <li>
                 <b>UX Designer: </b> Idea Generation, Design, Wireframing
               </li>
@@ -64,7 +64,7 @@ const SoundCloudProject = () => {
           </div>
           <div className="tools">
             <h3 className="overview-subheaders">Tools</h3>
-            <ul style={{ "list-style": "none" }}>
+            <ul style={{ "listStyle": "none" }}>
               <li>
                 <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
               </li>
@@ -73,7 +73,7 @@ const SoundCloudProject = () => {
 
           <div className="goals">
             <h3 className="overview-subheaders">Goals</h3>
-            <ul style={{ "list-style": "numbers" }}>
+            <ul style={{ "listStyle": "numbers" }}>
               <li>
                 To deliver a holistic, valuable and user-centric experience that
                 guides both Soundcloud artists and listeners through the
@@ -91,7 +91,7 @@ const SoundCloudProject = () => {
         <div className="overview-col">
           <div className="message">
             <h3 className="overview-subheaders">About the Project</h3>
-            <ul style={{ "list-style": "none" }}>
+            <ul style={{ "listStyle": "none" }}>
               <li>
                 Rudo, a musician and avid Souncloud user, wishes that it was
                 easier for her to to find out what her friends listen to and

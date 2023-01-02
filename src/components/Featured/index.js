@@ -34,7 +34,7 @@ const FeaturedProject = () => {
           <div className="overview">
             <div className="role">
               <h3 className="overview-subheaders">Role</h3>
-              <ul style={{ "list-style": "none" }}>
+              <ul style={{ "listStyle": "none" }}>
                 <li>
                   <b>UX Designer: </b> Idea Generation, Design, Wireframing
                 </li>
@@ -42,7 +42,7 @@ const FeaturedProject = () => {
             </div>
             <div className="tools">
               <h3 className="overview-subheaders">Tools</h3>
-              <ul style={{ "list-style": "none" }}>
+              <ul style={{ "listStyle": "none" }}>
                 <li>
                   <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
                 </li>
@@ -51,7 +51,7 @@ const FeaturedProject = () => {
 
             <div className="goals">
               <h3 className="overview-subheaders">Goals</h3>
-              <ul style={{ "list-style": "numbers" }}>
+              <ul style={{ "listStyle": "numbers" }}>
                 <li>
                   To deliver a holistic, valuable and user-centric experience
                   that guides both Soundcloud artists and listeners through the

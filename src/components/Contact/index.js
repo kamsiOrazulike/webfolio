@@ -49,7 +49,7 @@ const Contact = () => {
             Github account attached to the footer!
           </p>
           <p>
-            You can also shoot me an email: <br />
+            You can also email me at <br />
             <a
               href="mailto:kamsi_orazulike@icloud.com"
               className="hover-link grow"

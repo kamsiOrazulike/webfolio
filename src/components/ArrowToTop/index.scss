@@ -10,4 +10,9 @@
     color: #000000;
     animation-duration: 1.2s;
   }
+
+  @media screen and (max-width: 768px) {
+    bottom: 10%;
+    right: 10%;
+  }
 }
