@@ -4,13 +4,13 @@ import { Link as LinkRoute } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHamburger, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-const NavLinks = () => {
+const NavLinks = (props) => {
   return (
     <div className="link-container">
       <ul className="nav-links">
-        <LinkRoute to="about">About Me</LinkRoute>
-        <LinkRoute to="contact">Contact Me</LinkRoute>
-        <LinkRoute to="projects">All Projects</LinkRoute>
+        <LinkRoute to="about" onClick={() => props.isMobile && props.closeMobileMenu()}>About Me</LinkRoute>
+        <LinkRoute to="contact" onClick={() => props.isMobile && props.closeMobileMenu()}>Contact Me</LinkRoute>
+        <LinkRoute to="projects" onClick={() => props.isMobile && props.closeMobileMenu()}>All Projects</LinkRoute>
       </ul>
     </div>
   );
@@ -22,12 +22,14 @@ const MobileMenuButton = () => {
   const hamburgerIcon = <FontAwesomeIcon className="hamburger-menu grow" icon={faHamburger} />;
   const closeIcon = <FontAwesomeIcon className="hamburger-menu grow" icon={faTimes} />
 
+  const closeMobileMenu = () => setOpen(false);
+
   return (
     <>
       <div onClick={() => setOpen(!open)}>
         {open ? closeIcon : hamburgerIcon}
       </div>
-      {open && <NavLinks />}
+      {open && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
     </>
   );
 };
