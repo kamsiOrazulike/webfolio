@@ -9,8 +9,11 @@ const Navbar = () => {
   return (
     <>
       <div className="nav">
-        <LinkRoute to="/" spy="true" offset={-70} duration={500}>
-          <FontAwesomeIcon icon={faHome} className="home-link grow" />
+        <LinkRoute to="/" spy="true" offset={-70} duration={500} className="home-icon grow" >
+          <FontAwesomeIcon icon={faHome} />
+        </LinkRoute>
+        <LinkRoute to="/" spy="true" offset={-70} duration={500} className="home-text">
+          Home
         </LinkRoute>
 
         <div className="navbar-container">

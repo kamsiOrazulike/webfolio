@@ -13,18 +13,37 @@
     transition: all 0.8s ease;
   }
 
-  .home-link {
+  .home-icon {
+    display: none;
+
+    @media screen and (max-width: 768px) {
+      color: #fff;
+      justify-self: flex-start;
+      cursor: pointer;
+      margin: 0 2rem;
+      font-size: 2.5rem;
+      position: relative;
+      display: flex;
+      align-items: center;
+      font-family: "Coolvetica";
+      letter-spacing: 3px;
+      text-decoration: none;
+    }
+  }
+
+  .home-text {
     color: #fff;
     justify-self: flex-start;
     cursor: pointer;
-    margin: 0 2rem;
-    font-size: 3rem;
+    font-size: 1.5rem;
     position: relative;
+    margin: 0 3rem;
     display: flex;
     align-items: center;
     font-family: "Coolvetica";
     letter-spacing: 3px;
     text-decoration: none;
+    text-transform: uppercase;
 
     @media screen and (max-width: 768px) {
       display: none;
