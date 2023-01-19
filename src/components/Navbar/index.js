@@ -24,7 +24,7 @@ const Navbar = () => {
           >
             Projects
           </LinkScroll>
-          <LinkScroll
+          <LinkRoute
             className="to-section"
             to="about"
             spy={true}
@@ -33,8 +33,8 @@ const Navbar = () => {
             duration={500}
           >
             About
-          </LinkScroll>
-          <LinkScroll
+          </LinkRoute>
+          <LinkRoute
             className="to-section"
             to="contact"
             spy={true}
@@ -43,7 +43,7 @@ const Navbar = () => {
             duration={500}
           >
             Contact
-          </LinkScroll>
+          </LinkRoute>
         </div>
 
         <MobileMenuButton />

@@ -1,8 +1,9 @@
 import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
-import homeScreen from "../../../assets/portfolio-imgs/GenesisUI/GenesisLogin.png";
-import paymentScreen from "../../../assets/portfolio-imgs/GenesisUI/PaymentPage.png";
+import { Link } from "react-router-dom";
+import homeScreen from "../../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
+// import paymentScreen from "../../../assets/portfolio-imgs/GenesisUI/tutorial2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFigma,
@@ -36,6 +37,7 @@ const GoGenesisProject = () => {
   return (
     <>
       <div className="projects-page">
+        <div className="previous-link"><Link className="text" to={"../projects"}> Previous </Link></div>
         <div className="text-zone">
           <h1 id="top">
             <AnimatedLetters
@@ -115,7 +117,7 @@ const GoGenesisProject = () => {
             </ul>
           </div>
           <>
-            <img
+            {/* <img
               src={homeScreen}
               className="subphoto"
               alt="originalHomeScreen"
@@ -124,7 +126,7 @@ const GoGenesisProject = () => {
               src={paymentScreen}
               className="subphoto"
               alt="originalHomeScreen"
-            />
+            /> */}
           </>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
+import { Link } from "react-router-dom";
 import homeScreen from "../../../assets/portfolio-imgs/SoundcloudUI/SouncloudHome.png";
 import originalHome from "../../../assets/portfolio-imgs/SoundcloudUI/originalHomeScreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -41,6 +42,7 @@ const SoundCloudProject = () => {
   return (
     <>
       <div className="projects-page">
+      <div className="previous-link"><Link className="text" to={"../projects"}> Previous </Link></div>
         <div className="text-zone">
           <h1 id="top">
             <AnimatedLetters

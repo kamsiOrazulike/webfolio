@@ -1,27 +1,33 @@
 import "./index.scss";
-// import { Link as LinkRoute } from "react-router-dom";
+import { useState } from "react";
+import { Link as LinkRoute } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHamburger } from "@fortawesome/free-solid-svg-icons";
+import { faHamburger, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-// const menuButton = document.querySelector(".hamburger-menu");
-// const openNavLinks = document.querySelector(".toggle");
-
-// menuButton.addEventListener("click", () => {
-//     openNavLinks.classList.toggle("active");
-// });
+const NavLinks = () => {
+  return (
+    <div className="link-container">
+      <ul className="nav-links">
+        <LinkRoute to="about">About Me</LinkRoute>
+        <LinkRoute to="contact">Contact Me</LinkRoute>
+        <LinkRoute to="projects">All Projects</LinkRoute>
+      </ul>
+    </div>
+  );
+};
 
 const MobileMenuButton = () => {
+  const [open, setOpen] = useState(false);
+
+  const hamburgerIcon = <FontAwesomeIcon className="hamburger-menu grow" icon={faHamburger} />;
+  const closeIcon = <FontAwesomeIcon className="hamburger-menu grow" icon={faTimes} />
+
   return (
     <>
-      <div>
-        <FontAwesomeIcon className="hamburger-menu grow" icon={faHamburger} />
+      <div onClick={() => setOpen(!open)}>
+        {open ? closeIcon : hamburgerIcon}
       </div>
-      <ul className="toggle">
-        <li>Link 1</li>
-        <li>Link 2</li>
-        <li>Link 3</li>
-        <li>Link 4</li>
-      </ul>
+      {open && <NavLinks />}
     </>
   );
 };

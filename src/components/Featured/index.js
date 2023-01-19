@@ -29,7 +29,7 @@ const FeaturedProject = () => {
             <h2> Project duration: 1 month (ongoing) </h2>
           </div>
 
-          <img src={homeScreen} className="grow project" alt="project1" />
+          <img src={homeScreen} className="project" alt="project1" />
 
           <div className="overview">
             <div className="role">

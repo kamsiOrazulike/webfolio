@@ -1,7 +1,5 @@
 import { useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
-import About from "../About";
-import Contact from "../Contact";
 import Featured from "../Featured";
 import Loader from "react-loaders";
 import {
@@ -50,25 +48,14 @@ const Home = () => {
           <h2> Web Developer | UI Designer</h2>
           <br />
           <LinkScroll
-            to="contact"
+            to="featured"
             spy={true}
             smooth={true}
             offset={-70}
             duration={500}
             className="shrink contact-btn"
           >
-            CONTACT ME
-          </LinkScroll>
-          <br />
-          <LinkScroll
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="shrink contact-btn"
-          >
-            VIEW RESUME
+            FEATURED
           </LinkScroll>
           <br />
         </div>
@@ -112,8 +99,6 @@ const Home = () => {
       <Loader type="ball-pulse" />
 
       <Featured />
-      <About />
-      <Contact />
     </>
   );
 };

@@ -24,8 +24,8 @@ function App() {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="featured1" element={<SoundCloudProject />} />
-        <Route path="featured2" element={<GoGenesisProject />} />
+        <Route path="projectsoundcloud" element={<SoundCloudProject />} />
+        <Route path="projectgogenesis" element={<GoGenesisProject />} />
         <Route path="projects" element={<Projects />} />
         <Route path="designs" element={<GraphicDesigns />} />
         <Route path="projectnakamoto" element={<HeirsOfNakamoto />} />
