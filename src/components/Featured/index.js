@@ -30,7 +30,7 @@ const FeaturedProject = () => {
           </div>
           <div className="flex-box">
             <div className="overview">
-              <h2> Project duration: 1 month (ongoing) </h2>
+              <h2> Project duration: 2 weeks (ongoing) </h2>
 
               <div className="goals">
                 <h3>Goal</h3>

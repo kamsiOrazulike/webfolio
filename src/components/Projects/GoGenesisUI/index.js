@@ -117,6 +117,27 @@ const MainPages = () => {
             so on.
           </p>
         </div>
+        <div className="hd"></div>
+        <div className="message" style={{ top: "20%" }}>
+          <h3>Consistency in Design</h3>
+          <p>
+            With the general interface I aimed to be flexible with device UI
+            guidelines and behaviors. For the prototype specificlally I focused
+            on the iPhone 13 Pro and used the devices measurements to set my UI
+            guidelines and behaviors. I also drew inspiration from similar
+            apps/sites such as JustEat, UberEats, Jumia Foods and Dominoes.
+            Infusing different aspects of their UI that I found useful with my
+            own design. Doing this helps assure a user’s assumptions about the
+            user interface and creating a sense of control and familiarity, for
+            my user.
+          </p>
+        </div>
+        <a
+          className="button-link"
+          href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
+        >
+          Prototype available on Figma!
+        </a>
       </div>
       <img
         src={mainPageDelivery}

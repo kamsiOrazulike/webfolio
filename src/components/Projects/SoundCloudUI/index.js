@@ -49,7 +49,7 @@ const SoundCloudProject = () => {
               indx={15}
             />
           </h1>
-          <h2> Project duration: 1 month (ongoing) </h2>
+          <h2> Project duration: 2 weeks (ongoing) </h2>
         </div>
 
         <div className="overview">
@@ -84,6 +84,13 @@ const SoundCloudProject = () => {
               </p>
             </div>
           </div>
+
+          <a
+            className="button-link"
+            href="https://www.figma.com/file/ybsBzSUF4uKPrhMfqBmUyN/My-Soundcloud-re-Design?node-id=0%3A1&t=rjtVfVUAjtXyu9S4-1"
+          >
+            Check it out on Figma!
+          </a>
         </div>
 
         <img src={homeScreen} className="project-img" alt="project1" />
