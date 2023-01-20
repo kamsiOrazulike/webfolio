@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.dea6f85a.css",
-    "main.js": "/webfolio/static/js/main.385e0106.js",
+    "main.css": "/webfolio/static/css/main.07ef9b99.css",
+    "main.js": "/webfolio/static/js/main.537ea412.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/SoundcloudHome.png": "/webfolio/static/media/SoundcloudHome.cd7615b68fae8d1f9939.png",
+    "static/media/mainPageDelivery.png": "/webfolio/static/media/mainPageDelivery.e2285ca761b792c92258.png",
     "static/media/cardbackdesign.png": "/webfolio/static/media/cardbackdesign.68a7d0c0b8641c47adcb.png",
     "static/media/tutorial3.png": "/webfolio/static/media/tutorial3.2a39dab4c8bb988aaec8.png",
     "static/media/tutorial2.png": "/webfolio/static/media/tutorial2.0a53570e0446a42e6716.png",
@@ -11,6 +12,7 @@
     "static/media/tutorial1.png": "/webfolio/static/media/tutorial1.96f7ed1571da30f01e17.png",
     "static/media/login.png": "/webfolio/static/media/login.28b1b29741942b93c5fe.png",
     "static/media/createAccount.png": "/webfolio/static/media/createAccount.aed9a924140064146327.png",
+    "static/media/flowDiagram.jpg": "/webfolio/static/media/flowDiagram.f9257e41f0c78496f487.jpg",
     "static/media/Me6.png": "/webfolio/static/media/Me6.86dfb126fcbc1eb3bd38.png",
     "static/media/Me5.png": "/webfolio/static/media/Me5.fbffe528d9f50934d001.png",
     "static/media/minoscard.png": "/webfolio/static/media/minoscard.e4f8a81e3782efd44267.png",
@@ -20,12 +22,12 @@
     "static/media/LaBelleAurore.woff2": "/webfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.dea6f85a.css.map": "/webfolio/static/css/main.dea6f85a.css.map",
-    "main.385e0106.js.map": "/webfolio/static/js/main.385e0106.js.map",
+    "main.07ef9b99.css.map": "/webfolio/static/css/main.07ef9b99.css.map",
+    "main.537ea412.js.map": "/webfolio/static/js/main.537ea412.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dea6f85a.css",
-    "static/js/main.385e0106.js"
+    "static/css/main.07ef9b99.css",
+    "static/js/main.537ea412.js"
   ]
 }
