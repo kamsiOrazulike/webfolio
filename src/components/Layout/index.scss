@@ -35,9 +35,25 @@
   }
 }
 
+.vd {
+  border-left: 2px solid #00000060;
+  height: 200px;
+
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+}
+
+.hd {
+  border-bottom: 1px solid #00000060;
+  margin: 2.4rem 0;
+  width: 90%;
+}
+
 .button-link {
   display: inline-block;
   padding: 1rem 2rem;
+  border: 1px solid black;
   border-radius: 10rem;
   background-color: transparent;
   color: #000;
@@ -99,6 +115,14 @@
   }
 }
 
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 3rem 0;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
 
 .home-page,
 .about-page,
@@ -128,7 +152,7 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin: 0 0 5rem 0;
+      margin: 0 0 3rem 0;
     }
 
     @media screen and (max-width: 768px) {

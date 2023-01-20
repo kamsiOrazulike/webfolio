@@ -2,9 +2,15 @@
   height: auto;
   padding: 0px;
 
+  .project-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .header-zone {
     width: 100%;
-    margin: 2.5rem 0;
+    margin: 0 0 1rem 0;
     text-align: center;
 
     h1 {
@@ -105,27 +111,34 @@
     display: flex;
     height: fit-content;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     border-radius: 8px;
     position: relative;
     font-size: 1.9rem;
 
+    .sketches {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
     .wrapper {
       width: 100%;
       display: flex;
+      margin: 2rem 0;
       flex-direction: row;
-      align-items: center;
+      align-items: flex-start;
       justify-content: space-around;
     }
 
     .message {
       width: 50%;
       padding: 0 3rem;
-      text-align: center;
+      text-align: left;
       display: flex;
       flex-direction: column;
-      align-items: center;
+      align-items: flex-start;
       justify-content: center;
 
       @media screen and (max-width: 800px) {

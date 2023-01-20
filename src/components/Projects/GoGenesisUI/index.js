@@ -6,6 +6,8 @@ import homeScreen from "../../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
 import tutorialScreen2 from "../../../assets/portfolio-imgs/GenesisUI/tutorial2.png";
 import tutorialScreen3 from "../../../assets/portfolio-imgs/GenesisUI/tutorial3.png";
 import accountPage from "../../../assets/portfolio-imgs/GenesisUI/accountPage.png";
+import mainPageDelivery from "../../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
+import drawings from "../../../assets/portfolio-imgs/GenesisUI/flowDiagram.jpg";
 import login from "../../../assets/portfolio-imgs/GenesisUI/login.png";
 import createAccount from "../../../assets/portfolio-imgs/GenesisUI/createAccount.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,6 +19,113 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 import AnimatedLetters from "../../AnimatedLetters";
+
+const OpeningScreen = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1>Opening Screens</h1>
+      </div>
+      <div className="overview-col">
+        <img src={drawings} className="sketches" alt="mySketches" />
+        <p style={{ margin: "auto", padding: "2rem 0 4rem 0" }}>
+          <i>
+            Keeping the company goals in mind, I started sketching my ideas.{" "}
+          </i>
+        </p>
+        <div className="wrapper">
+          <div className="message">
+            <h3>Project setup</h3>
+            <p>
+              I worked on this project end-to-end as a UX designer and Frontend
+              Developer in a 3 developer team. And begun my process drawing out
+              the flows on paper and discussing my design thinking before
+              translating them into Figma designs.
+            </p>
+          </div>
+          <div className="vd"></div>
+          <div className="message">
+            <h3>Colour and Alliteration</h3>
+            <p>
+              It was important that these initial <i>tutorial-like</i> pages
+              were engaging and memorable not only through the graphics/visuals
+              but also through the use of language/text.
+            </p>
+          </div>
+        </div>
+        <div className="wrapper">
+          <img src={homeScreen} className="subphoto" alt="homeScreen" />
+          <img
+            src={tutorialScreen2}
+            className="subphoto"
+            alt="tutorialScreen2"
+          />
+          <img
+            src={tutorialScreen3}
+            className="subphoto"
+            alt="tutorialScreen3"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const AccountPages = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1>Account pages</h1>
+      </div>
+      <div className="overview-col">
+        <div className="message">
+          <h3>The importance of spacing</h3>
+          <p>
+            When it came to deciding on how much white space was too much white
+            space, that was a challenge altogether. It is paramount in my design
+            that I use a spacing system that brings about a sense of
+            <b> consistency</b> and <b>harmony</b> to the UI. <br /> <br />I
+            mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
+            so on.
+          </p>
+        </div>
+        <div className="wrapper">
+          <img src={createAccount} className="subphoto" alt="accountPage" />
+          <img src={login} className="subphoto" alt="accountPage" />
+          <img src={accountPage} className="subphoto" alt="accountPage" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const MainPages = () => {
+  return (
+    <>
+      <div className="header-zone">
+        <h1>Main page</h1>
+      </div>
+      <div className="overview">
+        <div className="message" style={{ top: "20%" }}>
+          <h3>The importance of spacing</h3>
+          <p>
+            When it came to deciding on how much white space was too much white
+            space, that was a challenge altogether. It is paramount in my design
+            that I use a spacing system that brings about a sense of
+            <b> consistency</b> and <b>harmony</b> to the UI. <br /> <br />I
+            mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
+            so on.
+          </p>
+        </div>
+      </div>
+      <img
+        src={mainPageDelivery}
+        className="project-img"
+        alt="mainPageDelivery"
+      />
+    </>
+  );
+};
 
 const GoGenesisProject = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
@@ -37,7 +146,7 @@ const GoGenesisProject = () => {
               indx={15}
             />
           </h1>
-          <h2> Project duration: 1 year (ongoing) </h2>
+          <h2> Project duration: 1 month (ongoing) </h2>
         </div>
         <div className="overview">
           <div className="message">
@@ -84,58 +193,21 @@ const GoGenesisProject = () => {
               </p>
             </div>
           </div>
+          <a
+            className="button-link"
+            href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
+          >
+            Check it out on Figma!
+          </a>
         </div>
         <img src={homeScreen} className="project-img" alt="projectimage" />
 
-        <div className="header-zone">
-          <h1>Opening Screens</h1>
-        </div>
-
-        <div className="overview-col">
-          <div className="message">
-            <h3 className="overview-subheaders">Colour and Alliteration</h3>
-            <p>
-              It was important that these initial <i>tutorial-like</i> pages
-              were engaging and memorable not only through the graphics/visuals
-              but also through the use of language/text.
-            </p>
-          </div>
-          <div className="wrapper">
-            <img src={homeScreen} className="subphoto" alt="homeScreen" />
-            <img
-              src={tutorialScreen2}
-              className="subphoto"
-              alt="tutorialScreen2"
-            />
-            <img
-              src={tutorialScreen3}
-              className="subphoto"
-              alt="tutorialScreen3"
-            />
-          </div>
-        </div>
-
-        <div className="header-zone">
-          <h1>Account pages</h1>
-        </div>
-        <div className="overview-col">
-          <div className="message">
-            <h3>The importance of spacing</h3>
-            <p>
-              When it came to deciding on how much white space was too much
-              white space, that was a challenge altogether. It is paramount in
-              my design that I use a spacing system that brings about a sense of
-              <b> consistency</b> and <b>harmony</b> to the UI. <br /> <br />I
-              mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
-              so on.
-            </p>
-          </div>
-          <div className="wrapper">
-            <img src={createAccount} className="subphoto" alt="accountPage" />
-            <img src={login} className="subphoto" alt="accountPage" />
-            <img src={accountPage} className="subphoto" alt="accountPage" />
-          </div>
-        </div>
+        <div className="hd"></div>
+        {<OpeningScreen />}
+        <div className="hd"></div>
+        {<AccountPages />}
+        <div className="hd"></div>
+        {<MainPages />}
 
         <Link className="button-link" to={"../projects"}>
           Back to All Projects

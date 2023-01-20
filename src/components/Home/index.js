@@ -58,6 +58,13 @@ const Home = () => {
             FEATURED
           </LinkScroll>
           <br />
+          <a
+            href="https://github.com/kamsiOrazulike"
+            className="shrink contact-btn"
+          >
+            MY GITHUB
+          </a>
+          <br />
         </div>
 
         <div className="cube-container">
