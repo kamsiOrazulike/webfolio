@@ -8,9 +8,9 @@ const NavLinks = (props) => {
   return (
     <div className="link-container">
       <ul className="nav-links">
-        <LinkRoute to="about" onClick={() => props.isMobile && props.closeMobileMenu()}>About Me</LinkRoute>
-        <LinkRoute to="contact" onClick={() => props.isMobile && props.closeMobileMenu()}>Contact Me</LinkRoute>
-        <LinkRoute to="projects" onClick={() => props.isMobile && props.closeMobileMenu()}>All Projects</LinkRoute>
+        <LinkRoute to="about" onClick={() => props.isMobile && props.closeMobileMenu()} style={{ width: "100%"}} >About Me</LinkRoute>
+        <LinkRoute to="contact" onClick={() => props.isMobile && props.closeMobileMenu()} style={{ width: "100%"}} >Contact Me</LinkRoute>
+        <LinkRoute to="projects" onClick={() => props.isMobile && props.closeMobileMenu()} style={{ width: "100%"}}>All Projects</LinkRoute>
       </ul>
     </div>
   );
