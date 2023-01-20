@@ -1,8 +1,9 @@
 import "./index.scss";
-import { Link } from "react-router-dom"
-import AnimatedLetters from "../AnimatedLetters";
-import Me from "../../assets/imgs/Me5.png";
 import { useState } from "react";
+import Loader from "react-loaders";
+import ArrowToTop from "../ArrowToTop";
+import Me from "../../assets/imgs/Me5.png";
+import AnimatedLetters from "../AnimatedLetters";
 
 const About = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
@@ -14,7 +15,7 @@ const About = () => {
   return (
     <>
       <div className="about-page" id="about">
-        <div className="text-zone">
+        <div className="header-zone">
           <div className="title">
             <h1>
               <AnimatedLetters
@@ -100,6 +101,8 @@ const About = () => {
           </div>
         </div>
       </div>
+      <ArrowToTop />
+      <Loader type="ball-pulse" />
     </>
   );
 };

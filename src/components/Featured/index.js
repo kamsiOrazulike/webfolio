@@ -1,7 +1,7 @@
 import "./index.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import homeScreen from "../../assets/portfolio-imgs/SoundcloudUI/SouncloudHome.png";
+import homeScreen from "../../assets/portfolio-imgs/SoundcloudUI/SoundcloudHome.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
 import AnimatedLetters from "../AnimatedLetters";
@@ -17,7 +17,7 @@ const FeaturedProject = () => {
   return (
     <>
       <div className="featured-page" id="featured">
-        <div className="text-zone">
+        <div className="header-zone">
           <div className="title">
             <h1 id="top">
               <AnimatedLetters

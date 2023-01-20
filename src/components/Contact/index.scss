@@ -1,4 +1,5 @@
 .contact-page {
+  height: 76vh;
   background: #c8c8c8;
   align-items: center;
   justify-content: space-around;
@@ -7,7 +8,7 @@
     flex-direction: column;
   }
 
-  .text-zone {
+  .header-zone {
     width: 30%;
     display: flex;
     flex-wrap: wrap;

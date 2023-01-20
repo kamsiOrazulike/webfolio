@@ -2,8 +2,8 @@ import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
 import { Link } from "react-router-dom";
-import homeScreen from "../../../assets/portfolio-imgs/SoundcloudUI/SouncloudHome.png";
-import originalHome from "../../../assets/portfolio-imgs/SoundcloudUI/originalHomeScreen.png";
+import homeScreen from "../../../assets/portfolio-imgs/SoundcloudUI/SoundcloudHome.png";
+// import originalHome from "../../../assets/portfolio-imgs/SoundcloudUI/originalHomeScreen.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
 import AnimatedLetters from "../../AnimatedLetters";
@@ -42,8 +42,7 @@ const SoundCloudProject = () => {
   return (
     <>
       <div className="projects-page">
-      <div className="previous-link"><Link className="text" to={"../projects"}> Previous </Link></div>
-        <div className="text-zone">
+        <div className="header-zone">
           <h1 id="top">
             <AnimatedLetters
               CharArray={TitleArray}
@@ -53,62 +52,49 @@ const SoundCloudProject = () => {
           </h1>
           <h2> Project duration: 1 month (ongoing) </h2>
         </div>
-        <img src={homeScreen} className="project-img" alt="project1" />
 
         <div className="overview">
-          <div className="role">
-            <h3 className="overview-subheaders">Role</h3>
-            <ul style={{ "listStyle": "none" }}>
-              <li>
-                <b>UX Designer: </b> Idea Generation, Design, Wireframing
-              </li>
-            </ul>
+          <div className="message">
+            <h3> Overview </h3>
+            <p>
+              Rudo, a musician and avid Souncloud user, wishes that it was
+              easier for her to to find out what her friends listen to and post.
+              Her friends are also musicians, who use Souncloud to post their
+              music and follow the sound of their community.
+              <br /> <br />
+              Rudo asked me if it were possible that the Souncloud interface was
+              redesigned to make it easier to find other playlist and/or
+              musicians.
+            </p>
           </div>
-          <div className="tools">
-            <h3 className="overview-subheaders">Tools</h3>
-            <ul style={{ "listStyle": "none" }}>
-              <li>
-                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
-              </li>
-            </ul>
-          </div>
-
-          <div className="goals">
-            <h3 className="overview-subheaders">Goals</h3>
-            <ul style={{ "listStyle": "numbers" }}>
-              <li>
-                To deliver a holistic, valuable and user-centric experience that
-                guides both Soundcloud artists and listeners through the
-                interface.
-              </li>
-              <li>
-                To <i>minimise</i> time spent for new users to navigate the
-                application and prioritise the finding of new artists. Taking
-                inspiration from the twitter application layout.
-              </li>
-            </ul>
+          <div className="wrapper">
+            <div className="role">
+              <h3>Role</h3>
+              <p>
+                User Research <br />
+                Visuals <br />
+                Interactions <br />
+                Prototyping <br />
+                Usability <br />
+                Testing
+              </p>
+            </div>
+            <div className="tools">
+              <h3>Tools</h3>
+              <p>
+                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
+              </p>
+            </div>
           </div>
         </div>
 
-        <div className="overview-col">
+        <img src={homeScreen} className="project-img" alt="project1" />
+
+        {/* <div className="overview-col">
           <div className="message">
             <h3 className="overview-subheaders">About the Project</h3>
-            <ul style={{ "listStyle": "none" }}>
-              <li>
-                Rudo, a musician and avid Souncloud user, wishes that it was
-                easier for her to to find out what her friends listen to and
-                post. Her friends are also musicians, who use Souncloud to post
-                their music and follow the sound of their community. <br />
-              </li>
-              <hr />
-              <li>
-                Rudo asked me if it were possible that the Souncloud interface
-                was redesigned to make it easier to find other playlist and/or
-                musicians.
-              </li>
-            </ul>
           </div>
-          <>
+          <div className="wrapper">
             <img
               src={homeScreen}
               className="subphoto"
@@ -119,8 +105,12 @@ const SoundCloudProject = () => {
               className="subphoto"
               alt="originalHomeScreen"
             />
-          </>
-        </div>
+          </div>
+        </div> */}
+
+        <Link className="button-link" to={"../projects"}>
+          Back to All Projects
+        </Link>
       </div>
       <Loader type="ball-pulse" />
     </>

@@ -3,7 +3,7 @@ import { useState } from "react";
 import Loader from "react-loaders";
 import { Link } from "react-router-dom";
 import AnimatedLetters from "../AnimatedLetters";
-import SoundcloudUI from "../../assets/portfolio-imgs/SoundcloudUI/SouncloudHome.png";
+import SoundcloudUI from "../../assets/portfolio-imgs/SoundcloudUI/SoundcloudHome.png";
 import GoGenesisUI from "../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
 // import HON from "../../assets/imgs/cardbackdesign.png";
 // import Oasis from "../../assets/imgs/OasisFinal.png";
@@ -21,7 +21,7 @@ const Projects = () => {
   return (
     <>
       <div className="projects-page">
-        <div className="text-zone">
+        <div className="header-zone">
           <h1 id="top">
             <AnimatedLetters
               CharArray={[

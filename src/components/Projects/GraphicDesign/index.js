@@ -14,7 +14,7 @@ const GraphicDesignPage = () => {
   return (
     <>
       <div className="container projects-page">
-        <div className="text-zone">
+        <div className="header-zone">
           <h1 id="top">
             <AnimatedLetters
               CharArray={["M", "y", " ", "D", "e", "s", "i", "g", "n", "s"]}

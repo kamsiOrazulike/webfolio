@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact-page" id="contact">
-        <div className="text-zone">
+        <div className="header-zone">
           <h1>
             <AnimatedLetters
               CharArray={["L", "e", "t", "s", " ", "T", "a", "l", "k", "!"]}
