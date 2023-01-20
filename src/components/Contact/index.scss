@@ -1,6 +1,7 @@
 .contact-page {
-  height: 76vh;
+  padding: 14.6rem 0;
   background: #c8c8c8;
+  flex-direction: row;
   align-items: center;
   justify-content: space-around;
 
@@ -14,6 +15,8 @@
     flex-wrap: wrap;
     position: relative;
     text-align: left;
+    justify-content: space-evenly;
+
 
     h1 {
       width: 100%;
@@ -45,6 +48,11 @@
   .contact-form {
     width: 60%;
     display: flex;
+
+    @media screen and (max-width: 800px) {
+      width: 90%;
+      padding: 0px;
+    }
 
     ul {
       padding: 0;
@@ -122,22 +130,6 @@
         background-color: #21232a;
         transition-duration: 0.3s;
       }
-    }
-
-    @media screen and (max-width: 800px) {
-      width: 90%;
-      padding: 0px;
-    }
-  }
-
-  .imageMeme {
-    position: absolute;
-    bottom: 20%;
-    right: 0%;
-    z-index: 0;
-
-    @media screen and (max-width: 768px) {
-      display: none;
     }
   }
 }

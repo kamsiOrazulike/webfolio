@@ -1,4 +1,3 @@
-import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
 import { Link } from "react-router-dom";
@@ -72,11 +71,10 @@ const SoundCloudProject = () => {
               <h3>Role</h3>
               <p>
                 User Research <br />
+                Interface Design <br />
                 Visuals <br />
-                Interactions <br />
                 Prototyping <br />
-                Usability <br />
-                Testing
+                Wireframing <br />
               </p>
             </div>
             <div className="tools">

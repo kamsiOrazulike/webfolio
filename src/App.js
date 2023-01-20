@@ -11,10 +11,8 @@ import GraphicDesigns from './components/Projects/GraphicDesign'
 import HeirsOfNakamoto from './components/Projects/HeirsProject'
 import LBC from './components/Projects/LBCPage'
 import Oasis from './components/Projects/OasisPage'
-
-
-
 import { Route, Routes } from 'react-router-dom'
+
 
 function App() {
   return (

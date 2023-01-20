@@ -29,7 +29,7 @@ const Home = () => {
     <>
       <div className="home-page">
         <div className="header-zone">
-          <h1 className="introduction" id="top">
+          <h1 id="top">
             <span className={CharClass}>H</span>
             <span className={`${CharClass} _12`}>i</span>
             <span className={`${CharClass} _13`}>,</span>

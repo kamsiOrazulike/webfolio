@@ -40,6 +40,8 @@
     justify-content: center;
     position: relative;
     font-size: 1.9rem;
+    animation: fadeIn 2s 2s backwards;
+
 
     @media screen and (max-width: 800px) {
       width: 100%;

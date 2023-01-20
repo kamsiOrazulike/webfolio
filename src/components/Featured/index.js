@@ -28,44 +28,43 @@ const FeaturedProject = () => {
             </h1>
             <h2> Project duration: 1 month (ongoing) </h2>
           </div>
+          <div className="overview">
+            <div className="goals">
+              <h3>Goal</h3>
+              <p>
+                To deliver a holistic, valuable and user-centric experience that
+                guides both Soundcloud artists and listeners through the
+                application
+                <br /> <br />
+                To minimise time spent for new users to navigate the application
+                and prioritise the finding of new artists by adopting the
+                twitter style formatting
+              </p>
+            </div>
+
+            <div className="wrapper">
+              <div className="role">
+                <h3>Role</h3>
+                <p>
+                  UI Design <br /> Idea Generation <br /> Prototyping <br />
+                  Wireframing
+                </p>
+              </div>
+              <div className="tools">
+                <h3>Tools</h3>
+                <p>
+                  <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
+                </p>
+              </div>
+            </div>
+
+            <Link to="/projects" className="button-link">
+              To all Projects
+            </Link>
+          </div>
 
           <img src={homeScreen} className="project" alt="project1" />
 
-          <div className="overview">
-            <div className="role">
-              <h3 className="overview-subheaders">Role</h3>
-              <ul style={{ "listStyle": "none" }}>
-                <li>
-                  <b>UX Designer: </b> Idea Generation, Design, Wireframing
-                </li>
-              </ul>
-            </div>
-            <div className="tools">
-              <h3 className="overview-subheaders">Tools</h3>
-              <ul style={{ "listStyle": "none" }}>
-                <li>
-                  <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
-                </li>
-              </ul>
-            </div>
-
-            <div className="goals">
-              <h3 className="overview-subheaders">Goals</h3>
-              <ul style={{ "listStyle": "numbers" }}>
-                <li>
-                  To deliver a holistic, valuable and user-centric experience
-                  that guides both Soundcloud artists and listeners through the
-                  application
-                </li>
-                <li>
-                  To minimise time spent for new users to navigate the
-                  application and prioritise the finding of new artists by
-                  adopting the twitter style formatting
-                </li>
-              </ul>
-            </div>
-            <Link to="/projects" className="button-link"> See more </Link>
-          </div>
         </div>
       </div>
     </>

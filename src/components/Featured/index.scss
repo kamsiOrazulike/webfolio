@@ -4,7 +4,7 @@
   transform-style: preserve-3d;
   animation: fadeIn 1.5s forwards;
   animation-delay: 1s;
-  
+
   .header-zone {
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,41 +29,63 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      border-radius: 8px;
       position: relative;
       font-size: 1.9rem;
+      animation: fadeIn 2s 2s backwards;
+
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        z-index: 9999;
+        width: 80%;
+        padding: 2rem 3rem;
+      }
+
+      .wrapper {
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+
+        @media screen and (max-width: 800px) {
+          width: 100%;
+          text-align: left;
+          font-size: 1.4rem;
+        }
+      }
+
+      h1 {
+        font-size: 2.6rem;
+        text-transform: uppercase;
+      }
 
       .message,
       .goals,
       .role,
       .tools {
-        width: 95%;
+        width: 70%;
         display: flex;
         flex-direction: column;
-      }
 
-      h3.overview-subheaders {
-        font-size: 2.1rem;
-        color: #000000;
-        margin-bottom: 0px;
-        font-weight: 500;
-        margin-left: 2rem;
-        text-decoration: wavy;
-      }
+        h3 {
+          font-size: 1.8rem;
+          text-transform: uppercase;
+          color: #000000;
+          margin-bottom: 0px;
+          font-weight: 800;
+          text-decoration: wavy;
+        }
 
-      @media screen and (max-width: 800px) {
-        flex-direction: column;
-        z-index: 9999;
-        width: 80%;
-        padding: 2rem 3rem;
+        p {
+          margin: 1rem 0;
+        }
 
-        .message,
-        .goals,
-        .role,
-        .tools {
+        @media screen and (max-width: 800px) {
           width: 100%;
-          display: flex;
-          flex-direction: column;
+          font-size: 1.4rem;
         }
       }
     }
