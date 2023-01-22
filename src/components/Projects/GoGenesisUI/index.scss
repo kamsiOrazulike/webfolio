@@ -2,6 +2,17 @@
   height: auto;
   padding: 0px;
 
+  .intro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
   .project-detail {
     display: flex;
     flex-direction: column;
@@ -31,7 +42,7 @@
     height: auto;
 
     @media screen and (max-width: 800px) {
-      width: 400px;
+      width: 250px;
     }
   }
 
@@ -59,7 +70,7 @@
     }
 
     .wrapper {
-      width: 70%;
+      width: 90%;
       display: flex;
       flex-direction: row;
       align-items: flex-start;
@@ -81,7 +92,7 @@
     .goals,
     .role,
     .tools {
-      width: 70%;
+      width: 90%;
       display: flex;
       flex-direction: column;
 

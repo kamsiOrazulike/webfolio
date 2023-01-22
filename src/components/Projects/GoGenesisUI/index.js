@@ -28,7 +28,7 @@ const OpeningScreen = () => {
       </div>
       <div className="overview-col">
         <img src={drawings} className="sketches" alt="mySketches" />
-        <p style={{ margin: "auto", padding: "2rem 0 4rem 0" }}>
+        <p style={{ margin: "auto", padding: "2rem 0 4rem 0", fontSize: "1.5rem" }}>
           <i>
             Keeping the company goals in mind, I started sketching my ideas.{" "}
           </i>
@@ -105,45 +105,41 @@ const MainPages = () => {
       <div className="header-zone">
         <h1>Main page</h1>
       </div>
-      <div className="overview">
-        <div className="message" style={{ top: "20%" }}>
-          <h3>The importance of spacing</h3>
-          <p>
-            When it came to deciding on how much white space was too much white
-            space, that was a challenge altogether. It is paramount in my design
-            that I use a spacing system that brings about a sense of
-            <b> consistency</b> and <b>harmony</b> to the UI. <br /> <br />I
-            mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
-            so on.
-          </p>
+      <div className="intro">
+        <div className="overview">
+          <div className="message" style={{ top: "20%" }}>
+            <h3>The importance of spacing</h3>
+            <p>
+              When it came to deciding on how much white space was too much
+              white space, that was a challenge altogether. It is paramount in
+              my design that I use a spacing system that brings about a sense of
+              <b> consistency</b> and <b>harmony</b> to the UI. <br /> <br />I
+              mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
+              so on.
+            </p>
+          </div>
+          <div className="hd"></div>
+          <div className="message" style={{ top: "20%" }}>
+            <h3>Consistency in Design</h3>
+            <p>
+              With the general interface I aimed to be flexible with device UI
+              guidelines and behaviors. For the prototype specificlally I
+              focused on the iPhone 13 Pro and used the devices measurements to
+              set my UI guidelines and behaviors. I also drew inspiration from
+              similar apps/sites such as JustEat, UberEats, Jumia Foods and
+              Dominoes. Infusing different aspects of their UI that I found
+              useful with my own design. Doing this helps assure a user’s
+              assumptions about the user interface and creating a sense of
+              control and familiarity, for my user.
+            </p>
+          </div>
         </div>
-        <div className="hd"></div>
-        <div className="message" style={{ top: "20%" }}>
-          <h3>Consistency in Design</h3>
-          <p>
-            With the general interface I aimed to be flexible with device UI
-            guidelines and behaviors. For the prototype specificlally I focused
-            on the iPhone 13 Pro and used the devices measurements to set my UI
-            guidelines and behaviors. I also drew inspiration from similar
-            apps/sites such as JustEat, UberEats, Jumia Foods and Dominoes.
-            Infusing different aspects of their UI that I found useful with my
-            own design. Doing this helps assure a user’s assumptions about the
-            user interface and creating a sense of control and familiarity, for
-            my user.
-          </p>
-        </div>
-        <a
-          className="button-link"
-          href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
-        >
-          Prototype available on Figma!
-        </a>
+        <img
+          src={mainPageDelivery}
+          className="project-img"
+          alt="mainPageDelivery"
+        />
       </div>
-      <img
-        src={mainPageDelivery}
-        className="project-img"
-        alt="mainPageDelivery"
-      />
     </>
   );
 };
@@ -169,59 +165,62 @@ const GoGenesisProject = () => {
           </h1>
           <h2> Project duration: 1 month (ongoing) </h2>
         </div>
-        <div className="overview">
-          <div className="message">
-            <h3> Overview </h3>
-            <p>
-              Genesis Group is a Hospitality and Entertainment company in
-              Nigeria, with business interests in Hotels, Restaurants, Cinemas,
-              Shopping Malls, Property Development, Outdoor Catering, Industrial
-              Catering/Camp Management and Food Production.
-              <br /> <br />
-              The company is going through a phase where more innovative and
-              creative business solutions are paramount. I was hired to work
-              alongside the Innovative Strategy team made up of two Software
-              developers and one Operations manager. We also worked in
-              conjunction with the Marketing team of the company.
-            </p>
-          </div>
-          <div className="wrapper">
-            <div className="role">
-              <h3>Role</h3>
+        <div className="intro" style={{ margin: "3rem 0 0 0" }}>
+          <img src={homeScreen} className="project-img" alt="projectimage" />
+          <div className="overview">
+            <div className="message">
+              <h3> Overview </h3>
               <p>
-                User Research <br />
-                Visuals <br />
-                Interactions <br />
-                Prototyping <br />
-                Usability <br />
-                Testing
+                Genesis Group is a Hospitality and Entertainment company in
+                Nigeria, with business interests in Hotels, Restaurants,
+                Cinemas, Shopping Malls, Property Development, Outdoor Catering,
+                Industrial Catering/Camp Management and Food Production.
+                <br /> <br />
+                The company is going through a phase where more innovative and
+                creative business solutions are paramount. I was hired to work
+                alongside the Innovative Strategy team made up of two Software
+                developers and one Operations manager. We also worked in
+                conjunction with the Marketing team of the company.
               </p>
             </div>
-            <div className="tools">
-              <h3>Tools</h3>
-              <p>
-                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
-                <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> &nbsp;CSS/SCSS
-                <br />
-                <FontAwesomeIcon icon={faHtml5} color="#F06529" /> &nbsp; HTML5
-                <br />
-                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> &nbsp;
-                JavaScript
-                <br />
-                <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> &nbsp;
-                React/React Native
-                <br />
-              </p>
+            <div className="wrapper">
+              <div className="role">
+                <h3>Role</h3>
+                <p>
+                  User Research <br />
+                  Visuals <br />
+                  Interactions <br />
+                  Prototyping <br />
+                  Usability Testing <br />
+                </p>
+              </div>
+              <div className="tools">
+                <h3>Tools</h3>
+                <p>
+                  <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
+                  <FontAwesomeIcon icon={faCss3} color="#28A4D9" />{" "}
+                  &nbsp;CSS/SCSS
+                  <br />
+                  <FontAwesomeIcon icon={faHtml5} color="#F06529" /> &nbsp;
+                  HTML5
+                  <br />
+                  <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> &nbsp;
+                  JavaScript
+                  <br />
+                  <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> &nbsp;
+                  React/React Native
+                  <br />
+                </p>
+              </div>
             </div>
+            <a
+              className="button-link"
+              href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
+            >
+              Check it out on Figma!
+            </a>
           </div>
-          <a
-            className="button-link"
-            href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
-          >
-            Check it out on Figma!
-          </a>
         </div>
-        <img src={homeScreen} className="project-img" alt="projectimage" />
 
         <div className="hd"></div>
         {<OpeningScreen />}

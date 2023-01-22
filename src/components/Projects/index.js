@@ -45,7 +45,7 @@ const Projects = () => {
 
             <div className="project-overview">
               <h1> Soundcloud UI Redesign </h1>
-              <h2> Project duration: 1 month (ongoing) </h2>
+              <h2> Project duration: 2 weeks (ongoing) </h2>
               <Link to="/projectsoundcloud">
                 <img src={SoundcloudUI} className="cover" alt="project1" />
               </Link>
@@ -53,7 +53,7 @@ const Projects = () => {
 
             <div className="project-overview">
               <h1> Go Genesis! UI Design </h1>
-              <h2> Project duration: 1 year </h2>
+              <h2> Project duration: 1 month (ongoing) </h2>
               <Link to="/projectgogenesis">
                 <img src={GoGenesisUI} className="cover" alt="project1" />
               </Link>

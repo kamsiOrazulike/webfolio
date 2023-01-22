@@ -4,7 +4,13 @@ import { Link } from "react-router-dom";
 import soundcloudHome from "../../assets/portfolio-imgs/SoundcloudUI/SoundcloudHome.png";
 import genesisHome from "../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFigma } from "@fortawesome/free-brands-svg-icons";
+import {
+  faFigma,
+  faCss3,
+  faHtml5,
+  faJsSquare,
+  faReact,
+} from "@fortawesome/free-brands-svg-icons";
 import AnimatedLetters from "../AnimatedLetters";
 
 const FeaturedProject = () => {
@@ -90,14 +96,29 @@ const FeaturedProject = () => {
                 <div className="role">
                   <h3>Role</h3>
                   <p>
-                    UI Design <br /> Idea Generation <br /> Prototyping <br />
-                    Wireframing
+                    User Research <br />
+                    Visuals <br />
+                    Interactions <br />
+                    Prototyping <br />
+                    Usability Testing <br />
                   </p>
                 </div>
                 <div className="tools">
                   <h3>Tools</h3>
                   <p>
-                    <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
+                    <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
+                    <FontAwesomeIcon icon={faCss3} color="#28A4D9" />{" "}
+                    &nbsp;CSS/SCSS
+                    <br />
+                    <FontAwesomeIcon icon={faHtml5} color="#F06529" /> &nbsp;
+                    HTML5
+                    <br />
+                    <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> &nbsp;
+                    JavaScript
+                    <br />
+                    <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> &nbsp;
+                    React/React Native
+                    <br />
                   </p>
                 </div>
               </div>
