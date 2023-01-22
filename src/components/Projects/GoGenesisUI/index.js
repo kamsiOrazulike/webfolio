@@ -1,6 +1,7 @@
 import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
+import ArrowToTop from "../../ArrowToTop";
 import { Link } from "react-router-dom";
 import homeScreen from "../../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
 import tutorialScreen2 from "../../../assets/portfolio-imgs/GenesisUI/tutorial2.png";
@@ -28,7 +29,13 @@ const OpeningScreen = () => {
       </div>
       <div className="overview-col">
         <img src={drawings} className="sketches" alt="mySketches" />
-        <p style={{ margin: "auto", padding: "2rem 0 4rem 0", fontSize: "1.5rem" }}>
+        <p
+          style={{
+            margin: "auto",
+            padding: "2rem 0 4rem 0",
+            fontSize: "1.5rem",
+          }}
+        >
           <i>
             Keeping the company goals in mind, I started sketching my ideas.{" "}
           </i>
@@ -155,7 +162,7 @@ const GoGenesisProject = () => {
   return (
     <>
       <div className="projects-page">
-        <div className="header-zone">
+        <div className="header-zone" id="top">
           <h1 id="top">
             <AnimatedLetters
               CharArray={TitleArray}
@@ -213,12 +220,14 @@ const GoGenesisProject = () => {
                 </p>
               </div>
             </div>
-            <a
-              className="button-link"
-              href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
-            >
-              Check it out on Figma!
-            </a>
+            <div className="link-group">
+              <a
+                className="button-link"
+                href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
+              >
+                Check out on Figma!
+              </a>
+            </div>
           </div>
         </div>
 
@@ -232,6 +241,8 @@ const GoGenesisProject = () => {
         <Link className="button-link" to={"../projects"}>
           Back to All Projects
         </Link>
+
+        <ArrowToTop />
       </div>
       <Loader type="ball-pulse" />
     </>

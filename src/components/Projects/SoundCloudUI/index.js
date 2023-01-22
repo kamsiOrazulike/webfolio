@@ -52,48 +52,50 @@ const SoundCloudProject = () => {
           <h2> Project duration: 2 weeks (ongoing) </h2>
         </div>
 
-        <div className="overview">
-          <div className="message">
-            <h3> Overview </h3>
-            <p>
-              Rudo, a musician and avid Souncloud user, wishes that it was
-              easier for her to to find out what her friends listen to and post.
-              Her friends are also musicians, who use Souncloud to post their
-              music and follow the sound of their community.
-              <br /> <br />
-              Rudo asked me if it were possible that the Souncloud interface was
-              redesigned to make it easier to find other playlist and/or
-              musicians.
-            </p>
-          </div>
-          <div className="wrapper">
-            <div className="role">
-              <h3>Role</h3>
+        <div className="intro" style={{ margin: "3rem 0 0 0" }}>
+          <img src={homeScreen} className="project-img" alt="project1" />
+          <div className="overview">
+            <div className="message">
+              <h3> Overview </h3>
               <p>
-                User Research <br />
-                Interface Design <br />
-                Visuals <br />
-                Prototyping <br />
-                Wireframing <br />
+                Rudo, a musician and avid Souncloud user, wishes that it was
+                easier for her to to find out what her friends listen to and
+                post. Her friends are also musicians, who use Souncloud to post
+                their music and follow the sound of their community.
+                <br /> <br />
+                Rudo asked me if it were possible that the Souncloud interface
+                was redesigned to make it easier to find other playlist and/or
+                musicians.
               </p>
             </div>
-            <div className="tools">
-              <h3>Tools</h3>
-              <p>
-                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
-              </p>
+            <div className="wrapper">
+              <div className="role">
+                <h3>Role</h3>
+                <p>
+                  User Research <br />
+                  Interface Design <br />
+                  Visuals <br />
+                  Prototyping <br />
+                  Wireframing <br />
+                </p>
+              </div>
+              <div className="tools">
+                <h3>Tools</h3>
+                <p>
+                  <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
+                </p>
+              </div>
+            </div>
+            <div className="link-group">
+              <a
+                className="button-link"
+                href="https://www.figma.com/file/ybsBzSUF4uKPrhMfqBmUyN/My-Soundcloud-re-Design?node-id=0%3A1&t=rjtVfVUAjtXyu9S4-1"
+              >
+                Check it out on Figma!
+              </a>
             </div>
           </div>
-
-          <a
-            className="button-link"
-            href="https://www.figma.com/file/ybsBzSUF4uKPrhMfqBmUyN/My-Soundcloud-re-Design?node-id=0%3A1&t=rjtVfVUAjtXyu9S4-1"
-          >
-            Check it out on Figma!
-          </a>
         </div>
-
-        <img src={homeScreen} className="project-img" alt="project1" />
 
         {/* <div className="overview-col">
           <div className="message">
