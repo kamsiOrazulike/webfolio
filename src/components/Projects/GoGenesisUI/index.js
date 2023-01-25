@@ -10,6 +10,13 @@ import accountPage from "../../../assets/portfolio-imgs/GenesisUI/accountPage.pn
 import mainPageDelivery from "../../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
 import drawings from "../../../assets/portfolio-imgs/GenesisUI/flowDiagram.jpg";
 import login from "../../../assets/portfolio-imgs/GenesisUI/login.png";
+import closerLook1 from "../../../assets/portfolio-imgs/GenesisUI/acloserlook-spacing.png";
+import homeIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/HomeIcon.png";
+import searchIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/SearchIcon.png";
+import basketIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/BasketIcon.png";
+import accountIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/AccountIcon.png";
+import deliveryToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic.png";
+import collectToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic2.png";
 import createAccount from "../../../assets/portfolio-imgs/GenesisUI/createAccount.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -54,9 +61,14 @@ const OpeningScreen = () => {
           <div className="message">
             <h3>Colour and Alliteration</h3>
             <p>
-              It was important that these initial <i>tutorial-like</i> pages
-              were engaging and memorable not only through the graphics/visuals
-              but also through the use of language/text.
+              It was important that these initial <b>tutorial-like</b> pages
+              were <b>engaging</b> and <b>memorable</b> not only through the
+              graphics/visuals but also through the use of language/text.
+            </p>
+            <p>
+              I used short alliterative phrases such as "Click and Collect" and
+              "Drive to Deliver" in my design to achieve this. Whilst repeating
+              the colour style for each header and spacing between each element
             </p>
           </div>
         </div>
@@ -102,6 +114,63 @@ const AccountPages = () => {
           <img src={accountPage} className="subphoto" alt="accountPage" />
         </div>
       </div>
+
+      <div className="rowDiv">
+        <div className="overview">
+          <div className="message" style={{ top: "20%" }}>
+            <h3>Gestalt Principle: Law of similarity</h3>
+            <p>
+              Continuing on my use of spacing, this was paramount to allow my
+              user to be able to percieve certain elements as a group in the
+              application. Hence creating a more readable interface since all
+              the elements that are similar/function together are grouped
+              together.
+            </p>
+          </div>
+          <div className="wrapper" style={{ margin: "2rem 0" }}>
+            <div className="message" style={{ top: "20%" }}>
+              <p>
+                I chose to group the elements where:
+                <ul>
+                  <li> The user can decide to become a member. </li>
+                  <li>
+                    The user puts in their login details or
+                    <b> continues as a guest</b>.
+                  </li>
+                  <li> The user signs in using another application. </li>
+                </ul>
+              </p>
+            </div>
+            <img src={closerLook1} className="zoomedimg" alt="acloserlook1" />
+          </div>
+          <div className="message">
+            <p>
+              - those were the main <b>element groups</b> that I need the user
+              to focus on.
+              <br />
+              It was then easier for me to order each grouped element by actions
+              with the highest priority - which would I like the user to see and
+              interact with first.
+            </p>
+          </div>
+          <div className="hd"></div>
+          <div className="wrapper" style={{ margin: "2rem 0" }}>
+            <img src={closerLook1} className="zoomedimg" alt="acloserlook1" />
+            <div className="message">
+              <h3>Lack of detail</h3>
+              <p>
+                Intentionally, the
+                <b> continue as guest</b> option from a design perspective was
+                given less attention in order to bring my users attention to
+                other elements on the page such as Becoming a member, signing in
+                as an existing user or signing in using other applications to
+                fill in user details.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img src={login} className="project-img" alt="mainPageDelivery" />
+      </div>
     </div>
   );
 };
@@ -112,8 +181,36 @@ const MainPages = () => {
       <div className="header-zone">
         <h1>Main page</h1>
       </div>
-      <div className="intro">
+      <div className="rowDiv">
+        <img
+          src={mainPageDelivery}
+          className="project-img"
+          alt="mainPageDelivery"
+        />
+
         <div className="overview">
+          <div className="message">
+            <h3> Toggle graphic </h3>
+            <p>
+              A delivery man and collection item graphic I drew using Adobe
+              Illustrate.
+            </p>
+            <div className="wrapper">
+              <img
+                src={deliveryToggle}
+                style={{ background: "#111213", padding: "2rem" }}
+                className="zoomedimg"
+                alt="deliverytoggle"
+              />
+              <img
+                src={collectToggle}
+                style={{ background: "#111213", padding: "2rem" }}
+                className="zoomedimg"
+                alt="deliverytoggle"
+              />
+            </div>
+          </div>
+          <div className="hd"></div>
           <div className="message" style={{ top: "20%" }}>
             <h3>The importance of spacing</h3>
             <p>
@@ -127,27 +224,76 @@ const MainPages = () => {
           </div>
           <div className="hd"></div>
           <div className="message" style={{ top: "20%" }}>
-            <h3>Consistency in Design</h3>
+            <h3>Consistency</h3>
+            <p>
+              <b>Goal</b>: To keep interface design in close similarity to
+              existing food delivery applications in order to make it easier for
+              user to navigate through.
+            </p>
             <p>
               With the general interface I aimed to be flexible with device UI
               guidelines and behaviors. For the prototype specificlally I
               focused on the iPhone 13 Pro and used the devices measurements to
               set my UI guidelines and behaviors. I also drew inspiration from
-              similar apps/sites such as JustEat, UberEats, Jumia Foods and
-              Dominoes. Infusing different aspects of their UI that I found
-              useful with my own design. Doing this helps assure a user’s
-              assumptions about the user interface and creating a sense of
-              control and familiarity, for my user.
+              similar apps/sites such as <b>JustEat</b>, <b>UberEats</b>,{" "}
+              <b>Jumia Foods</b> and
+              <b> Dominoes</b>. Infusing different aspects of their UI that I
+              found useful with my own design.
+              <br />
+              <br />
+              Doing this helps assure my user’s assumptions about the interface
+              and creating a sense of control and familiarity for them.
             </p>
           </div>
         </div>
-        <img
-          src={mainPageDelivery}
-          className="project-img"
-          alt="mainPageDelivery"
-        />
       </div>
     </>
+  );
+};
+
+const DockItems = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1>Dock Items</h1>
+      </div>
+      <div className="overview-col">
+        <div className="wrapper">
+          <div className="message">
+            <h3>Simplicity</h3>
+            <p>
+              In general, navigation through an application is made easier using
+              a dock with components that specify what the user should expect
+              after interacting with a specific component. I chose to use a dock
+              for this project because the user would require access to
+              different pages on the app.
+            </p>
+          </div>
+          <div className="vd"></div>
+          <div className="message">
+            <h3>Modes</h3>
+            <p>
+              Each of these elements have:
+              <ul>
+                <li> Light mode version.png </li>
+                <li> Dark mode version.png - below</li>
+                <li>
+                  Selected version.png (Highlighted Red) as can view in the
+                  prototypes.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+
+        <div className="wrapper">
+          <img src={homeIcon} className="iconphoto" alt="dockicons" />
+          <img src={searchIcon} className="iconphoto" alt="dockicons" />
+          <img src={basketIcon} className="iconphoto" alt="dockicons" />
+          <img src={accountIcon} className="iconphoto" alt="dockicons" />
+        </div>
+      </div>
+    </div>
   );
 };
 
@@ -172,7 +318,7 @@ const GoGenesisProject = () => {
           </h1>
           <h2> Project duration: 1 month (ongoing) </h2>
         </div>
-        <div className="intro" style={{ margin: "3rem 0 0 0" }}>
+        <div className="rowDiv">
           <img src={homeScreen} className="project-img" alt="projectimage" />
           <div className="overview">
             <div className="message">
@@ -237,6 +383,8 @@ const GoGenesisProject = () => {
         {<AccountPages />}
         <div className="hd"></div>
         {<MainPages />}
+        <div className="hd"></div>
+        {<DockItems />}
 
         <Link className="button-link" to={"../projects"}>
           Back to All Projects
