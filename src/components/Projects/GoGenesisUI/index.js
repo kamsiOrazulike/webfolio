@@ -157,7 +157,7 @@ const AccountPages = () => {
           <div className="wrapper" style={{ margin: "2rem 0" }}>
             <img src={closerLook1} className="zoomedimg" alt="acloserlook1" />
             <div className="message">
-              <h3>Lack of detail</h3>
+              <h3>Designing for attention</h3>
               <p>
                 Intentionally, the
                 <b> continue as guest</b> option from a design perspective was
@@ -307,7 +307,7 @@ const GoGenesisProject = () => {
 
   return (
     <>
-      <div className="projects-page">
+      <div className="projects-page go-genesis">
         <div className="header-zone" id="top">
           <h1 id="top">
             <AnimatedLetters

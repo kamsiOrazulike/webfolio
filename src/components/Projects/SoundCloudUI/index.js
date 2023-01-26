@@ -1,3 +1,4 @@
+import "./index.scss";
 import { useState } from "react";
 import Loader from "react-loaders";
 import { Link } from "react-router-dom";
@@ -40,8 +41,8 @@ const SoundCloudProject = () => {
 
   return (
     <>
-      <div className="projects-page">
-        <div className="header-zone">
+      <div className="projects-page soundcloud-ui">
+        <div className="header-zone" id="top">
           <h1 id="top">
             <AnimatedLetters
               CharArray={TitleArray}
@@ -52,7 +53,7 @@ const SoundCloudProject = () => {
           <h2> Project duration: 2 weeks (ongoing) </h2>
         </div>
 
-        <div className="intro" style={{ margin: "3rem 0 0 0" }}>
+        <div className="rowDiv">
           <img src={homeScreen} className="project-img" alt="project1" />
           <div className="overview">
             <div className="message">
