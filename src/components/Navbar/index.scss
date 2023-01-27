@@ -7,10 +7,11 @@
   font-size: 1rem;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 9999;
 
   @media screen and (max-width: 960px) {
     transition: all 0.8s ease;
+    z-index: 9999;
   }
 
   .home-icon {
@@ -58,10 +59,11 @@
     padding: 0 24px 0 24px;
     max-width: 1200px;
     position: relative;
-    z-index: 99999;
+    z-index: 9999999;
 
     @media screen and (max-width: 768px) {
       padding: 0;
+      z-index: 9999999;
     }
 
     .to-section {
