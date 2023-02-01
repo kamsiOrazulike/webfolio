@@ -116,9 +116,15 @@ const SoundCloudProject = () => {
           </div>
         </div> */}
 
-        <Link className="button-link" to={"../projects"}>
-          Back to All Projects
-        </Link>
+        <div className="buttonlink-group">
+          <Link className="button-link" to={"contact"}>
+            Contact me
+          </Link>
+          <Link className="button-link" to={"../projects"}>
+            Back to All Projects
+          </Link>
+        </div>
+        
       </div>
       <Loader type="ball-pulse" />
     </>

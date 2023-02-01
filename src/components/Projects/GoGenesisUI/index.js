@@ -8,6 +8,8 @@ import tutorialScreen2 from "../../../assets/portfolio-imgs/GenesisUI/tutorial2.
 import tutorialScreen3 from "../../../assets/portfolio-imgs/GenesisUI/tutorial3.png";
 import accountPage from "../../../assets/portfolio-imgs/GenesisUI/accountPage.png";
 import mainPageDelivery from "../../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
+import chosenMeal from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal.png";
+// import chosenMeal2 from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal2.png";
 import drawings from "../../../assets/portfolio-imgs/GenesisUI/flowDiagram.jpg";
 import login from "../../../assets/portfolio-imgs/GenesisUI/login.png";
 import closerLook1 from "../../../assets/portfolio-imgs/GenesisUI/acloserlook-spacing.png";
@@ -116,6 +118,8 @@ const AccountPages = () => {
       </div>
 
       <div className="rowDiv">
+        <img src={login} className="project-img" alt="mainPageDelivery" />
+
         <div className="overview">
           <div className="message" style={{ top: "20%" }}>
             <h3>Gestalt Principle: Law of similarity</h3>
@@ -169,7 +173,48 @@ const AccountPages = () => {
             </div>
           </div>
         </div>
-        <img src={login} className="project-img" alt="mainPageDelivery" />
+      </div>
+    </div>
+  );
+};
+
+const UserJourney = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1>User Journey</h1>
+      </div>
+    </div>
+  );
+};
+
+const OrderDetails = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1>Order creation </h1>
+      </div>
+      <div className="overview-col">
+        <div className="wrapper">
+          <div className="message" style={{ top: "20%" }}>
+            <h3>Overview</h3>
+            <p>
+              The next stage in the user journey after they have selected the
+              order on the main page is for them to input further details
+              creating their order exactly as they want it.
+            </p>
+
+            <p>
+              <b>Goal</b>: Design to make item suggestions to the user. Making
+              the option to purchase more available to them.
+            </p>
+          </div>
+          <img
+            src={chosenMeal}
+            className="subphoto"
+            alt="mainPageDelivery"
+          />
+        </div>
       </div>
     </div>
   );
@@ -198,13 +243,13 @@ const MainPages = () => {
             <div className="wrapper">
               <img
                 src={deliveryToggle}
-                style={{ background: "#111213", padding: "2rem" }}
+                style={{ padding: "4rem" }}
                 className="zoomedimg"
                 alt="deliverytoggle"
               />
               <img
                 src={collectToggle}
-                style={{ background: "#111213", padding: "2rem" }}
+                style={{ padding: "4rem" }}
                 className="zoomedimg"
                 alt="deliverytoggle"
               />
@@ -385,10 +430,19 @@ const GoGenesisProject = () => {
         {<MainPages />}
         <div className="hd"></div>
         {<DockItems />}
+        <div className="hd"></div>
+        {<OrderDetails />}
+        <div className="hd"></div>
+        {<UserJourney />}
 
-        <Link className="button-link" to={"../projects"}>
-          Back to All Projects
-        </Link>
+        <div className="buttonlink-group">
+          <Link className="button-link" to={"contact"}>
+            Contact me
+          </Link>
+          <Link className="button-link" to={"../projects"}>
+            Back to All Projects
+          </Link>
+        </div>
 
         <ArrowToTop />
       </div>

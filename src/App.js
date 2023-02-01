@@ -6,6 +6,7 @@ import Footer from './components/Footer'
 import Contact from './components/Contact'
 import SoundCloudProject from './components/Projects/SoundCloudUI'
 import GoGenesisProject from './components/Projects/GoGenesisUI'
+import InHandy from './components/Projects/inHandy'
 import Projects from './components/Projects'
 import GraphicDesigns from './components/Projects/GraphicDesign'
 import HeirsOfNakamoto from './components/Projects/HeirsProject'
@@ -23,7 +24,8 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="projectsoundcloud" element={<SoundCloudProject />} />
-        <Route path="projectgogenesis" element={<GoGenesisProject />} />
+        <Route path="inhandy" element={<InHandy />} />
+        <Route path="gogenesis" element={<GoGenesisProject />} />
         <Route path="projects" element={<Projects />} />
         <Route path="designs" element={<GraphicDesigns />} />
         <Route path="projectnakamoto" element={<HeirsOfNakamoto />} />

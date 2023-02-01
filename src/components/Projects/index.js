@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import AnimatedLetters from "../AnimatedLetters";
 import SoundcloudUI from "../../assets/portfolio-imgs/SoundcloudUI/SoundcloudHome.png";
 import GoGenesisUI from "../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
+import inHandyUI from "../../assets/portfolio-imgs/inHandy/openingPage1.png";
 // import HON from "../../assets/imgs/cardbackdesign.png";
 // import Oasis from "../../assets/imgs/OasisFinal.png";
 // import LBC from "../../assets/imgs/LBCLogo.png";
@@ -42,6 +43,21 @@ const Projects = () => {
             />
           </h1>
           <div className="container">
+            <div className="project-overview">
+              <h1> inHandy </h1>
+              <h2> Project duration: 8 months </h2>
+              <Link to="/inhandy">
+                <img src={inHandyUI} className="cover" alt="project3" />
+              </Link>
+            </div>
+
+            <div className="project-overview">
+              <h1> Go Genesis! UI Design </h1>
+              <h2> Project duration: 1 month (ongoing) </h2>
+              <Link to="/gogenesis">
+                <img src={GoGenesisUI} className="cover" alt="project2" />
+              </Link>
+            </div>
 
             <div className="project-overview">
               <h1> Soundcloud UI Redesign </h1>
@@ -50,15 +66,6 @@ const Projects = () => {
                 <img src={SoundcloudUI} className="cover" alt="project1" />
               </Link>
             </div>
-
-            <div className="project-overview">
-              <h1> Go Genesis! UI Design </h1>
-              <h2> Project duration: 1 month (ongoing) </h2>
-              <Link to="/projectgogenesis">
-                <img src={GoGenesisUI} className="cover" alt="project1" />
-              </Link>
-            </div>
-
             {/* <div className="project-overview">
               <h1> Oasis Community </h1>
               <h2> Project duration: 1 year (ongoing) </h2>

@@ -59,7 +59,7 @@
   color: #000;
   font-size: 1.2rem;
   font-weight: 400;
-  margin: 3rem 0;
+  margin: 1rem 0;
   letter-spacing: 0.15rem;
   text-decoration: none;
   text-transform: uppercase;
@@ -95,6 +95,18 @@
   transform-origin: top left;
 }
 
+.buttonlink-group {
+  width: 40%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (max-width: 850px) {
+    flex-direction: column;
+  }
+}
 
 .container {
   width: 90%;
@@ -122,7 +134,6 @@
   flex-direction: row;
   justify-content: space-around;
 }
-
 
 .home-page,
 .about-page,
@@ -216,6 +227,287 @@
 
       &:hover {
         color: #000;
+      }
+    }
+  }
+}
+
+.soundcloud-ui,
+.go-genesis,
+.inhandy {
+  height: auto;
+  padding: 0px;
+
+  .button-link {
+    color: #fff;
+    border: 1px solid #fff;
+
+    @media screen and (max-width: 800px) {
+      font-size: 0.8rem;
+    }
+
+    &:hover {
+      color: black;
+    }
+  }
+  .button-link::after {
+    background: #fff;
+  }
+
+  .figuretext {
+    margin: auto;
+    padding: 2rem 0 4rem 0;
+    font-size: 1.5rem;
+
+    @media screen and (max-width: 800px) {
+      font-size: 1rem;
+    }
+  }
+
+  .vd {
+    border-left: 2px solid #ffffff60;
+  }
+
+  .hd {
+    border-bottom: 1px solid #ffffff60;
+  }
+
+  .rowDiv {
+    display: flex;
+    margin: 3.5rem 0;
+    flex-direction: row;
+    justify-content: space-around;
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .project-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-zone {
+    width: 100%;
+    margin: 0 0 1rem 0;
+    text-align: center;
+
+    h1 {
+      margin-bottom: 2px;
+    }
+    h2 {
+      font-size: 2.2rem;
+      letter-spacing: 0px;
+    }
+  }
+
+  .project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 500px;
+    height: auto;
+
+    @media screen and (max-width: 800px) {
+      width: 250px;
+    }
+  }
+
+  .iconphoto {
+    width: 50px;
+    height: auto;
+
+    @media screen and (max-width: 800px) {
+      width: 25px;
+    }
+  }
+
+  .overview {
+    width: 55%;
+    text-align: left;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    font-size: 1.9rem;
+    z-index: 0;
+    animation: fadeIn 2s 2s backwards;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      text-align: left;
+      flex-direction: column;
+      z-index: 9999;
+      width: 80%;
+      padding: 2rem 3rem;
+    }
+
+    .zoomedimg {
+      width: 250px;
+      border-radius: 8px;
+      height: auto;
+
+      @media screen and (max-width: 800px) {
+        width: 150px;
+        height: auto;
+      }
+    }
+
+    .link-group {
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        font-size: 1rem;
+      }
+    }
+
+    .wrapper {
+      width: 90%;
+      margin: 3rem 0;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        text-align: left;
+        font-size: 1.4rem;
+        flex-direction: column;;
+      }
+    }
+
+    h1 {
+      font-size: 2.6rem;
+      text-transform: uppercase;
+    }
+
+    .message,
+    .goals,
+    .role,
+    .tools {
+      width: 90%;
+      margin: 0 1.2rem;
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        font-size: 2.2rem;
+        margin: 0;
+        text-transform: uppercase;
+        font-weight: 800;
+        text-decoration: wavy;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.8rem;
+        }
+      }
+
+      p {
+        font-size: 1.8rem;
+        margin: 1rem 0;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.4rem;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .overview-col {
+    width: 95%;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    position: relative;
+    font-size: 1.9rem;
+
+    .sketches {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .wrapper {
+      width: 100%;
+      display: flex;
+      margin: 2rem 0;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        text-align: left;
+        font-size: 1.4rem;
+        flex-direction: column;
+      }
+    }
+
+    .message {
+      width: 50%;
+      padding: 0 3rem;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      @media screen and (max-width: 800px) {
+        width: 80%;
+        font-size: 1.4rem;
+      }
+
+      h3 {
+        font-size: 2.2rem;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+        font-weight: 800;
+        text-decoration: wavy;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.8rem;
+        }
+      }
+
+      p {
+        font-size: 1.8rem;
+        margin: 1rem 0;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    .subphoto {
+      width: 300px;
+      position: relative;
+
+      @media screen and (max-width: 800px) {
+        width: 100px;
+        display: flex;
+        flex-direction: row;
+        position: relative;
       }
     }
   }

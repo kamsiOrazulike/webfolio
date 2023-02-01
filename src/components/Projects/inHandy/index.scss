@@ -1,0 +1,76 @@
+.inhandy {
+  height: auto;
+  padding: 0px;
+  color: #111213;
+  background: #7de9ff;
+
+  .animate-text-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+  
+    &:hover {
+      animation: rubberBand 1s;
+      color: #1f4cff;
+    }
+  }
+
+  .logo {
+    width: 30px;
+  }
+
+  .button-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #1129ff;
+    border: 1px solid #1129ff;
+
+    &:hover {
+      color: white;
+    }
+  }
+  .button-link::after {
+    background: #1129ff;
+  }
+
+  .vd {
+    border-left: 2px solid #00000060;
+  }
+
+  .hd {
+    border-bottom: 1px solid #00000060;
+  }
+
+  .header-zone {
+    width: 100%;
+    margin: 0 0 1rem 0;
+    text-align: center;
+
+    h1 {
+      color: #111213;
+      margin-bottom: 2px;
+    }
+    h2 {
+      color: #111213;
+      font-size: 2.2rem;
+      letter-spacing: 0px;
+    }
+  }
+
+  .overview-col {
+    align-items: center;
+
+    .drawnplan {
+      width: 800px;
+      display: flex;
+      border-radius: 4px;
+      justify-content: center;
+      align-items: center;
+
+      @media screen and (max-width: 800px) {
+        width: 500px;
+      }
+    }
+  }
+}
