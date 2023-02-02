@@ -38,16 +38,8 @@ const OpeningScreen = () => {
       </div>
       <div className="overview-col">
         <img src={drawings} className="sketches" alt="mySketches" />
-        <p
-          style={{
-            margin: "auto",
-            padding: "2rem 0 4rem 0",
-            fontSize: "1.5rem",
-          }}
-        >
-          <i>
-            Keeping the company goals in mind, I started sketching my ideas.{" "}
-          </i>
+        <p className="figuretext">
+          Keeping the company goals in mind, I started sketching my ideas.{" "}
         </p>
         <div className="wrapper">
           <div className="message">
@@ -209,11 +201,7 @@ const OrderDetails = () => {
               the option to purchase more available to them.
             </p>
           </div>
-          <img
-            src={chosenMeal}
-            className="subphoto"
-            alt="mainPageDelivery"
-          />
+          <img src={chosenMeal} className="subphoto" alt="mainPageDelivery" />
         </div>
       </div>
     </div>
@@ -432,8 +420,8 @@ const GoGenesisProject = () => {
         {<DockItems />}
         <div className="hd"></div>
         {<OrderDetails />}
-        <div className="hd"></div>
-        {<UserJourney />}
+        {/* <div className="hd"></div> */}
+        {/* {<UserJourney />} */}
 
         <div className="buttonlink-group">
           <Link className="button-link" to={"contact"}>

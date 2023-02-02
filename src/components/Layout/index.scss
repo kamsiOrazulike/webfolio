@@ -46,7 +46,7 @@
 
 .hd {
   border-bottom: 1px solid #00000060;
-  margin: 2.4rem 0;
+  margin: 4rem 0 8rem 0;
   width: 90%;
 }
 
@@ -256,7 +256,8 @@
 
   .figuretext {
     margin: auto;
-    padding: 2rem 0 4rem 0;
+    font-style: italic;
+    padding: 2rem 0 1rem 0;
     font-size: 1.5rem;
 
     @media screen and (max-width: 800px) {
@@ -326,6 +327,18 @@
     }
   }
 
+  h3 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    font-weight: 800;
+    text-decoration: wavy;
+
+    @media screen and (max-width: 800px) {
+      font-size: 1.8rem;
+    }
+  }
+
   .overview {
     width: 55%;
     text-align: left;
@@ -372,22 +385,6 @@
       }
     }
 
-    .wrapper {
-      width: 90%;
-      margin: 3rem 0;
-      display: flex;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-
-      @media screen and (max-width: 800px) {
-        width: 100%;
-        text-align: left;
-        font-size: 1.4rem;
-        flex-direction: column;;
-      }
-    }
-
     h1 {
       font-size: 2.6rem;
       text-transform: uppercase;
@@ -402,16 +399,9 @@
       display: flex;
       flex-direction: column;
 
-      h3 {
-        font-size: 2.2rem;
-        margin: 0;
-        text-transform: uppercase;
-        font-weight: 800;
-        text-decoration: wavy;
-
-        @media screen and (max-width: 800px) {
-          font-size: 1.8rem;
-        }
+      .iconimg {
+        width: 20px;
+        image-rendering: pixelated;
       }
 
       p {
@@ -427,6 +417,40 @@
         width: 100%;
         font-size: 1.4rem;
       }
+    }
+  }
+
+  .screenshot {
+    border-radius: 8px;
+    width: 250px;
+    margin: 0 1rem;
+
+    @media screen and (max-width: 800px) {
+      width: 200px;
+    }
+  }
+
+  .wrapper {
+    width: 100%;
+    display: flex;
+    margin: 2.4rem 0;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      text-align: left;
+      font-size: 1.4rem;
+      flex-direction: column;
+    }
+
+    p.wrapper-text {
+      display: flex;
+      padding: 0 2rem;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
     }
   }
 
@@ -447,22 +471,6 @@
       object-fit: cover;
     }
 
-    .wrapper {
-      width: 100%;
-      display: flex;
-      margin: 2rem 0;
-      flex-direction: row;
-      align-items: flex-start;
-      justify-content: space-around;
-
-      @media screen and (max-width: 800px) {
-        width: 100%;
-        text-align: left;
-        font-size: 1.4rem;
-        flex-direction: column;
-      }
-    }
-
     .message {
       width: 50%;
       padding: 0 3rem;
@@ -475,18 +483,6 @@
       @media screen and (max-width: 800px) {
         width: 80%;
         font-size: 1.4rem;
-      }
-
-      h3 {
-        font-size: 2.2rem;
-        text-transform: uppercase;
-        margin-bottom: 0px;
-        font-weight: 800;
-        text-decoration: wavy;
-
-        @media screen and (max-width: 800px) {
-          font-size: 1.8rem;
-        }
       }
 
       p {
