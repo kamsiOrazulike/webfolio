@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webfolio/static/css/main.ca0753dd.css",
-    "main.js": "/webfolio/static/js/main.01a9f421.js",
+    "main.js": "/webfolio/static/js/main.cd32fdcc.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/SoundcloudHome.png": "/webfolio/static/media/SoundcloudHome.cd7615b68fae8d1f9939.png",
     "static/media/mainPageDelivery.png": "/webfolio/static/media/mainPageDelivery.e2285ca761b792c92258.png",
@@ -37,11 +37,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
     "main.ca0753dd.css.map": "/webfolio/static/css/main.ca0753dd.css.map",
-    "main.01a9f421.js.map": "/webfolio/static/js/main.01a9f421.js.map",
+    "main.cd32fdcc.js.map": "/webfolio/static/js/main.cd32fdcc.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca0753dd.css",
-    "static/js/main.01a9f421.js"
+    "static/js/main.cd32fdcc.js"
   ]
 }
