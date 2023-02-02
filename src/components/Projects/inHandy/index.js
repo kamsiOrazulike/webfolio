@@ -429,7 +429,7 @@ const ProjectBrief = () => {
           </div>
         </div>
 
-        <div className="wrapper">
+        <div className="wrapper" style={{ margin: "3rem 0" }}>
           <div className="message">
             <h3>Sign Language Applications</h3>
             <p>
@@ -513,50 +513,6 @@ const ProjectBrief = () => {
             />
           </div>
         </div>
-
-        <div className="overview-col" style={{ margin: "3rem 0" }}>
-          <h3>Analysis Overview</h3>
-          <p>
-            A summary of the set-backs noticed in each of the methods analysed
-            had mostly to do with:
-            <ul className="cool-list">
-              <li>
-                <b>Interactivity:&nbsp;</b> To maintain User interest whilst
-                learning
-              </li>
-              <li>
-                <b>Memory:&nbsp;</b>User retention of the information being
-                taught to memory.
-              </li>
-              <li>
-                <b>Cognitive Overload:&nbsp;</b>Access to too much information
-                can be overwhelming for User. Organisation and presentation of
-                this information is important
-              </li>
-            </ul>
-            Studies have shown that students in a classroom regardless of age
-            benefit from a more engaging and 'fun' learning experience. Fun in
-            learning allows an individual to develop a love for learning, having
-            a knock on effect on their motivation levels.
-            <br />
-            <br />
-            Growth Engineering mentions an example where the company Volkswagen,
-            as part of their Fun theory', turned a staircase into a giant
-            functioning piano keyboard. A recorded 66% more people chose the
-            piano stairs over the normal one. This study is a prime example of
-            how fun, engaging and interactive technologies can transform the way
-            people behave in situations that would normally be seen as tiring.
-            <br />
-            <br />
-            This is why it is crucial to have more engagement when it comes to
-            learning. Not only because Sign Language is very much hands on. But
-            also because it is not taught in a lot of schools and most people
-            learn from home - It becomes increasingly important to make the
-            process one that is effective through the use of making it more fun,
-            engaging and interactive. Otherwise it will risk losing User
-            interest.
-          </p>
-        </div>
       </div>
     </div>
   );
@@ -589,7 +545,7 @@ const Ideation = () => {
           </div>
 
           <div className="message">
-            <h3>Analysis</h3>
+            <h3>Analysis Overview</h3>
             <p>
               In my analysis of existing applications/methods of learning BSL,
               most existing applications lacked in:
