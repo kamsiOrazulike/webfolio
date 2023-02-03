@@ -39,7 +39,7 @@ const FeaturedProject = () => {
           <div className="flex-box" style={{margin: '7rem 0'}}>
             <img src={inHandy} className="project" alt="project1" />
             <div className="overview">
-              <h2> Project duration: 2 weeks (ongoing) </h2>
+              <h2> Project duration: 8 months</h2>
 
               <div className="goals">
                 <h3>Goal</h3>
@@ -78,8 +78,8 @@ const FeaturedProject = () => {
                 </div>
               </div>
 
-              <Link to="/projects" className="button-link">
-                To all Projects
+              <Link to="/inhandy" className="button-link">
+                View inHandy
               </Link>
             </div>
           </div>
@@ -133,8 +133,8 @@ const FeaturedProject = () => {
                 </div>
               </div>
 
-              <Link to="/projects" className="button-link">
-                To all Projects
+              <Link to="/inhandy" className="button-link">
+                View Go Genesis
               </Link>
             </div>
           </div>
