@@ -8,11 +8,16 @@ import NHSLogo from "../../../assets/portfolio-imgs/inHandy/NHSLogo.png";
 import homeScreen from "../../../assets/portfolio-imgs/inHandy/openingPage1.png";
 // import mainPage from "../../../assets/portfolio-imgs/inHandy/mainpage1.png";
 import drawings from "../../../assets/portfolio-imgs/inHandy/Project_Plan.jpg";
+import allPages from "../../../assets/portfolio-imgs/inHandy/allPages.png";
+import pagesketch1 from "../../../assets/portfolio-imgs/inHandy/pageDesign.png";
+import pagesketch2 from "../../../assets/portfolio-imgs/inHandy/pageDesign2.png";
+import pagesketch3 from "../../../assets/portfolio-imgs/inHandy/pageDesign3.png";
+import pagesketch4 from "../../../assets/portfolio-imgs/inHandy/pageDesign4.png";
+import pagesketch5 from "../../../assets/portfolio-imgs/inHandy/pageDesign5.jpg";
 import appscreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/AppScreenshot.jpg";
 import appscreenshot2 from "../../../assets/portfolio-imgs/inHandy/screenshots/AppScreenshot2.jpg";
-import appscreenshot3 from "../../../assets/portfolio-imgs/inHandy/screenshots/AppScreenshot3.jpg";
+import netflixscreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/screenshotnetflix.jpg";
 import YoutubeScreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/YTScreenshot.jpg";
-// import handDrawings from "../../../assets/portfolio-imgs/inHandy/handDesign.png";
 // import mainCharacter from "../../../assets/portfolio-imgs/inHandy/maincharacter.png";
 import Charles from "../../../assets/portfolio-imgs/inHandy/character.png";
 import Karen from "../../../assets/imgs/Character1.png";
@@ -26,6 +31,10 @@ import {
   faTimes,
   faCheckDouble,
   faBalanceScale,
+  faCoins,
+  faTurnUp,
+  faDoorOpen,
+  faFilm,
 } from "@fortawesome/free-solid-svg-icons";
 import AnimatedLetters from "../../AnimatedLetters";
 
@@ -57,8 +66,11 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className="overview-col">
-        <div className="wrapper">
+      <div className="overview-col" style={{ width: "100%" }}>
+        <div
+          className="wrapper"
+          style={{ background: "#DEEFFF", padding: "40px" }}
+        >
           <div className="message">
             <p>
               Some of the most popular methods for treating hearing impairment
@@ -107,10 +119,6 @@ const Introduction = () => {
 const Research = () => {
   return (
     <div className="project-detail">
-      {/* <div className="header-zone">
-        <h1> Soft research </h1>
-        <h2> Understanding existing methods </h2>
-      </div> */}
       <div className="overview-col">
         <div className="wrapper">
           <div className="message">
@@ -237,8 +245,11 @@ const ProjectBrief = () => {
         </div>
       </div>
 
-      <div className="overview-col">
-        <div className="wrapper">
+      <div className="overview-col" style={{ width: "100%" }}>
+        <div
+          className="wrapper"
+          style={{ background: "#DEEFFF", padding: "40px" }}
+        >
           <div className="message">
             <h3>Goal</h3>
             <p>
@@ -317,7 +328,7 @@ const ProjectBrief = () => {
 
       <div className="header-zone">
         <h1 id="whybsl">
-          Pros and Cons &nbsp;{" "}
+          Pros and Cons &nbsp;
           <FontAwesomeIcon icon={faBalanceScale} style={{ color: "#1129ff" }} />
         </h1>
         <h2>Looking at what resources exist</h2>
@@ -429,6 +440,8 @@ const ProjectBrief = () => {
           </div>
         </div>
 
+        <div className="shortdivider"></div>
+
         <div className="wrapper" style={{ margin: "3rem 0" }}>
           <div className="message">
             <h3>Sign Language Applications</h3>
@@ -523,41 +536,32 @@ const Ideation = () => {
     <div className="project-detail">
       <div className="header-zone">
         <h1 id="ideation">Ideation Process</h1>
-        <h2>Storyboarding</h2>
       </div>
 
       <div className="overview-col">
-        <img src={storyBoard} alt="sketches" className="drawnplan" />
-
         <div className="wrapper">
-          <div className="message">
-            <h3>Brief</h3>
+          <div className="message" style={{ width: "80%" }}>
+            <h3>Refined Brief</h3>
             <p>
-              "To develop a product that provides a fun and engaging way to
-              learn British Sign Language."
+              "To develop a product that provides a <b>fun</b> and
+              <b> engaging</b> way to learn British Sign Language."
             </p>
-            <img
-              src={Karen}
-              className="character-img"
-              style={{ imageRendering: "pixelated" }}
-              alt="inhandymain"
-            />
-          </div>
 
-          <div className="message">
+            <div className="shortdivider"></div>
+
             <h3>Analysis Overview</h3>
             <p>
               In my analysis of existing applications/methods of learning BSL,
               most existing applications lacked in:
               <ul className="cool-list">
-                <li>
+                <li className="vibrate">
                   Interactivity - To maintain User interest whilst learning
                   Memory
                 </li>
-                <li>
+                <li className="vibrate">
                   User retention of the information being taught to memory.
                 </li>
-                <li>
+                <li className="vibrate">
                   Cognitive Overload - Access to too much information can be
                   overwhelming for User.
                 </li>
@@ -574,6 +578,455 @@ const Ideation = () => {
               how fun, engaging and interactive technologies can transform the
               way people behave in situations that would normally be seen as
               tiring.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="overview-col">
+        <div className="wrapper">
+          <div className="message">
+            <h3>Contextual Learning</h3>
+            <p>
+              Imagine Learning Sign Language through the use of imagery and
+              videos. Demonstrating the language being used in real world
+              scenarios.
+            </p>
+            <p>
+              It is a common misconception that memory techniques only work when
+              it comes to learning vocabulary. Studies have shown that once a
+              memory technique formula is created and understood, one can apply
+              the same formulae and use them to learn more.
+            </p>
+            <img
+              src="https://files.tofugu.com/articles/japanese/2014-09-03-learn-katakana/%E3%82%AA-opera.jpg"
+              className="character-img"
+              alt="tofuguimage"
+            />
+            <div className="link-group">
+              <p className="figuretext">
+                オ is the katakana for お (o). Looks like an Opera singer.
+              </p>
+              <a
+                className="button-link"
+                href="https://www.tofugu.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Source - Tofugu
+              </a>
+            </div>
+
+            <p>
+              When learning and memorising the Japanese writing styles Hiragana
+              and Katakana. A popular method used to teach these writing styles
+              is known as Visual Mnemonics.
+            </p>
+            <p>
+              This memory technique involves choosing a word or term that you
+              want to memorise and associating that word with an object or
+              character that you imagine sounds like the word you want to
+              memorise. Visual Mnemonics associate words with visual clues and
+              make them easier to memorise or learn.
+            </p>
+            <p>
+              The use of Visual Mnemonics in teaching highlights the importance
+              of developing a visually stimulating learning experience for the
+              user in order for them to retain what they have learnt as well as
+              hold their interest.
+            </p>
+            <p>
+              When it comes to learning Sign Language it is important to
+              consider the way in which the elements are designed. Designing to
+              simplify the process of making reasonable connections in the
+              language is key to developing a valuable learning experience.
+            </p>
+          </div>
+
+          <div className="message">
+            <h3>
+              Language & Movies{" "}
+              <FontAwesomeIcon icon={faFilm} style={{ color: "#A2A2A2" }} />
+            </h3>
+            <p>
+              Another example of how the use of a visual stimulus improves the
+              User learning experience is in foreign movies.
+            </p>
+            <p>
+              Watching a foreign movie with subtitles is known as a good way to
+              pick up certain words or phrases in that foreign language.
+              Examples include the screenshot above taken from the TV series
+              'Lupin' which was originally filmed in French. Watching the series
+              on Netflix gives the option to watch in French with English
+              subtitles which is great for both English individuals trying to
+              learn French and French individuals trying to learn English.
+            </p>
+            <img
+              src={netflixscreenshot}
+              className="character-img"
+              alt="netflixscreenshot"
+              style={{ width: "600px", objectFit: "cover" }}
+            />
+            <p>
+              Studies demonstrate that one of the main benefits of films in a
+              foreign language is the fact that it provides the most authentic
+              example of the language being used in a real-world scenario. It
+              exposes the natural expressions and conversational cues hence
+              placing the user in an environment where information can be
+              received and retained in a more engaging manner.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="shortdivider"></div>
+
+      <div className="overview-col">
+        <div className="wrapper">
+          <div className="message">
+            <h3>Gamified Learning</h3>
+            <p>
+              The definition of gamification when it comes to learning is the
+              use of elements of game-design and game principals to teach a
+              subject or topic.
+            </p>
+            <p>
+              An example would be the in-game principals and themes such as
+              acquiring virtual ‘points’ used in the language application
+              'Duolingo'. Points that are acquired through completing series of
+              tasks or activities in order to unlock access to the next level.
+              This learning experience provides more fun and stimulation for the
+              User.
+            </p>
+          </div>
+
+          <div className="message">
+            <h3>Duolingo</h3>
+            <img
+              src="https://1000logos.net/wp-content/uploads/2020/10/Duolingo-logo.png"
+              className="character-img vibrate"
+              style={{ width: "100px" }}
+              alt="duolingo"
+            />
+            <p>
+              The popular language learning application, '<b>Duolingo</b>' is
+              the perfect example of how teaching using game-design and game
+              principles is an effective way for a user to learn an entirely new
+              language.
+            </p>
+            <p>
+              The screenshot on the left displays the formatting of a test like
+              question providing graphics that are also visually stimulating.
+              This keeps any user active and engaged throughout the learning
+              experience.
+            </p>
+            <p>
+              <b>Feedback</b> on the User progress can also be noticed at the
+              top. This is incredibly helpful in informing the user of exactly
+              how much work they are doing and can act as either a source of
+              motivation or discouragement.
+            </p>
+          </div>
+        </div>
+
+        <div className="wrapper">
+          <div className="message" style={{ width: "80%" }}>
+            <h3>The importance of feedback</h3>
+            <p>
+              Adopting certain game elements in learning allows the user to
+              learn effectively. Elements such as the way feedback is displayed
+              to the user can remind them of their personal goals, targets or
+              achievements. Elements such as;
+              <ul className="cool-list" style={{ flexDirection: "row" }}>
+                <li className="shrink">
+                  <FontAwesomeIcon icon={faTurnUp} />
+                  Levelling up
+                </li>
+                <li className="shrink">
+                  <FontAwesomeIcon icon={faCoins} />
+                  Gathering of points
+                </li>
+                <li className="shrink">
+                  <FontAwesomeIcon icon={faDoorOpen} />
+                  Unlocking of new levels
+                </li>
+              </ul>
+            </p>
+            <p>
+              All act as important feedback points that continually inform the
+              user of their progress in the experience. The aim of these
+              game-like elements is to allow the user to perceive these goals in
+              a way that they learner still view as fun and engaging.
+            </p>
+            <p>
+              All act as important feedback points that continually inform the
+              user of their progress in the experience. The aim of these
+              game-like elements is to allow the user to perceive these goals in
+              a way that they learner still view as fun and engaging.
+            </p>
+            <p>
+              Game-like elements/Design are very important to incorporate in the
+              product design as it would be a powerful way to connect the user
+              to the learning experience. The process of learning Sign Language
+              does not have to be limited to watching a professional repeat
+              signs on a screen, it can be made enjoyable and more interactive
+              in order to maintain the user interest.
+            </p>
+            <div className="shortdivider"></div>
+            <div
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                textAlign: "center",
+              }}
+            >
+              <img
+                src="https://www.mymaths.co.uk/assets/images/big/Tug-of-war-year-3.png"
+                className="character-img"
+                style={{ margin: "auto", padding: "40px 0 20px 0" }}
+                alt="myimaths"
+              />
+
+              <p className="figuretext">
+                Above is a screenshot of a Maths game from the application
+                'MyiMaths' which is a web platform used by teachers to give
+                children class and homework in Mathematics.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="header-zone">
+        <h1 id="ideation">Storyboarding</h1>
+        <h2> + Low Fidelity Prototypes +</h2>
+      </div>
+
+      <div className="overview-col">
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            textAlign: "center",
+          }}
+        >
+          <img src={storyBoard} alt="drawings" className="drawnplan" />
+          <p className="figuretext" style={{ margin: " 0 8rem" }}>
+            It was important for me to figure out the most engaging way for my
+            user to learn BSL. Using the two main concepts I researched -
+            Gamified and Contextual Learning; I tried placing some of my product
+            ideas in a User Storyboard.
+          </p>
+        </div>
+        <div className="wrapper">
+          <div className="message">
+            <h3>Context - Based Learning</h3>
+            <p>
+              One of the learning styles mentioned above is the use of
+              animations to display sign language conversations in real world
+              scenarios.
+            </p>
+            <p>
+              For example: Ordering coffee at a coffee shop using Sign Language.
+            </p>
+            <p>
+              The aim is to use this form of expression to expose the
+              conversational cues taken in the real world. Informing the user of
+              how and when they should use certain phrases. Placing the user
+              where they see the language being used in context (like how movies
+              do) will provide a more immersive and engaging learning experience
+              in the application.
+            </p>
+
+            <img
+              src={pagesketch3}
+              style={{ width: "300px", margin: "auto" }}
+              alt="sketch1"
+            />
+          </div>
+
+          <div className="message">
+            <h3>Use of a Physical product to assist learning </h3>
+            <p>
+              In order to incorporate game elements into the learning
+              experience, these physical products were formed.
+            </p>
+            <p>
+              The goal of this is to provide a more immersive and interactive
+              game-like experience for the user.
+            </p>
+
+            <h3>Assistance of Physical Product Analysis</h3>
+            <img
+              src={storyBoard}
+              alt="drawings"
+              className="drawnplan grow"
+              style={{
+                width: "300px",
+                height: "300px",
+                margin: "auto",
+                objectFit: "cover",
+                objectPosition: "100% 0",
+              }}
+            />
+            <p>
+              This will work by detecting finger joint movement using motion
+              sensors inside the glove.
+            </p>
+            <p>
+              The User would be tasked with making different signs and would be
+              given performance feedback based on their responses.
+            </p>
+            <p>
+              The assistance of a physical product would be a great idea,
+              however it does not fit into my <b>brief</b>.
+              <ul className="wrong-list">
+                <li>
+                  <FontAwesomeIcon icon={faTimes} /> Not Accessible for all
+                  users
+                </li>
+              </ul>
+            </p>
+            <p>
+              The addition of a physical product would limit my user group to
+              individuals that can purchase this physical product. InHandy would
+              become less accessible than existing methods of learning Sign
+              Language.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const Prototypes = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1> Lo-Fi Prototypes </h1>
+        <p style={{ margin: "2rem 8rem" }}>
+          Removing the assistance of a physical product makes the interface
+          design of InHandy the main focus of the product design. Optimising the
+          product to be available on mobile devices would tie in more with the
+          brief of the product being as accessible as existing methods.
+        </p>
+      </div>
+      <div className="overview-col">
+        <img src={allPages} className="drawnplan" alt="allpageslofisketch" />
+
+        <div className="shortdivider"></div>
+
+        <div className="wrapper" style={{ flexDirection: "row" }}>
+          <img
+            src={pagesketch1}
+            className="screenshot"
+            style={{ margin: "auto" }}
+            alt="opening"
+          />
+
+          <div className="message">
+            <h3>Opening Screen + Loader</h3>
+            <p>
+              To maintain the interest of the User the interface must display
+              interesting and captivating graphic design elements.
+            </p>
+            <p>
+              The image on the right is a sketch prototype of what the loading
+              screen would look like upon opening the application.
+            </p>
+            <p>
+              Unlike the existing applications that lack this feature; InHandy
+              would capture the users attention by opening with a loading screen
+              or a short animation.
+            </p>
+            <p>
+              Both the loading screen and/or animation would be used to maximise
+              awareness by displaying facts about d/Deaf culture.
+            </p>
+          </div>
+        </div>
+
+        <div className="wrapper" style={{ flexDirection: "row-reverse" }}>
+          <img
+            src={pagesketch3}
+            className="screenshot"
+            style={{ margin: "auto" }}
+            alt="opening"
+          />
+
+          <div className="message">
+            <h3>Situational Context Based learning</h3>
+            <p>
+              Based on research done, one of the best ways to learn or pick up a
+              new language is through seeing the language being used in context.
+            </p>
+            <p>
+              Exposing the conversational cues would give the user a better
+              understanding of when to use a particular word of phrase.
+            </p>
+            <p>
+              InHandy would do this by having the user select the '
+              <b>correct</b>' response option in order to progress in the
+              animated short. This provides a <b>visually engaging</b> way to
+              learn as it places the user in a situation as opposed to a
+              professional behind a screen repeating a sign.
+            </p>
+          </div>
+        </div>
+
+        <div className="wrapper">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-evenly",
+            }}
+          >
+            <img
+              src={pagesketch4}
+              style={{
+                width: "250px",
+                objectFit: "cover",
+                objectPosition: "100% 100%",
+              }}
+              alt="opening"
+            />
+            <img
+              src={pagesketch5}
+              style={{
+                width: "250px",
+                objectFit: "cover",
+                objectPosition: "100% 100%",
+                imageRendering: "pixelated",
+              }}
+              alt="opening"
+            />
+          </div>
+
+          <div className="message">
+            <h3>
+              Gamification &nbsp;
+              <FontAwesomeIcon icon={faCoins} style={{ color: "#FFA722" }} />
+            </h3>
+            <p>
+              Inspired by the similar set up of the '<b>Duolingo</b>' language
+              learning application, <b>InHandy</b> will use similar game-like
+              testing methods to keep the user engaged through the learning
+              experience.
+            </p>
+            <p>
+              One of the in-app games InHandy would provide is a test to
+              determine the User knowledge of British Sign Language. The
+              interface would be programmed to unlock access to the game only
+              after the User has completed the topic learning stage.
+            </p>
+            <p>
+              The next step is the product development stage. However I need to
+              ensure effective/engaging visual communication throughout the
+              interface design of InHandy.
             </p>
           </div>
         </div>
@@ -672,6 +1125,8 @@ const InHandy = () => {
         <ProjectBrief />
         <div className="hd"></div>
         <Ideation />
+        <div className="hd"></div>
+        <Prototypes />
 
         <div className="buttonlink-group">
           <Link className="button-link" to={"contact"}>

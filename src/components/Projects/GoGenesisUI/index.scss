@@ -15,6 +15,30 @@
     }
   }
 
+  .wrapper {
+    width: 100%;
+    display: flex;
+    margin: 2.4rem 0;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      text-align: left;
+      font-size: 1.4rem;
+      flex-direction: row;
+    }
+
+    p.wrapper-text {
+      display: flex;
+      padding: 0 2rem;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+
   .header-zone {
     width: 100%;
     margin: 0 0 1rem 0;

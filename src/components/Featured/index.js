@@ -1,9 +1,11 @@
 import "./index.scss";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import soundcloudHome from "../../assets/portfolio-imgs/SoundcloudUI/SoundcloudHome.png";
+import inHandy from "../../assets/portfolio-imgs/inHandy/mainpage.png";
 import genesisHome from "../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import procreate from "../../assets/portfolio-imgs/procreateIcon.png";
+
 import {
   faFigma,
   faCss3,
@@ -34,20 +36,22 @@ const FeaturedProject = () => {
               />
             </h1>
           </div>
-          <div className="flex-box">
+          <div className="flex-box" style={{margin: '7rem 0'}}>
+            <img src={inHandy} className="project" alt="project1" />
             <div className="overview">
               <h2> Project duration: 2 weeks (ongoing) </h2>
 
               <div className="goals">
                 <h3>Goal</h3>
                 <p>
-                  To deliver a holistic, valuable and user-centric experience
-                  that guides both Soundcloud artists and listeners through the
-                  application
-                  <br /> <br />
-                  To minimise time spent for new users to navigate the
-                  application and prioritise the finding of new artists by
-                  adopting the twitter style formatting
+                  inHandy is a platform that will provide you with a brief and
+                  engaging journey introduction to learning British Sign
+                  Language. It will provide this by focusing mainly on:
+                  <ul>
+                    <li>Effective visual communication </li>
+                    <li>Contextual learning </li>
+                    <li>Gamified Learning </li>
+                  </ul>
                 </p>
               </div>
 
@@ -55,14 +59,21 @@ const FeaturedProject = () => {
                 <div className="role">
                   <h3>Role</h3>
                   <p>
-                    UI Design <br /> Idea Generation <br /> Prototyping <br />
-                    Wireframing
+                    User Research <br />
+                    Product Designer <br />
+                    Graphic Designer <br />
+                    Character Designer <br />
+                    Analysis <br />
                   </p>
                 </div>
                 <div className="tools">
                   <h3>Tools</h3>
                   <p>
                     <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma
+                  </p>
+                  <p style={{ display: "flex", alignItems: "center" }}>
+                    <img src={procreate} className="iconimg" alt="procreate" />{" "}
+                    &nbsp; Procreate <br />
                   </p>
                 </div>
               </div>
@@ -71,7 +82,6 @@ const FeaturedProject = () => {
                 To all Projects
               </Link>
             </div>
-            <img src={soundcloudHome} className="project" alt="project1" />
           </div>
 
           <div className="flex-box">

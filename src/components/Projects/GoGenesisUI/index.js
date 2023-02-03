@@ -170,15 +170,15 @@ const AccountPages = () => {
   );
 };
 
-const UserJourney = () => {
-  return (
-    <div className="project-detail">
-      <div className="header-zone">
-        <h1>User Journey</h1>
-      </div>
-    </div>
-  );
-};
+// const UserJourney = () => {
+//   return (
+//     <div className="project-detail">
+//       <div className="header-zone">
+//         <h1>User Journey</h1>
+//       </div>
+//     </div>
+//   );
+// };
 
 const OrderDetails = () => {
   return (
@@ -244,40 +244,6 @@ const MainPages = () => {
             </div>
           </div>
           <div className="hd"></div>
-          <div className="message" style={{ top: "20%" }}>
-            <h3>The importance of spacing</h3>
-            <p>
-              When it came to deciding on how much white space was too much
-              white space, that was a challenge altogether. It is paramount in
-              my design that I use a spacing system that brings about a sense of
-              <b> consistency</b> and <b>harmony</b> to the UI. <br /> <br />I
-              mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
-              so on.
-            </p>
-          </div>
-          <div className="hd"></div>
-          <div className="message" style={{ top: "20%" }}>
-            <h3>Consistency</h3>
-            <p>
-              <b>Goal</b>: To keep interface design in close similarity to
-              existing food delivery applications in order to make it easier for
-              user to navigate through.
-            </p>
-            <p>
-              With the general interface I aimed to be flexible with device UI
-              guidelines and behaviors. For the prototype specificlally I
-              focused on the iPhone 13 Pro and used the devices measurements to
-              set my UI guidelines and behaviors. I also drew inspiration from
-              similar apps/sites such as <b>JustEat</b>, <b>UberEats</b>,{" "}
-              <b>Jumia Foods</b> and
-              <b> Dominoes</b>. Infusing different aspects of their UI that I
-              found useful with my own design.
-              <br />
-              <br />
-              Doing this helps assure my user’s assumptions about the interface
-              and creating a sense of control and familiarity for them.
-            </p>
-          </div>
         </div>
       </div>
     </>
