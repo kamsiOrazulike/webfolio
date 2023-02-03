@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.ca0753dd.css",
-    "main.js": "/webfolio/static/js/main.cd32fdcc.js",
+    "main.css": "/webfolio/static/css/main.c59ffbd0.css",
+    "main.js": "/webfolio/static/js/main.d611ba9f.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/SoundcloudHome.png": "/webfolio/static/media/SoundcloudHome.cd7615b68fae8d1f9939.png",
     "static/media/mainPageDelivery.png": "/webfolio/static/media/mainPageDelivery.e2285ca761b792c92258.png",
     "static/media/chosenMeal.png": "/webfolio/static/media/chosenMeal.1acbb92328af65d95246.png",
+    "static/media/mainpage.png": "/webfolio/static/media/mainpage.7b59f0847b78eef0e30d.png",
     "static/media/cardbackdesign.png": "/webfolio/static/media/cardbackdesign.68a7d0c0b8641c47adcb.png",
     "static/media/Project_Plan.jpg": "/webfolio/static/media/Project_Plan.17d7f7ab127504140813.jpg",
     "static/media/StoryboardComics.jpg": "/webfolio/static/media/StoryboardComics.061aab9a95077e7415c3.jpg",
@@ -19,16 +20,22 @@
     "static/media/Me6.png": "/webfolio/static/media/Me6.86dfb126fcbc1eb3bd38.png",
     "static/media/Me5.png": "/webfolio/static/media/Me5.fbffe528d9f50934d001.png",
     "static/media/minoscard.png": "/webfolio/static/media/minoscard.e4f8a81e3782efd44267.png",
+    "static/media/allPages.png": "/webfolio/static/media/allPages.1595dac00e97023f7791.png",
     "static/media/AppScreenshot2.jpg": "/webfolio/static/media/AppScreenshot2.a202a3300ac291a59d5e.jpg",
     "static/media/LBCLogo.png": "/webfolio/static/media/LBCLogo.f12d00c9208d8c8f4ac1.png",
     "static/media/AppScreenshot.jpg": "/webfolio/static/media/AppScreenshot.4e967119a50e8c5bc3c3.jpg",
-    "static/media/AppScreenshot3.jpg": "/webfolio/static/media/AppScreenshot3.102f90025b975bbfa392.jpg",
     "static/media/OasisFinal.png": "/webfolio/static/media/OasisFinal.b928cdfb4c2cebbe4bfe.png",
     "static/media/openingPage1.png": "/webfolio/static/media/openingPage1.95f3cf7bc570c7ad5128.png",
     "static/media/Character1.png": "/webfolio/static/media/Character1.1586d16d5c01d6017bb0.png",
     "static/media/character.png": "/webfolio/static/media/character.8322113f72eaefe37b24.png",
     "static/media/acloserlook-spacing.png": "/webfolio/static/media/acloserlook-spacing.9d55ac0746af6c1ca298.png",
+    "static/media/pageDesign.png": "/webfolio/static/media/pageDesign.9aa8e651743d2ce7494b.png",
+    "static/media/pageDesign4.png": "/webfolio/static/media/pageDesign4.5ccaa2c02412334f0f62.png",
+    "static/media/pageDesign3.png": "/webfolio/static/media/pageDesign3.0f9eb93a75af3bb62642.png",
     "static/media/YTScreenshot.jpg": "/webfolio/static/media/YTScreenshot.d5cc789f8438f5b21d3c.jpg",
+    "static/media/pageDesign2.png": "/webfolio/static/media/pageDesign2.1b41edd58f0dd92fdf14.png",
+    "static/media/screenshotnetflix.jpg": "/webfolio/static/media/screenshotnetflix.61cf5377b6cc8d5d7ff9.jpg",
+    "static/media/pageDesign5.jpg": "/webfolio/static/media/pageDesign5.a00d9547417bdb8220b5.jpg",
     "static/media/helvetica-neu.ttf": "/webfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/webfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/NHSLogo.png": "/webfolio/static/media/NHSLogo.71add9e6a0e03d07ee89.png",
@@ -36,12 +43,12 @@
     "static/media/togglegraphic2.png": "/webfolio/static/media/togglegraphic2.74c51a2cbf001254c2e0.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.ca0753dd.css.map": "/webfolio/static/css/main.ca0753dd.css.map",
-    "main.cd32fdcc.js.map": "/webfolio/static/js/main.cd32fdcc.js.map",
+    "main.c59ffbd0.css.map": "/webfolio/static/css/main.c59ffbd0.css.map",
+    "main.d611ba9f.js.map": "/webfolio/static/js/main.d611ba9f.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca0753dd.css",
-    "static/js/main.cd32fdcc.js"
+    "static/css/main.c59ffbd0.css",
+    "static/js/main.d611ba9f.js"
   ]
 }
