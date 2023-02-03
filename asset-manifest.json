@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webfolio/static/css/main.91d8f331.css",
-    "main.js": "/webfolio/static/js/main.d611ba9f.js",
+    "main.js": "/webfolio/static/js/main.a3e60f3e.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/SoundcloudHome.png": "/webfolio/static/media/SoundcloudHome.cd7615b68fae8d1f9939.png",
     "static/media/mainPageDelivery.png": "/webfolio/static/media/mainPageDelivery.e2285ca761b792c92258.png",
@@ -44,11 +44,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
     "main.91d8f331.css.map": "/webfolio/static/css/main.91d8f331.css.map",
-    "main.d611ba9f.js.map": "/webfolio/static/js/main.d611ba9f.js.map",
+    "main.a3e60f3e.js.map": "/webfolio/static/js/main.a3e60f3e.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91d8f331.css",
-    "static/js/main.d611ba9f.js"
+    "static/js/main.a3e60f3e.js"
   ]
 }
