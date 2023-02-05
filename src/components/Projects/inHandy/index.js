@@ -1107,14 +1107,6 @@ const InHandy = () => {
                 </p>
               </div>
             </div>
-            <div className="link-group">
-              <a
-                className="button-link"
-                href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
-              >
-                Check out on Figma!
-              </a>
-            </div>
           </div>
         </div>
 
