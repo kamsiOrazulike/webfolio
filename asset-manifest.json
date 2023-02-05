@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/webfolio/static/css/main.91d8f331.css",
-    "main.js": "/webfolio/static/js/main.93af6fb3.js",
+    "main.js": "/webfolio/static/js/main.7f8762ad.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/SoundcloudHome.png": "/webfolio/static/media/SoundcloudHome.cd7615b68fae8d1f9939.png",
     "static/media/mainPageDelivery.png": "/webfolio/static/media/mainPageDelivery.e2285ca761b792c92258.png",
@@ -20,10 +20,12 @@
     "static/media/Me6.png": "/webfolio/static/media/Me6.86dfb126fcbc1eb3bd38.png",
     "static/media/Me5.png": "/webfolio/static/media/Me5.fbffe528d9f50934d001.png",
     "static/media/minoscard.png": "/webfolio/static/media/minoscard.e4f8a81e3782efd44267.png",
+    "static/media/characterInspiration.jpg": "/webfolio/static/media/characterInspiration.079a4b87f36921bd3625.jpg",
     "static/media/allPages.png": "/webfolio/static/media/allPages.1595dac00e97023f7791.png",
     "static/media/AppScreenshot2.jpg": "/webfolio/static/media/AppScreenshot2.a202a3300ac291a59d5e.jpg",
     "static/media/LBCLogo.png": "/webfolio/static/media/LBCLogo.f12d00c9208d8c8f4ac1.png",
     "static/media/AppScreenshot.jpg": "/webfolio/static/media/AppScreenshot.4e967119a50e8c5bc3c3.jpg",
+    "static/media/characterdesign2.png": "/webfolio/static/media/characterdesign2.51cc31561e39ce9a43b0.png",
     "static/media/OasisFinal.png": "/webfolio/static/media/OasisFinal.b928cdfb4c2cebbe4bfe.png",
     "static/media/openingPage1.png": "/webfolio/static/media/openingPage1.95f3cf7bc570c7ad5128.png",
     "static/media/Character1.png": "/webfolio/static/media/Character1.1586d16d5c01d6017bb0.png",
@@ -33,7 +35,6 @@
     "static/media/pageDesign4.png": "/webfolio/static/media/pageDesign4.5ccaa2c02412334f0f62.png",
     "static/media/pageDesign3.png": "/webfolio/static/media/pageDesign3.0f9eb93a75af3bb62642.png",
     "static/media/YTScreenshot.jpg": "/webfolio/static/media/YTScreenshot.d5cc789f8438f5b21d3c.jpg",
-    "static/media/pageDesign2.png": "/webfolio/static/media/pageDesign2.1b41edd58f0dd92fdf14.png",
     "static/media/screenshotnetflix.jpg": "/webfolio/static/media/screenshotnetflix.61cf5377b6cc8d5d7ff9.jpg",
     "static/media/pageDesign5.jpg": "/webfolio/static/media/pageDesign5.a00d9547417bdb8220b5.jpg",
     "static/media/helvetica-neu.ttf": "/webfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
@@ -44,11 +45,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
     "main.91d8f331.css.map": "/webfolio/static/css/main.91d8f331.css.map",
-    "main.93af6fb3.js.map": "/webfolio/static/js/main.93af6fb3.js.map",
+    "main.7f8762ad.js.map": "/webfolio/static/js/main.7f8762ad.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91d8f331.css",
-    "static/js/main.93af6fb3.js"
+    "static/js/main.7f8762ad.js"
   ]
 }
