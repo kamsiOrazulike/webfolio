@@ -6,11 +6,10 @@ import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import NHSLogo from "../../../assets/portfolio-imgs/inHandy/NHSLogo.png";
 import homeScreen from "../../../assets/portfolio-imgs/inHandy/openingPage1.png";
-// import mainPage from "../../../assets/portfolio-imgs/inHandy/mainpage1.png";
 import drawings from "../../../assets/portfolio-imgs/inHandy/Project_Plan.jpg";
 import allPages from "../../../assets/portfolio-imgs/inHandy/allPages.png";
 import pagesketch1 from "../../../assets/portfolio-imgs/inHandy/pageDesign.png";
-import pagesketch2 from "../../../assets/portfolio-imgs/inHandy/pageDesign2.png";
+// import pagesketch2 from "../../../assets/portfolio-imgs/inHandy/pageDesign2.png";
 import pagesketch3 from "../../../assets/portfolio-imgs/inHandy/pageDesign3.png";
 import pagesketch4 from "../../../assets/portfolio-imgs/inHandy/pageDesign4.png";
 import pagesketch5 from "../../../assets/portfolio-imgs/inHandy/pageDesign5.jpg";
@@ -18,7 +17,8 @@ import appscreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/Ap
 import appscreenshot2 from "../../../assets/portfolio-imgs/inHandy/screenshots/AppScreenshot2.jpg";
 import netflixscreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/screenshotnetflix.jpg";
 import YoutubeScreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/YTScreenshot.jpg";
-// import mainCharacter from "../../../assets/portfolio-imgs/inHandy/maincharacter.png";
+import characterDesigns from "../../../assets/portfolio-imgs/inHandy/characterInspiration.jpg";
+import characterDesign1 from "../../../assets/portfolio-imgs/inHandy/characterdesign2.png";
 import Charles from "../../../assets/portfolio-imgs/inHandy/character.png";
 import Karen from "../../../assets/imgs/Character1.png";
 import procreate from "../../../assets/portfolio-imgs/procreateIcon.png";
@@ -245,7 +245,7 @@ const ProjectBrief = () => {
         </div>
       </div>
 
-      <div className="overview-col" style={{ width: "100%" }}>
+      <div className="overview-col">
         <div
           className="wrapper"
           style={{ background: "#DEEFFF", padding: "40px" }}
@@ -534,21 +534,21 @@ const ProjectBrief = () => {
 const Ideation = () => {
   return (
     <div className="project-detail">
-      <div className="header-zone">
+      <div className="header-zone" style={{ margin: "0" }}>
         <h1 id="ideation">Ideation Process</h1>
       </div>
 
       <div className="overview-col">
-        <div className="wrapper">
+        <div
+          className="wrapper"
+          style={{ background: "#DEEFFF", padding: "20px 40px" }}
+        >
           <div className="message" style={{ width: "80%" }}>
             <h3>Refined Brief</h3>
             <p>
               "To develop a product that provides a <b>fun</b> and
               <b> engaging</b> way to learn British Sign Language."
             </p>
-
-            <div className="shortdivider"></div>
-
             <h3>Analysis Overview</h3>
             <p>
               In my analysis of existing applications/methods of learning BSL,
@@ -582,6 +582,8 @@ const Ideation = () => {
           </div>
         </div>
       </div>
+
+      <div className="shortdivider" style={{ margin: "2rem 0 2rem 0" }}></div>
 
       <div className="overview-col">
         <div className="wrapper">
@@ -1035,6 +1037,111 @@ const Prototypes = () => {
   );
 };
 
+const CharacterDesign = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1>Character Design</h1>
+        <p style={{ margin: "2rem 8rem" }}>
+          To ensure effective visual communication, the low fidelity prototypes
+          needed development. Starting from the development of characters for
+          both stills and animations that will be a part of InHandy's learning
+          experience.
+        </p>
+      </div>
+      <div className="overview-col">
+        <div className="wrapper">
+          <div className="message">
+            <h3>Style guide</h3>
+            <p>
+              There are many important aspects to consider when it comes to
+              character design such as
+              <b> Colour</b>,<b> Concept</b>,<b> Shape</b>,<b> Simplicity</b>{" "}
+              and
+              <b> Repeatability</b>.
+            </p>
+            <p>
+              The qualities of a character being developed for a learning
+              application should be reflective of the experience. The design is
+              important as it determines how effective learning using the
+              application would be.
+            </p>
+
+            <p>
+              When it comes to Character design for Sign Language it is
+              important to consider:
+              <ul className="cool-list">
+                <li>Gestures - Hand placement and movement </li>
+                <li>
+                  Facial Expression - Expression using facial features mainly
+                  the eyes and mouth.
+                </li>
+              </ul>
+            </p>
+          </div>
+
+          <img src={Karen} alt="Karen" className="character-img" />
+        </div>
+
+        <div className="wrapper">
+          <img
+            src="https://blog.minifigures.com/wp-content/uploads/2019/09/emmet.jpg"
+            alt="legoimages"
+            className="character-img"
+          />
+          <div className="message">
+            <h3>Simplicity</h3>
+            <p>
+              So when designing characters to go with the learning experience
+              InHandy will provide, it is important to make them as simple as
+              possible not only for repeatability and cohesiveness but also to
+              give learners a feeling of ease.
+            </p>
+            <p>
+              The purpose of simple character design would also be reflective of
+              the idea that the learning is easy and that the learning
+              experience InHandy will provide is as easy as the characters
+              designed to be a part of the application.
+            </p>
+            <p>
+              To make the characters as simple as possible, inspiration of
+              simple block like shapes and colour was taken from the existing
+              products, <b>Lego toys</b>.
+            </p>
+          </div>
+        </div>
+
+        <div className="shortdivider"></div>
+        <img
+          src={characterDesigns}
+          className="drawnplan"
+          alt="charactersketches"
+        />
+        <div className="wrapper">
+          <div className="message">
+            <p>
+              Combining the concepts of;
+              <ul className="cool-list">
+                <li>Simple design - for repeatability and cohesiveness</li>
+                <li>
+                  Friendly design - to emphasise that feeling of ease for user
+                </li>
+              </ul>
+              I believed it is necessary for developing characters that emulate
+              the learning experience of InHandy.
+            </p>
+          </div>
+          <img
+            src={characterDesign1}
+            alt="characterdesign2"
+            className="character-img vibrate"
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const InHandy = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
   const TitleArray = ["i", "n", "H", "a", "n", "d", "y"];
@@ -1119,6 +1226,7 @@ const InHandy = () => {
         <Ideation />
         <div className="hd"></div>
         <Prototypes />
+        <CharacterDesign />
 
         <div className="buttonlink-group">
           <Link className="button-link" to={"contact"}>

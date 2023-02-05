@@ -225,8 +225,8 @@ const MainPages = () => {
           <div className="message">
             <h3> Toggle graphic </h3>
             <p>
-              A delivery man and collection item graphic I drew using Adobe
-              Illustrate.
+              A delivery man and collection item graphic drawn using the
+              Illustrator tool.
             </p>
             <div className="wrapper">
               <img
@@ -380,12 +380,11 @@ const GoGenesisProject = () => {
         {<OpeningScreen />}
         <div className="hd"></div>
         {<AccountPages />}
-        <div className="hd"></div>
-        {<MainPages />}
-        <div className="hd"></div>
-        {<DockItems />}
-        <div className="hd"></div>
-        {<OrderDetails />}
+        {/* <div className="hd"></div> */}
+        {/* {<MainPages />} */}
+        {/* {<DockItems />} */}
+        {/* <div className="hd"></div> */}
+        {/* {<OrderDetails />} */}
         {/* <div className="hd"></div> */}
         {/* {<UserJourney />} */}
 
