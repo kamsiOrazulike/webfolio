@@ -133,7 +133,7 @@ const FeaturedProject = () => {
                 </div>
               </div>
 
-              <Link to="/inhandy" className="button-link">
+              <Link to="/gogenesis" className="button-link">
                 View Go Genesis
               </Link>
             </div>
