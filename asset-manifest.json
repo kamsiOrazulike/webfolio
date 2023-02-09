@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.91d8f331.css",
-    "main.js": "/webfolio/static/js/main.7f8762ad.js",
+    "main.css": "/webfolio/static/css/main.0a34f363.css",
+    "main.js": "/webfolio/static/js/main.4e8e6adf.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/SoundcloudHome.png": "/webfolio/static/media/SoundcloudHome.cd7615b68fae8d1f9939.png",
     "static/media/mainPageDelivery.png": "/webfolio/static/media/mainPageDelivery.e2285ca761b792c92258.png",
     "static/media/chosenMeal.png": "/webfolio/static/media/chosenMeal.1acbb92328af65d95246.png",
-    "static/media/mainpage.png": "/webfolio/static/media/mainpage.7b59f0847b78eef0e30d.png",
+    "static/media/mainpage.png": "/webfolio/static/media/mainpage.c7f508bd7938cfbf44c5.png",
+    "static/media/alphabettone.jpg": "/webfolio/static/media/alphabettone.fded5a9fd9498761f465.jpg",
     "static/media/cardbackdesign.png": "/webfolio/static/media/cardbackdesign.68a7d0c0b8641c47adcb.png",
     "static/media/Project_Plan.jpg": "/webfolio/static/media/Project_Plan.17d7f7ab127504140813.jpg",
     "static/media/StoryboardComics.jpg": "/webfolio/static/media/StoryboardComics.061aab9a95077e7415c3.jpg",
@@ -15,17 +16,23 @@
     "static/media/accountPage.png": "/webfolio/static/media/accountPage.2a6f5618b0033b33eae7.png",
     "static/media/tutorial1.png": "/webfolio/static/media/tutorial1.96f7ed1571da30f01e17.png",
     "static/media/login.png": "/webfolio/static/media/login.28b1b29741942b93c5fe.png",
+    "static/media/handDesign.png": "/webfolio/static/media/handDesign.044c0caa81e285344c91.png",
     "static/media/createAccount.png": "/webfolio/static/media/createAccount.aed9a924140064146327.png",
+    "static/media/gamePage.png": "/webfolio/static/media/gamePage.49314cc17a667d77f93b.png",
     "static/media/flowDiagram.jpg": "/webfolio/static/media/flowDiagram.f9257e41f0c78496f487.jpg",
     "static/media/Me6.png": "/webfolio/static/media/Me6.86dfb126fcbc1eb3bd38.png",
     "static/media/Me5.png": "/webfolio/static/media/Me5.fbffe528d9f50934d001.png",
+    "static/media/loginPage.png": "/webfolio/static/media/loginPage.5ef235fdb27aec97add1.png",
     "static/media/minoscard.png": "/webfolio/static/media/minoscard.e4f8a81e3782efd44267.png",
+    "static/media/gamePageFail.png": "/webfolio/static/media/gamePageFail.1513fa3a9d2a6b0d08cc.png",
+    "static/media/characterDesign.png": "/webfolio/static/media/characterDesign.db5062188192f00905cc.png",
     "static/media/characterInspiration.jpg": "/webfolio/static/media/characterInspiration.079a4b87f36921bd3625.jpg",
     "static/media/allPages.png": "/webfolio/static/media/allPages.1595dac00e97023f7791.png",
     "static/media/AppScreenshot2.jpg": "/webfolio/static/media/AppScreenshot2.a202a3300ac291a59d5e.jpg",
     "static/media/LBCLogo.png": "/webfolio/static/media/LBCLogo.f12d00c9208d8c8f4ac1.png",
     "static/media/AppScreenshot.jpg": "/webfolio/static/media/AppScreenshot.4e967119a50e8c5bc3c3.jpg",
     "static/media/characterdesign2.png": "/webfolio/static/media/characterdesign2.51cc31561e39ce9a43b0.png",
+    "static/media/character3.png": "/webfolio/static/media/character3.0464b9aeff23b0c7f29f.png",
     "static/media/OasisFinal.png": "/webfolio/static/media/OasisFinal.b928cdfb4c2cebbe4bfe.png",
     "static/media/openingPage1.png": "/webfolio/static/media/openingPage1.95f3cf7bc570c7ad5128.png",
     "static/media/Character1.png": "/webfolio/static/media/Character1.1586d16d5c01d6017bb0.png",
@@ -44,12 +51,12 @@
     "static/media/togglegraphic2.png": "/webfolio/static/media/togglegraphic2.74c51a2cbf001254c2e0.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.91d8f331.css.map": "/webfolio/static/css/main.91d8f331.css.map",
-    "main.7f8762ad.js.map": "/webfolio/static/js/main.7f8762ad.js.map",
+    "main.0a34f363.css.map": "/webfolio/static/css/main.0a34f363.css.map",
+    "main.4e8e6adf.js.map": "/webfolio/static/js/main.4e8e6adf.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.91d8f331.css",
-    "static/js/main.7f8762ad.js"
+    "static/css/main.0a34f363.css",
+    "static/js/main.4e8e6adf.js"
   ]
 }
