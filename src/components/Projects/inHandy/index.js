@@ -5,7 +5,7 @@ import ArrowToTop from "../../ArrowToTop";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import NHSLogo from "../../../assets/portfolio-imgs/inHandy/NHSLogo.png";
-import homeScreen from "../../../assets/portfolio-imgs/inHandy/openingPage1.png";
+import homeScreen from "../../../assets/portfolio-imgs/inHandy/loginPage.png";
 import drawings from "../../../assets/portfolio-imgs/inHandy/Project_Plan.jpg";
 import allPages from "../../../assets/portfolio-imgs/inHandy/allPages.png";
 import pagesketch1 from "../../../assets/portfolio-imgs/inHandy/pageDesign.png";
@@ -13,12 +13,21 @@ import pagesketch1 from "../../../assets/portfolio-imgs/inHandy/pageDesign.png";
 import pagesketch3 from "../../../assets/portfolio-imgs/inHandy/pageDesign3.png";
 import pagesketch4 from "../../../assets/portfolio-imgs/inHandy/pageDesign4.png";
 import pagesketch5 from "../../../assets/portfolio-imgs/inHandy/pageDesign5.jpg";
+// import pagedesign1 from "../../../assets/portfolio-imgs/inHandy/testexample1.png";
+import pagedesign2 from "../../../assets/portfolio-imgs/inHandy/gamePage.png";
+import pagedesign3 from "../../../assets/portfolio-imgs/inHandy/gamePageFail.png";
+// import pagedesign4 from "../../../assets/portfolio-imgs/inHandy/scenariotest.png";
+// import pagedesign5 from "../../../assets/portfolio-imgs/inHandy/scenariotest2.png";
 import appscreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/AppScreenshot.jpg";
 import appscreenshot2 from "../../../assets/portfolio-imgs/inHandy/screenshots/AppScreenshot2.jpg";
 import netflixscreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/screenshotnetflix.jpg";
 import YoutubeScreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/YTScreenshot.jpg";
+import handDesigns from "../../../assets/portfolio-imgs/inHandy/handDesign.png";
+import alphabet2 from "../../../assets/portfolio-imgs/inHandy/alphabettone.jpg";
 import characterDesigns from "../../../assets/portfolio-imgs/inHandy/characterInspiration.jpg";
 import characterDesign1 from "../../../assets/portfolio-imgs/inHandy/characterdesign2.png";
+import karenTony from "../../../assets/portfolio-imgs/inHandy/characterDesign.png";
+import Elliot from "../../../assets/portfolio-imgs/inHandy/character3.png";
 import Charles from "../../../assets/portfolio-imgs/inHandy/character.png";
 import Karen from "../../../assets/imgs/Character1.png";
 import procreate from "../../../assets/portfolio-imgs/procreateIcon.png";
@@ -910,10 +919,10 @@ const Prototypes = () => {
       <div className="header-zone">
         <h1> Lo-Fi Prototypes </h1>
         <p style={{ margin: "2rem 8rem" }}>
-          Removing the assistance of a physical product makes the interface
-          design of InHandy the main focus of the product design. Optimising the
-          product to be available on mobile devices would tie in more with the
-          brief of the product being as accessible as existing methods.
+          To align my product more with the goals of being as accessible as
+          existing methods and also due to the time we also had on this project.
+          I decided not to pursue the assistance of a physical product method
+          and instead put more focus on making inHandy a mobile application.
         </p>
       </div>
       <div className="overview-col">
@@ -1119,6 +1128,12 @@ const CharacterDesign = () => {
         />
         <div className="wrapper">
           <div className="message">
+            <h3>Friendly design</h3>
+            <p>
+              The purpose of friendly character design is to provide a feeling
+              of ease and warmth to the User. The aim is to help the the user
+              feel welcome regardless of their existing knowledge.
+            </p>
             <p>
               Combining the concepts of;
               <ul className="cool-list">
@@ -1130,6 +1145,11 @@ const CharacterDesign = () => {
               I believed it is necessary for developing characters that emulate
               the learning experience of InHandy.
             </p>
+            <p>
+              The successful language learning platform Duolingo also makes use
+              of character design to create and emphasise that feeling of
+              welcome and simplicity to the User
+            </p>
           </div>
           <img
             src={characterDesign1}
@@ -1137,6 +1157,78 @@ const CharacterDesign = () => {
             className="character-img vibrate"
           />
         </div>
+
+        <div className="wrapper">
+          <img
+            src={Elliot}
+            alt="karenandtony"
+            className="character-img vibrate"
+          />
+          <img src={karenTony} alt="karenandtony" className="character-img" />
+          <img
+            src={Charles}
+            alt="karenandtony"
+            className="character-img vibrate"
+          />
+        </div>
+
+        <div className="shortdivider"></div>
+
+        <div className="header-zone">
+          <h1>Hand design</h1>
+          <p style={{ margin: "2rem 8rem" }}>
+            These hand drawings were developed for the "Guess the sign" game.
+            Graphic design must maintain the effective visual communication
+            principle mentioned in the brief. Challenge: Designing hands that
+            still emulate the simplicity in the graphic design for a complex
+            language.
+          </p>
+        </div>
+
+        <img src={handDesigns} alt="handdesigns" className="project-img" />
+
+        <div className="wrapper">
+          <div className="message">
+            <h3>Developed design</h3>
+          </div>
+          <img src={alphabet2} alt="handdesigns" className="character-img" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const DevelopedPrototype = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1> Final presentation </h1>
+      </div>
+
+      <div className="overview-col">
+        <div className="wrapper">
+          <img src={pagesketch5} className="screenshot" alt="pagedesign" />
+          <div className="message">
+            <h3>Product development: Gamification</h3>
+            <p>
+              Combining the developed hand design with the initial format in the
+              sketch prototype resulted in the formation of this screen on the
+              left.
+            </p>
+          </div>
+          <img src={pagedesign2} className="screenshot" alt="pagedesign" />
+          <img src={pagedesign3} className="screenshot" alt="pagedesign" />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+const NextSteps = () => {
+  return (
+    <div className="project-detail">
+      <div className="header-zone">
+        <h1> Next steps </h1>
       </div>
     </div>
   );
@@ -1227,6 +1319,10 @@ const InHandy = () => {
         <div className="hd"></div>
         <Prototypes />
         <CharacterDesign />
+        <div className="hd"></div>
+        <DevelopedPrototype />
+        <div className="hd"></div>
+        <NextSteps />
 
         <div className="buttonlink-group">
           <Link className="button-link" to={"contact"}>

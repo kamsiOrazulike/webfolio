@@ -355,6 +355,7 @@
     position: relative;
     width: 500px;
     height: auto;
+    image-rendering: crisp-edges;
 
     @media screen and (max-width: 800px) {
       width: 250px;

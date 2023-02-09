@@ -36,7 +36,7 @@ const FeaturedProject = () => {
               />
             </h1>
           </div>
-          <div className="flex-box" style={{margin: '7rem 0'}}>
+          <div className="flex-box" style={{ margin: "7rem 0" }}>
             <img src={inHandy} className="project" alt="project1" />
             <div className="overview">
               <h2> Project duration: 8 months</h2>
@@ -44,9 +44,9 @@ const FeaturedProject = () => {
               <div className="goals">
                 <h3>Goal</h3>
                 <p>
-                  inHandy is a platform that will provide you with a brief and
-                  engaging journey introduction to learning British Sign
-                  Language. It will provide this by focusing mainly on:
+                  inHandy is a platform that provides users with a brief and
+                  engaging method to learning British Sign Language. It will
+                  provide this by focusing mainly on:
                   <ul>
                     <li>Effective visual communication </li>
                     <li>Contextual learning </li>
