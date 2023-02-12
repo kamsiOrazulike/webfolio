@@ -15,13 +15,13 @@ const NavLinks = (props) => {
         >
           All Projects
         </LinkRoute>
-        <LinkRoute
+        {/* <LinkRoute
           to="about"
           onClick={() => props.isMobile && props.closeMobileMenu()}
           style={{ width: "100%" }}
         >
           About Me
-        </LinkRoute>
+        </LinkRoute> */}
         <LinkRoute
           to="contact"
           onClick={() => props.isMobile && props.closeMobileMenu()}

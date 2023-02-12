@@ -1,24 +1,28 @@
-$primary-color: #000000;
+$primary-color: #fff;
 
-@import 'animate.css';
-@import '~loaders.css/src/animations/ball-pulse.scss';
+@import "animate.css";
+@import "~loaders.css/src/animations/ball-pulse.scss";
 
 @font-face {
-  font-family: 'Helvetica Neue';
-  src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
+  font-family: "Helvetica Neue";
+  src: url("./assets/fonts/helvetica-neu.ttf") format("ttf");
 }
 @font-face {
-  font-family: 'La Belle Aurore';
-  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+  font-family: "La Belle Aurore";
+  src: url("./assets/fonts/LaBelleAurore.woff2") format("woff2");
 }
 @font-face {
-  font-family: 'Coolvetica';
-  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
+  font-family: "Coolvetica";
+  src: url("./assets/fonts/CoolveticaRg-Regular.woff2") format("woff2");
+}
+
+.App {
+  background: #111213;
 }
 
 input,
 textarea {
-  font-family: 'Helvetica Neue';
+  font-family: "Helvetica Neue";
 }
 
 .loader-active {

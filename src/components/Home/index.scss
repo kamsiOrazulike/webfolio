@@ -12,8 +12,19 @@ $color-outline: #7f7f7f80;
 }
 
 .home-page {
-  background: #c8c8c8;
+  z-index: 0;
   justify-content: space-around;
+  background-image: url("https://wallpapers.com/images/featured-full/cyberpunk-city-dpqrj66joh42kt7d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  .fadeOut-container {
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background: #000000c1;
+  }
 
   .header-zone {
     position: relative;
@@ -24,45 +35,6 @@ $color-outline: #7f7f7f80;
     justify-content: space-between;
     height: 100%;
     width: auto;
-
-    .myImage {
-      width: 200px;
-      height: auto;
-      position: relative;
-      border-radius: 50%;
-      border: 1px solid #000;
-
-      @media screen and (max-width: 800px) {
-        width: 150px;
-      }
-    }
-  }
-
-  .projects-btn,
-  .contact-btn {
-    color: #000;
-    font-size: 13px;
-    font-weight: 400;
-    letter-spacing: 4px;
-    font-family: sans-serif;
-    background: transparent;
-    text-decoration: none;
-    padding: 10px 18px;
-    border: 1px solid #000;
-    border-radius: 8px;
-    animation: fadeIn 2s 2.5s backwards;
-    white-space: nowrap;
-
-    &:hover {
-      color: #fff;
-      border: 1px solid #000;
-      background-color: #21232a;
-      transition-duration: 0.3s;
-    }
-
-    @media screen and (max-width: 800px) {
-      font-size: 1rem;
-    }
   }
 
   .project-container {
@@ -84,34 +56,6 @@ $color-outline: #7f7f7f80;
 
       @media screen and (max-width: 1200px) {
         width: 200px;
-      }
-    }
-
-    .card {
-      background: #1b1d28;
-      color: #d485ca;
-      position: relative;
-      bottom: 70px;
-      width: 50%;
-      cursor: pointer;
-      height: auto;
-      font-size: 1.2em;
-      border: 1px solid #d485ca;
-      border-radius: 1rem;
-      padding: 0 2rem;
-      transition: all 0.2s ease-in-out;
-
-      h1 {
-        font-size: 2rem;
-      }
-
-      a {
-        color: #d485ca;
-        text-decoration: none;
-      }
-
-      @media screen and (max-width: 800px) {
-        display: none;
       }
     }
 

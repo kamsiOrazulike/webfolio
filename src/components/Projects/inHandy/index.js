@@ -9,7 +9,8 @@ import homeScreen from "../../../assets/portfolio-imgs/inHandy/loginPage.png";
 import drawings from "../../../assets/portfolio-imgs/inHandy/Project_Plan.jpg";
 import allPages from "../../../assets/portfolio-imgs/inHandy/allPages.png";
 import pagesketch1 from "../../../assets/portfolio-imgs/inHandy/pageDesign.png";
-// import pagesketch2 from "../../../assets/portfolio-imgs/inHandy/pageDesign2.png";
+import mainpageinitial from "../../../assets/portfolio-imgs/inHandy/mainpage1.png";
+import mainpagedeveloped from "../../../assets/portfolio-imgs/inHandy/mainpage.png";
 import pagesketch3 from "../../../assets/portfolio-imgs/inHandy/pageDesign3.png";
 import pagesketch4 from "../../../assets/portfolio-imgs/inHandy/pageDesign4.png";
 import pagesketch5 from "../../../assets/portfolio-imgs/inHandy/pageDesign5.jpg";
@@ -44,6 +45,7 @@ import {
   faTurnUp,
   faDoorOpen,
   faFilm,
+  faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import AnimatedLetters from "../../AnimatedLetters";
 
@@ -75,11 +77,8 @@ const Introduction = () => {
         </div>
       </div>
 
-      <div className="overview-col" style={{ width: "100%" }}>
-        <div
-          className="wrapper"
-          style={{ background: "#DEEFFF", padding: "40px" }}
-        >
+      <div className="overview-col">
+        <div className="wrapper">
           <div className="message">
             <p>
               Some of the most popular methods for treating hearing impairment
@@ -255,10 +254,7 @@ const ProjectBrief = () => {
       </div>
 
       <div className="overview-col">
-        <div
-          className="wrapper"
-          style={{ background: "#DEEFFF", padding: "40px" }}
-        >
+        <div className="wrapper">
           <div className="message">
             <h3>Goal</h3>
             <p>
@@ -548,11 +544,8 @@ const Ideation = () => {
       </div>
 
       <div className="overview-col">
-        <div
-          className="wrapper"
-          style={{ background: "#DEEFFF", padding: "20px 40px" }}
-        >
-          <div className="message" style={{ width: "80%" }}>
+        <div className="wrapper">
+          <div className="message">
             <h3>Refined Brief</h3>
             <p>
               "To develop a product that provides a <b>fun</b> and
@@ -934,7 +927,7 @@ const Prototypes = () => {
           <img
             src={pagesketch1}
             className="screenshot"
-            style={{ margin: "auto" }}
+            style={{ margin: "auto", background: "#fff" }}
             alt="opening"
           />
 
@@ -964,7 +957,7 @@ const Prototypes = () => {
           <img
             src={pagesketch3}
             className="screenshot"
-            style={{ margin: "auto" }}
+            style={{ margin: "auto", background: "#fff" }}
             alt="opening"
           />
 
@@ -1002,6 +995,7 @@ const Prototypes = () => {
                 width: "250px",
                 objectFit: "cover",
                 objectPosition: "100% 100%",
+                background: "#fff",
               }}
               alt="opening"
             />
@@ -1185,13 +1179,32 @@ const CharacterDesign = () => {
           </p>
         </div>
 
-        <img src={handDesigns} alt="handdesigns" className="project-img" />
+        <img
+          src={handDesigns}
+          alt="handdesigns"
+          className="project-img"
+          style={{ background: "#fff" }}
+        />
 
         <div className="wrapper">
           <div className="message">
-            <h3>Developed design</h3>
+            <h3>Final design</h3>
+            <p>
+              I chose the bright golden Yellow colour because inspires a good
+              mood and transmits positive feelings like joy, happiness and high
+              energy.
+            </p>
+            <p>
+              Some of the signs required directional arrows to show movement
+              while others remained static 'poses'
+            </p>
           </div>
-          <img src={alphabet2} alt="handdesigns" className="character-img" />
+          <img
+            src={alphabet2}
+            alt="handdesigns"
+            style={{ margin: "auto" }}
+            className="character-img"
+          />
         </div>
       </div>
     </div>
@@ -1202,22 +1215,88 @@ const DevelopedPrototype = () => {
   return (
     <div className="project-detail">
       <div className="header-zone">
-        <h1> Final presentation </h1>
+        <h1> Final product </h1>
+        <p style={{ margin: "2rem 8rem" }}>
+          The final presentation for this project was my 50 page report with my
+          research and a PowerPoint presentation. These are also available upon
+          request!
+        </p>
       </div>
 
       <div className="overview-col">
         <div className="wrapper">
-          <img src={pagesketch5} className="screenshot" alt="pagedesign" />
           <div className="message">
-            <h3>Product development: Gamification</h3>
+            <h3>Opening + Login Page</h3>
             <p>
-              Combining the developed hand design with the initial format in the
-              sketch prototype resulted in the formation of this screen on the
-              left.
+              The colours of the home screen were chosen as Blue for continuity
+              and consistency. As the title screen is already a shade of blue.
+              But also because blue is a color that is inspiring. It brings
+              feelings of tranquility and serenity and sets the tone for
+              learning.
+            </p>
+            <p>
+              It's the colour of success, relaxation and professionalism. I felt
+              it would be the perfect colour to represents productivity in
+              learning. According to Shift Disruptive Learning, blue in general
+              is a relaxing colour with the lighter shades appearing more
+              friendly and the darker shades more serious.
+            </p>
+            <a
+              className="button-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.figma.com/proto/iLR6o7KWBJGeLR4lMQquv5/inHandy-Mobile?page-id=0%3A1&node-id=0%3A72&viewport=316%2C376%2C0.59&scaling=scale-down&starting-point-node-id=0%3A72&show-proto-sidebar=1"
+            >
+              <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma Initial Prototype
+            </a>
+          </div>
+          <div style={{ display: "flex", alignItems: "center" }}>
+            <img
+              src={mainpageinitial}
+              className="screenshot"
+              alt="pagedesign"
+            />
+            <FontAwesomeIcon icon={faArrowRight} />
+            <img
+              src={mainpagedeveloped}
+              className="screenshot vibrate"
+              alt="pagedesign"
+            />
+          </div>
+        </div>
+
+        <div className="wrapper">
+          <div className="message">
+            <h3>Guess the sign game</h3>
+            <p>Using my developed hand designs.</p>
+            <p>
+              The design of the guess the sign page was to fulfil the job of
+              retaining the images to memory. By making the colours pop a bright
+              golden yellow through each pastel yellow background would work
+              perfectly.
+            </p>
+            <p>
+              Game elements like a Progression bar and timer were important to
+              implement in my design as well.
             </p>
           </div>
-          <img src={pagedesign2} className="screenshot" alt="pagedesign" />
-          <img src={pagedesign3} className="screenshot" alt="pagedesign" />
+
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              flexDirection: "row",
+            }}
+          >
+            <img src={pagesketch5} className="screenshot" alt="pagedesign" />
+            <FontAwesomeIcon icon={faArrowRight} />
+            <img
+              src={pagedesign2}
+              className="vibrate screenshot"
+              alt="pagedesign"
+            />
+            <img src={pagedesign3} className="screenshot " alt="pagedesign" />
+          </div>
         </div>
       </div>
     </div>
@@ -1301,7 +1380,7 @@ const InHandy = () => {
                   <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
                 </p>
                 <p style={{ display: "flex", alignItems: "center" }}>
-                  <img src={procreate} className="iconimg" alt="procreate" />{" "}
+                  <img src={procreate} className="iconimg" alt="procreate" />
                   &nbsp; Procreate <br />
                 </p>
               </div>
@@ -1321,8 +1400,8 @@ const InHandy = () => {
         <CharacterDesign />
         <div className="hd"></div>
         <DevelopedPrototype />
-        <div className="hd"></div>
-        <NextSteps />
+        {/* <div className="hd"></div> */}
+        {/* <NextSteps /> */}
 
         <div className="buttonlink-group">
           <Link className="button-link" to={"contact"}>

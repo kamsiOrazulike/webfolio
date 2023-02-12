@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link as LinkScroll } from "react-scroll";
-import Featured from "../Featured";
 import Loader from "react-loaders";
 import {
   faCss3,
@@ -16,6 +15,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
 import ArrowToTop from "../ArrowToTop";
+import About from "../About";
 
 const Home = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
@@ -28,6 +28,7 @@ const Home = () => {
   return (
     <>
       <div className="home-page">
+        <div className="fadeOut-container"></div>
         <div className="header-zone">
           <h1 id="top">
             <span className={CharClass}>H</span>
@@ -47,24 +48,28 @@ const Home = () => {
           </h1>
           <h2> Web Developer | UI Designer</h2>
           <br />
-          <LinkScroll
-            to="featured"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-            className="shrink contact-btn"
-          >
-            FEATURED
-          </LinkScroll>
-          <br />
-          <a
-            href="https://github.com/kamsiOrazulike"
-            className="shrink contact-btn"
-          >
-            MY GITHUB
-          </a>
-          <br />
+          <div className="link-group">
+            <LinkScroll
+              to="featured"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              style={{ margin: "0 2rem" }}
+              className="grow button-link"
+            >
+              Projects
+            </LinkScroll>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/kamsiOrazulike"
+              className="grow button-link"
+              style={{ margin: "0 2rem" }}
+            >
+              MY GITHUB
+            </a>
+          </div>
         </div>
 
         <div className="cube-container">
@@ -105,7 +110,7 @@ const Home = () => {
       <ArrowToTop />
       <Loader type="ball-pulse" />
 
-      <Featured />
+      <About />
     </>
   );
 };

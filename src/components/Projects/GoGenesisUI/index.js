@@ -367,6 +367,8 @@ const GoGenesisProject = () => {
             </div>
             <div className="link-group">
               <a
+                target="_blank"
+                rel="noreferrer"
                 className="button-link"
                 href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
               >
@@ -380,8 +382,7 @@ const GoGenesisProject = () => {
         {<OpeningScreen />}
         <div className="hd"></div>
         {<AccountPages />}
-        {/* <div className="hd"></div> */}
-        {/* {<MainPages />} */}
+        {<MainPages />}
         {/* {<DockItems />} */}
         {/* <div className="hd"></div> */}
         {/* {<OrderDetails />} */}

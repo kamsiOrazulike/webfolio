@@ -38,7 +38,7 @@ const Navbar = () => {
           >
             Projects
           </LinkRoute>
-          <LinkRoute
+          {/* <LinkRoute
             className="to-section"
             to="about"
             spy={true}
@@ -47,7 +47,7 @@ const Navbar = () => {
             duration={500}
           >
             About
-          </LinkRoute>
+          </LinkRoute> */}
           <LinkRoute
             className="to-section"
             to="contact"

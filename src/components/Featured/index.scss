@@ -1,98 +1,90 @@
 .featured-page {
   height: auto;
-  background: #f4f4f4;
   transform-style: preserve-3d;
   animation: fadeIn 1.5s forwards;
   animation-delay: 1s;
 
-  .header-zone {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    animation-delay: 1.6s;
+  .project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: auto;
+  }
 
-    .project {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      width: 300px;
-      height: auto;
+  .overview {
+    width: 55%;
+    color: #fff;
+    text-align: left;
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 1.9rem;
+    animation: fadeIn 2s 2s backwards;
+
+    @media screen and (max-width: 800px) {
+      width: 100%;
+      text-align: center;
+      flex-direction: column;
+      z-index: 9999;
+      width: 80%;
+      padding: 2rem 3rem;
     }
 
-    .overview {
-      width: 55%;
-      color: #000;
-      text-align: left;
+    h2 {
+      width: 70%;
       display: flex;
-      height: fit-content;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      font-size: 1.9rem;
-      animation: fadeIn 2s 2s backwards;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+
+    .wrapper {
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
 
       @media screen and (max-width: 800px) {
         width: 100%;
-        text-align: center;
-        flex-direction: column;
-        z-index: 9999;
-        width: 80%;
-        padding: 2rem 3rem;
+        text-align: left;
+        font-size: 1.4rem;
       }
+    }
 
-      h2 {
-        width: 70%;
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-      }
+    h1 {
+      font-size: 2.6rem;
+      text-transform: uppercase;
+    }
 
-      .wrapper {
-        width: 70%;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start;
-        justify-content: space-around;
+    .message,
+    .goals,
+    .role,
+    .tools {
+      width: 70%;
+      display: flex;
+      flex-direction: column;
 
-        @media screen and (max-width: 800px) {
-          width: 100%;
-          text-align: left;
-          font-size: 1.4rem;
-        }
-      }
-
-      h1 {
-        font-size: 2.6rem;
+      h3 {
+        font-size: 1.8rem;
         text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 0px;
+        font-weight: 800;
+        text-decoration: wavy;
       }
 
-      .message,
-      .goals,
-      .role,
-      .tools {
-        width: 70%;
-        display: flex;
-        flex-direction: column;
+      p {
+        margin: 1rem 0;
+      }
 
-        h3 {
-          font-size: 1.8rem;
-          text-transform: uppercase;
-          color: #000000;
-          margin-bottom: 0px;
-          font-weight: 800;
-          text-decoration: wavy;
-        }
-
-        p {
-          margin: 1rem 0;
-        }
-
-        @media screen and (max-width: 800px) {
-          width: 100%;
-          font-size: 1.4rem;
-        }
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        font-size: 1.4rem;
       }
     }
   }
