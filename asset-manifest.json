@@ -1,24 +1,18 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.04652063.css",
-    "main.js": "/webfolio/static/js/main.079b223d.js",
+    "main.css": "/webfolio/static/css/main.3cbf0ab6.css",
+    "main.js": "/webfolio/static/js/main.2da6035b.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/GenesisMockup.jpg": "/webfolio/static/media/GenesisMockup.879f6f4bb9ada24e3140.jpg",
     "static/media/GenesisMockupTwo.jpg": "/webfolio/static/media/GenesisMockupTwo.f81bdaf5f6c19085443b.jpg",
     "static/media/SoundcloudHome.png": "/webfolio/static/media/SoundcloudHome.cd7615b68fae8d1f9939.png",
     "static/media/inHandyPhoneMock.jpg": "/webfolio/static/media/inHandyPhoneMock.fdf1b62698747f884150.jpg",
-    "static/media/mainPageDelivery.png": "/webfolio/static/media/mainPageDelivery.e2285ca761b792c92258.png",
-    "static/media/chosenMeal.png": "/webfolio/static/media/chosenMeal.1acbb92328af65d95246.png",
     "static/media/mainpage.png": "/webfolio/static/media/mainpage.c7f508bd7938cfbf44c5.png",
     "static/media/alphabettone.jpg": "/webfolio/static/media/alphabettone.fded5a9fd9498761f465.jpg",
     "static/media/cardbackdesign.png": "/webfolio/static/media/cardbackdesign.68a7d0c0b8641c47adcb.png",
     "static/media/Project_Plan.jpg": "/webfolio/static/media/Project_Plan.17d7f7ab127504140813.jpg",
     "static/media/StoryboardComics.jpg": "/webfolio/static/media/StoryboardComics.061aab9a95077e7415c3.jpg",
-    "static/media/tutorial3.png": "/webfolio/static/media/tutorial3.2a39dab4c8bb988aaec8.png",
-    "static/media/tutorial2.png": "/webfolio/static/media/tutorial2.0a53570e0446a42e6716.png",
-    "static/media/accountPage.png": "/webfolio/static/media/accountPage.2a6f5618b0033b33eae7.png",
     "static/media/Mockup.jpg": "/webfolio/static/media/Mockup.67cac829ad3f184141d4.jpg",
-    "static/media/tutorial1.png": "/webfolio/static/media/tutorial1.96f7ed1571da30f01e17.png",
     "static/media/login.png": "/webfolio/static/media/login.28b1b29741942b93c5fe.png",
     "static/media/handDesign.png": "/webfolio/static/media/handDesign.044c0caa81e285344c91.png",
     "static/media/createAccount.png": "/webfolio/static/media/createAccount.aed9a924140064146327.png",
@@ -26,7 +20,6 @@
     "static/media/flowDiagram.jpg": "/webfolio/static/media/flowDiagram.f9257e41f0c78496f487.jpg",
     "static/media/Me6.png": "/webfolio/static/media/Me6.86dfb126fcbc1eb3bd38.png",
     "static/media/Me5.png": "/webfolio/static/media/Me5.fbffe528d9f50934d001.png",
-    "static/media/loginPage.png": "/webfolio/static/media/loginPage.5ef235fdb27aec97add1.png",
     "static/media/minoscard.png": "/webfolio/static/media/minoscard.e4f8a81e3782efd44267.png",
     "static/media/gamePageFail.png": "/webfolio/static/media/gamePageFail.1513fa3a9d2a6b0d08cc.png",
     "static/media/MockTutorials.png": "/webfolio/static/media/MockTutorials.1766b36225472aadbd2e.png",
@@ -52,16 +45,14 @@
     "static/media/helvetica-neu.ttf": "/webfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/webfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/NHSLogo.png": "/webfolio/static/media/NHSLogo.71add9e6a0e03d07ee89.png",
-    "static/media/togglegraphic.png": "/webfolio/static/media/togglegraphic.525e3bd6ed65236b3995.png",
-    "static/media/togglegraphic2.png": "/webfolio/static/media/togglegraphic2.74c51a2cbf001254c2e0.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.04652063.css.map": "/webfolio/static/css/main.04652063.css.map",
-    "main.079b223d.js.map": "/webfolio/static/js/main.079b223d.js.map",
+    "main.3cbf0ab6.css.map": "/webfolio/static/css/main.3cbf0ab6.css.map",
+    "main.2da6035b.js.map": "/webfolio/static/js/main.2da6035b.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04652063.css",
-    "static/js/main.079b223d.js"
+    "static/css/main.3cbf0ab6.css",
+    "static/js/main.2da6035b.js"
   ]
 }
