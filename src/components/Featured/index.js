@@ -1,11 +1,9 @@
 import "./index.scss";
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import inHandy from "../../assets/portfolio-imgs/inHandy/mainpage.png";
 import genesisHome from "../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import procreate from "../../assets/portfolio-imgs/procreateIcon.png";
-
 import {
   faFigma,
   faCss3,
@@ -13,7 +11,6 @@ import {
   faJsSquare,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-import AnimatedLetters from "../AnimatedLetters";
 
 const FeaturedProject = () => {
   return (

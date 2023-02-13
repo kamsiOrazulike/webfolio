@@ -383,9 +383,9 @@ const GoGenesisProject = () => {
         <div className="hd"></div>
         {<AccountPages />}
         {<MainPages />}
-        {/* {<DockItems />} */}
+        {<DockItems />}
         {/* <div className="hd"></div> */}
-        {/* {<OrderDetails />} */}
+        {<OrderDetails />}
         {/* <div className="hd"></div> */}
         {/* {<UserJourney />} */}
 

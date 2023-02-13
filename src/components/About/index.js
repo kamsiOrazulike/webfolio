@@ -1,6 +1,4 @@
 import "./index.scss";
-import { useState } from "react";
-import Loader from "react-loaders";
 import Me from "../../assets/imgs/Me5.png";
 import {
   faCss3,
@@ -12,11 +10,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
-  const [CharClass, setLetterClass] = useState("animate-text");
-
-  setTimeout(() => {
-    setLetterClass("animate-text-hover");
-  }, 3000);
 
   return (
     <>

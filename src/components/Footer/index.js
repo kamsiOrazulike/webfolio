@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        This project was made using React, Node, SCSS, HTML and Git/GitHub
+        This webfolio was designed and developed by me!
         &nbsp;
         {`Copyright © Kamsiyonna Orazulike - Webfolio ${year}`}
         <div className="footer-link-container">

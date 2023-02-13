@@ -1,4 +1,50 @@
 .projects-page {
+  .card {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    background: #454652;
+    margin: 2rem 2rem;
+    padding: 2rem 2rem;
+    transition: all 0.8s ease-in-out;
+
+    &:hover {
+      background: #26272e;
+    }
+
+    img {
+      width: 100%;
+      margin: auto;
+      border-radius: 6px;
+      z-index: 999;
+      transition: all 0.8s ease-in-out;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 2rem 0 1rem 0;
+    }
+    h2 {
+      font-size: 1.5rem;
+      color: #afe4ff;
+      font-weight: 900;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1.5rem;
+      font-weight: 400;
+    }
+  }
+
   .header-zone {
     width: 100%;
     align-items: center;
@@ -37,23 +83,6 @@
 
       @media screen and (max-width: 768px) {
         width: 100%;
-      }
-
-      h1 {
-        font-size: 3rem;
-        margin: 0;
-      }
-      h2 {
-        font-size: 2rem;
-        margin: 0;
-      }
-
-      .cover {
-        position: relative;
-        width: 250px;
-        height: auto;
-        padding: 2rem 0;
-        z-index: 999;
       }
     }
   }

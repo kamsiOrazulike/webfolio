@@ -927,7 +927,7 @@ const Prototypes = () => {
           <img
             src={pagesketch1}
             className="screenshot"
-            style={{ margin: "auto", background: "#fff" }}
+            style={{ margin: "auto" }}
             alt="opening"
           />
 
@@ -1303,15 +1303,15 @@ const DevelopedPrototype = () => {
   );
 };
 
-const NextSteps = () => {
-  return (
-    <div className="project-detail">
-      <div className="header-zone">
-        <h1> Next steps </h1>
-      </div>
-    </div>
-  );
-};
+// const NextSteps = () => {
+//   return (
+//     <div className="project-detail">
+//       <div className="header-zone">
+//         <h1> Next steps </h1>
+//       </div>
+//     </div>
+//   );
+// };
 
 const InHandy = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
@@ -1346,8 +1346,8 @@ const InHandy = () => {
                 Spanish.
                 <br /> <br />
                 inHandy is a platform that will provide people (users) with a
-                brief, engaging and accessible introduction to the British Sign
-                Language. It will provide this by focusing mainly on:
+                more engaging way to learn British Sign Language. It will
+                provide this by focusing mainly on:
                 <ul>
                   <li>Effective visual communication </li>
                   <li>Contextual learning </li>
