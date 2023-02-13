@@ -73,6 +73,13 @@
   }
 }
 
+.fadeOut-container {
+  position: absolute;
+  width: 100%;
+  height: inherit;
+  background: #0000009d;
+}
+
 .vd {
   border-left: 2px solid #00000060;
   height: 200px;
@@ -194,7 +201,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 3rem 0;
 
   .header-zone {
     position: relative;

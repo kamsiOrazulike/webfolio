@@ -13,18 +13,12 @@ $color-outline: #7f7f7f80;
 
 .home-page {
   z-index: 0;
+  padding: 5rem 0;
   justify-content: space-around;
   background-image: url("https://wallpapers.com/images/featured-full/cyberpunk-city-dpqrj66joh42kt7d.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-
-  .fadeOut-container {
-    position: absolute;
-    width: 100%;
-    height: inherit;
-    background: #000000c1;
-  }
 
   .header-zone {
     position: relative;

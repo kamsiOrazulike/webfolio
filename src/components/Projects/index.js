@@ -13,6 +13,7 @@ import ArrowToTop from "../ArrowToTop";
 
 const Projects = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
+  const titleArray = ["M", "y", " ", "P", "r", "o", "j", "e", "c", "t", "s"];
 
   setTimeout(() => {
     setLetterClass("animate-text-hover");
@@ -21,26 +22,13 @@ const Projects = () => {
   return (
     <>
       <div className="projects-page">
-        <div className="header-zone">
-          <h1 id="top">
-            <AnimatedLetters
-              CharArray={[
-                "M",
-                "y",
-                " ",
-                "P",
-                "r",
-                "o",
-                "j",
-                "e",
-                "c",
-                "t",
-                "s",
-              ]}
-              CharClass={CharClass}
-              indx={15}
-            />
-          </h1>
+        <div className="header-backdrop">
+          <div className="header-zone">
+            <h1 id="top">
+              <AnimatedLetters CharArray={titleArray} CharClass={CharClass} indx={15} />
+            </h1>
+            <h2>Selected Work</h2>
+          </div>
         </div>
 
         <div className="container">
@@ -70,47 +58,6 @@ const Projects = () => {
               View Project
             </Link>
           </div>
-
-          <div className="card">
-            <img src={MockUp} alt="project3" />
-            <h1> Soundcloud UI Redesign </h1>
-            <h2> Project duration: 2 weeks (ongoing) </h2>
-            <Link to="/projectsoundcloud" className="button-link">
-              View Project
-            </Link>
-          </div>
-
-          {/* <div className="project-overview">
-              <h1> Oasis Community </h1>
-              <h2> Project duration: 1 year (ongoing) </h2>
-              <Link to="#">
-                <img src={Oasis} className="cover" alt="project1" />
-              </Link>
-            </div> */}
-
-          {/* <div className="project-overview">
-              <h1> London Body Contour </h1>
-              <h2> Project duration: 8 months (ongoing) </h2>
-              <Link to="#">
-                <img src={LBC} className="cover" alt="project1" />
-              </Link>
-            </div> */}
-
-          {/* <div className="project-overview">
-              <h1> Heirs of Nakamoto </h1>
-              <h2> Project duration: 3 months (ongoing) </h2>
-              <Link to="#">
-                <img src={HON} className="cover" alt="project1" />
-              </Link>
-            </div> */}
-
-          {/* <div className="project-overview">
-              <h1> My Illustrations </h1>
-              <h2> Project duration: 3+ years (ongoing)</h2>
-              <Link to="#">
-                <img src={ByKamsi} className="cover" alt="project1" />
-              </Link>
-            </div> */}
         </div>
       </div>
       <ArrowToTop />

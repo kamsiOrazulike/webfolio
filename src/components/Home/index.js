@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link as LinkScroll } from "react-scroll";
+import { Link } from "react-router-dom";
 import Loader from "react-loaders";
 import {
   faCss3,
@@ -49,8 +49,8 @@ const Home = () => {
           <h2> Web Developer | UI Designer</h2>
           <br />
           <div className="link-group">
-            <LinkScroll
-              to="featured"
+            <Link
+              to="/projects"
               spy={true}
               smooth={true}
               offset={-70}
@@ -59,7 +59,7 @@ const Home = () => {
               className="grow button-link"
             >
               Projects
-            </LinkScroll>
+            </Link>
             <a
               target="_blank"
               rel="noreferrer"
