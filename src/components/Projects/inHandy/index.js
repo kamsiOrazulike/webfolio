@@ -5,7 +5,6 @@ import ArrowToTop from "../../ArrowToTop";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
 import NHSLogo from "../../../assets/portfolio-imgs/inHandy/NHSLogo.png";
-import homeScreen from "../../../assets/portfolio-imgs/inHandy/loginPage.png";
 import drawings from "../../../assets/portfolio-imgs/inHandy/Project_Plan.jpg";
 import allPages from "../../../assets/portfolio-imgs/inHandy/allPages.png";
 import pagesketch1 from "../../../assets/portfolio-imgs/inHandy/pageDesign.png";

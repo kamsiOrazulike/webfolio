@@ -2,24 +2,24 @@ import "./index.scss";
 import Loader from "react-loaders";
 import ArrowToTop from "../../ArrowToTop";
 import { Link } from "react-router-dom";
-import homeScreen from "../../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
-import tutorialScreen2 from "../../../assets/portfolio-imgs/GenesisUI/tutorial2.png";
-import tutorialScreen3 from "../../../assets/portfolio-imgs/GenesisUI/tutorial3.png";
-import accountPage from "../../../assets/portfolio-imgs/GenesisUI/accountPage.png";
-import mainPageDelivery from "../../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
-import chosenMeal from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal.png";
+// import homeScreen from "../../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
+// import tutorialScreen2 from "../../../assets/portfolio-imgs/GenesisUI/tutorial2.png";
+// import tutorialScreen3 from "../../../assets/portfolio-imgs/GenesisUI/tutorial3.png";
+// import accountPage from "../../../assets/portfolio-imgs/GenesisUI/accountPage.png";
+// import mainPageDelivery from "../../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
+// import chosenMeal from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal.png";
 import genesisMockup from "../../../assets/portfolio-imgs/GenesisUI/GenesisMockupTwo.jpg";
 import Tutorials from "../../../assets/portfolio-imgs/GenesisUI/MockTutorials.png";
 // import chosenMeal2 from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal2.png";
 import drawings from "../../../assets/portfolio-imgs/GenesisUI/flowDiagram.jpg";
 import login from "../../../assets/portfolio-imgs/GenesisUI/login.png";
 import closerLook1 from "../../../assets/portfolio-imgs/GenesisUI/acloserlook-spacing.png";
-import homeIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/HomeIcon.png";
-import searchIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/SearchIcon.png";
-import basketIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/BasketIcon.png";
-import accountIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/AccountIcon.png";
-import deliveryToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic.png";
-import collectToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic2.png";
+// import homeIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/HomeIcon.png";
+// import searchIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/SearchIcon.png";
+// import basketIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/BasketIcon.png";
+// import accountIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/AccountIcon.png";
+// import deliveryToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic.png";
+// import collectToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic2.png";
 import createAccount from "../../../assets/portfolio-imgs/GenesisUI/createAccount.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -159,121 +159,121 @@ const AccountPages = () => {
 //   );
 // };
 
-const OrderDetails = () => {
-  return (
-    <div className="project-detail">
-      <div className="header-zone">
-        <h1>Order creation </h1>
-      </div>
-      <div className="overview-col">
-        <div className="wrapper">
-          <div className="message" style={{ top: "20%" }}>
-            <h3>Overview</h3>
-            <p>
-              The next stage in the user journey after they have selected the
-              order on the main page is for them to input further details
-              creating their order exactly as they want it.
-            </p>
+// const OrderDetails = () => {
+//   return (
+//     <div className="project-detail">
+//       <div className="header-zone">
+//         <h1>Order creation </h1>
+//       </div>
+//       <div className="overview-col">
+//         <div className="wrapper">
+//           <div className="message" style={{ top: "20%" }}>
+//             <h3>Overview</h3>
+//             <p>
+//               The next stage in the user journey after they have selected the
+//               order on the main page is for them to input further details
+//               creating their order exactly as they want it.
+//             </p>
 
-            <p>
-              <b>Goal</b>: Design to make item suggestions to the user. Making
-              the option to purchase more available to them.
-            </p>
-          </div>
-          <img src={chosenMeal} className="subphoto" alt="mainPageDelivery" />
-        </div>
-      </div>
-    </div>
-  );
-};
+//             <p>
+//               <b>Goal</b>: Design to make item suggestions to the user. Making
+//               the option to purchase more available to them.
+//             </p>
+//           </div>
+//           <img src={chosenMeal} className="subphoto" alt="mainPageDelivery" />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
-const MainPages = () => {
-  return (
-    <>
-      <div className="header-zone">
-        <h1>Main page</h1>
-      </div>
-      <div className="rowDiv">
-        <img
-          src={mainPageDelivery}
-          className="project-img"
-          alt="mainPageDelivery"
-        />
+// const MainPages = () => {
+//   return (
+//     <>
+//       <div className="header-zone">
+//         <h1>Main page</h1>
+//       </div>
+//       <div className="rowDiv">
+//         <img
+//           src={mainPageDelivery}
+//           className="project-img"
+//           alt="mainPageDelivery"
+//         />
 
-        <div className="overview">
-          <div className="message">
-            <h3> Toggle graphic </h3>
-            <p>
-              A delivery man and collection item graphic drawn using the
-              Illustrator tool.
-            </p>
-            <div className="wrapper">
-              <img
-                src={deliveryToggle}
-                style={{ padding: "4rem" }}
-                className="zoomedimg"
-                alt="deliverytoggle"
-              />
-              <img
-                src={collectToggle}
-                style={{ padding: "4rem" }}
-                className="zoomedimg"
-                alt="deliverytoggle"
-              />
-            </div>
-          </div>
-          <div className="hd"></div>
-        </div>
-      </div>
-    </>
-  );
-};
+//         <div className="overview">
+//           <div className="message">
+//             <h3> Toggle graphic </h3>
+//             <p>
+//               A delivery man and collection item graphic drawn using the
+//               Illustrator tool.
+//             </p>
+//             <div className="wrapper">
+//               <img
+//                 src={deliveryToggle}
+//                 style={{ padding: "4rem" }}
+//                 className="zoomedimg"
+//                 alt="deliverytoggle"
+//               />
+//               <img
+//                 src={collectToggle}
+//                 style={{ padding: "4rem" }}
+//                 className="zoomedimg"
+//                 alt="deliverytoggle"
+//               />
+//             </div>
+//           </div>
+//           <div className="hd"></div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 
-const DockItems = () => {
-  return (
-    <div className="project-detail">
-      <div className="header-zone">
-        <h1>Dock Items</h1>
-      </div>
-      <div className="overview-col">
-        <div className="wrapper">
-          <div className="message">
-            <h3>Simplicity</h3>
-            <p>
-              In general, navigation through an application is made easier using
-              a dock with components that specify what the user should expect
-              after interacting with a specific component. I chose to use a dock
-              for this project because the user would require access to
-              different pages on the app.
-            </p>
-          </div>
-          <div className="vd"></div>
-          <div className="message">
-            <h3>Modes</h3>
-            <p>
-              Each of these elements have:
-              <ul>
-                <li> Light mode version.png </li>
-                <li> Dark mode version.png - below</li>
-                <li>
-                  Selected version.png (Highlighted Red) as can view in the
-                  prototypes.
-                </li>
-              </ul>
-            </p>
-          </div>
-        </div>
+// const DockItems = () => {
+//   return (
+//     <div className="project-detail">
+//       <div className="header-zone">
+//         <h1>Dock Items</h1>
+//       </div>
+//       <div className="overview-col">
+//         <div className="wrapper">
+//           <div className="message">
+//             <h3>Simplicity</h3>
+//             <p>
+//               In general, navigation through an application is made easier using
+//               a dock with components that specify what the user should expect
+//               after interacting with a specific component. I chose to use a dock
+//               for this project because the user would require access to
+//               different pages on the app.
+//             </p>
+//           </div>
+//           <div className="vd"></div>
+//           <div className="message">
+//             <h3>Modes</h3>
+//             <p>
+//               Each of these elements have:
+//               <ul>
+//                 <li> Light mode version.png </li>
+//                 <li> Dark mode version.png - below</li>
+//                 <li>
+//                   Selected version.png (Highlighted Red) as can view in the
+//                   prototypes.
+//                 </li>
+//               </ul>
+//             </p>
+//           </div>
+//         </div>
 
-        <div className="wrapper">
-          <img src={homeIcon} className="iconphoto" alt="dockicons" />
-          <img src={searchIcon} className="iconphoto" alt="dockicons" />
-          <img src={basketIcon} className="iconphoto" alt="dockicons" />
-          <img src={accountIcon} className="iconphoto" alt="dockicons" />
-        </div>
-      </div>
-    </div>
-  );
-};
+//         <div className="wrapper">
+//           <img src={homeIcon} className="iconphoto" alt="dockicons" />
+//           <img src={searchIcon} className="iconphoto" alt="dockicons" />
+//           <img src={basketIcon} className="iconphoto" alt="dockicons" />
+//           <img src={accountIcon} className="iconphoto" alt="dockicons" />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// };
 
 const GoGenesisProject = () => {
   return (
