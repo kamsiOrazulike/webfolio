@@ -2,16 +2,45 @@
   height: auto;
   padding: 0px;
   color: #fff;
-  background: #8b0f0f;
+
+  .header-backdrop {
+    width: 100%;
+    padding: 5rem 0;
+    z-index: 0;
+    justify-content: space-around;
+    background-image: linear-gradient(to bottom, #ff4988, #ff8cb2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .border-list {
+    border-left: 4px solid #ff6c6c;
+  }
+
+  .button-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    border: 1px solid #fff;
+
+    &:hover {
+      color: white;
+    }
+  }
+  .button-link::after {
+    background-image: linear-gradient(to right, #ff4988, #ff8cb2);
+  }
 
   .animate-text-hover {
     min-width: 10px;
     display: inline-block;
     animation-fill-mode: both;
-  
+
     &:hover {
       animation: rubberBand 1s;
-      color: #ff2c2c;
+      color: #000000;
     }
   }
 
@@ -20,7 +49,7 @@
     display: flex;
     margin: 2.4rem 0;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
 
     @media screen and (max-width: 800px) {
@@ -28,6 +57,15 @@
       text-align: left;
       font-size: 1.4rem;
       flex-direction: row;
+    }
+
+    img {
+      width: 600px;
+    }
+
+    .zoomedimg {
+      width: 400px;
+      margin: auto;
     }
 
     p.wrapper-text {

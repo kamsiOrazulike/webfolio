@@ -1,5 +1,4 @@
 import "./index.scss";
-import { useState } from "react";
 import Loader from "react-loaders";
 import ArrowToTop from "../../ArrowToTop";
 import { Link } from "react-router-dom";
@@ -9,6 +8,8 @@ import tutorialScreen3 from "../../../assets/portfolio-imgs/GenesisUI/tutorial3.
 import accountPage from "../../../assets/portfolio-imgs/GenesisUI/accountPage.png";
 import mainPageDelivery from "../../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
 import chosenMeal from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal.png";
+import genesisMockup from "../../../assets/portfolio-imgs/GenesisUI/GenesisMockupTwo.jpg";
+import Tutorials from "../../../assets/portfolio-imgs/GenesisUI/MockTutorials.png";
 // import chosenMeal2 from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal2.png";
 import drawings from "../../../assets/portfolio-imgs/GenesisUI/flowDiagram.jpg";
 import login from "../../../assets/portfolio-imgs/GenesisUI/login.png";
@@ -28,7 +29,6 @@ import {
   faJsSquare,
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
-import AnimatedLetters from "../../AnimatedLetters";
 
 const OpeningScreen = () => {
   return (
@@ -39,7 +39,7 @@ const OpeningScreen = () => {
       <div className="overview-col">
         <img src={drawings} className="sketches" alt="mySketches" />
         <p className="figuretext">
-          Keeping the company goals in mind, I started sketching my ideas.{" "}
+          Keeping the company goals in mind, I started sketching my ideas.
         </p>
         <div className="wrapper">
           <div className="message">
@@ -51,7 +51,6 @@ const OpeningScreen = () => {
               translating them into Figma designs.
             </p>
           </div>
-          <div className="vd"></div>
           <div className="message">
             <h3>Colour and Alliteration</h3>
             <p>
@@ -66,19 +65,7 @@ const OpeningScreen = () => {
             </p>
           </div>
         </div>
-        <div className="wrapper">
-          <img src={homeScreen} className="subphoto" alt="homeScreen" />
-          <img
-            src={tutorialScreen2}
-            className="subphoto"
-            alt="tutorialScreen2"
-          />
-          <img
-            src={tutorialScreen3}
-            className="subphoto"
-            alt="tutorialScreen3"
-          />
-        </div>
+        <img src={Tutorials} className="title-graphic" alt="tutorialScreen2" />
       </div>
     </div>
   );
@@ -97,73 +84,65 @@ const AccountPages = () => {
             When it came to deciding on how much white space was too much white
             space, that was a challenge altogether. It is paramount in my design
             that I use a spacing system that brings about a sense of
-            <b> consistency</b> and <b>harmony</b> to the UI. <br /> <br />I
-            mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
+            <b> consistency</b> and <b>harmony</b> to the UI.
+          </p>
+          <p>
+            I mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
             so on.
           </p>
         </div>
-        <div className="wrapper">
+
+        <div className="wrapper" style={{ flexDirection:'row', justifyContent: "center" }}>
           <img src={createAccount} className="subphoto" alt="accountPage" />
           <img src={login} className="subphoto" alt="accountPage" />
-          <img src={accountPage} className="subphoto" alt="accountPage" />
+        </div>
+
+        <div className="message">
+          <h3>Gestalt Principle: Law of similarity</h3>
+          <p>
+            Continuing on my use of spacing, this was paramount to allow my user
+            to be able to percieve certain elements as a group in the
+            application. Hence creating a more readable interface since all the
+            elements that are similar/function together are grouped together.
+          </p>
         </div>
       </div>
 
-      <div className="rowDiv">
-        <img src={login} className="project-img" alt="mainPageDelivery" />
-
-        <div className="overview">
-          <div className="message" style={{ top: "20%" }}>
-            <h3>Gestalt Principle: Law of similarity</h3>
-            <p>
-              Continuing on my use of spacing, this was paramount to allow my
-              user to be able to percieve certain elements as a group in the
-              application. Hence creating a more readable interface since all
-              the elements that are similar/function together are grouped
-              together.
-            </p>
-          </div>
-          <div className="wrapper" style={{ margin: "2rem 0" }}>
-            <div className="message" style={{ top: "20%" }}>
-              <p>
-                I chose to group the elements where:
-                <ul>
-                  <li> The user can decide to become a member. </li>
-                  <li>
-                    The user puts in their login details or
-                    <b> continues as a guest</b>.
-                  </li>
-                  <li> The user signs in using another application. </li>
-                </ul>
-              </p>
-            </div>
-            <img src={closerLook1} className="zoomedimg" alt="acloserlook1" />
-          </div>
+      <div className="overview-col">
+        <div className="wrapper">
           <div className="message">
+            <h3>Designing for attention</h3>
             <p>
-              - those were the main <b>element groups</b> that I need the user
-              to focus on.
-              <br />
-              It was then easier for me to order each grouped element by actions
-              with the highest priority - which would I like the user to see and
-              interact with first.
+              Intentionally, the
+              <b> continue as guest</b> option from a design perspective was
+              given less attention in order to bring my users attention to other
+              elements on the page such as Becoming a member, signing in as an
+              existing user or signing in using other applications to fill in
+              user details.
+            </p>
+            <p>
+              I chose to group the elements where:
+              <div className="border-list">
+                <p>The user can decide to become a member</p>
+              </div>
+              <div className="border-list">
+                <p>
+                  The user puts in their login details or
+                  <b> continues as a guest</b>
+                </p>
+              </div>
+              <div className="border-list">
+                <p>The user signs in using another application</p>
+              </div>
+            </p>
+            <p>
+              These were the main element groups that I need the user to focus
+              on. It was then easier for me to order each grouped element by
+              actions with the highest priority - which would I like the user to
+              see and interact with first.
             </p>
           </div>
-          <div className="hd"></div>
-          <div className="wrapper" style={{ margin: "2rem 0" }}>
-            <img src={closerLook1} className="zoomedimg" alt="acloserlook1" />
-            <div className="message">
-              <h3>Designing for attention</h3>
-              <p>
-                Intentionally, the
-                <b> continue as guest</b> option from a design perspective was
-                given less attention in order to bring my users attention to
-                other elements on the page such as Becoming a member, signing in
-                as an existing user or signing in using other applications to
-                fill in user details.
-              </p>
-            </div>
-          </div>
+          <img src={closerLook1} className="zoomedimg" alt="acloserlook1" />
         </div>
       </div>
     </div>
@@ -297,97 +276,107 @@ const DockItems = () => {
 };
 
 const GoGenesisProject = () => {
-  const [CharClass, setLetterClass] = useState("animate-text");
-  const TitleArray = ["G", "o", " ", "G", "e", "n", "e", "s", "i", "s", "!"];
-
-  setTimeout(() => {
-    setLetterClass("animate-text-hover");
-  }, 4000);
-
   return (
     <>
       <div className="projects-page go-genesis">
-        <div className="header-zone" id="top">
-          <h1 id="top">
-            <AnimatedLetters
-              CharArray={TitleArray}
-              CharClass={CharClass}
-              indx={15}
-            />
-          </h1>
-          <h2> Project duration: 1 month (ongoing) </h2>
+        <div className="header-backdrop">
+          <div className="header-zone" id="top">
+            <h1 id="top"> Go Genesis!</h1>
+            <h2> Project duration: 1 month (ongoing) </h2>
+          </div>
         </div>
-        <div className="rowDiv">
-          <img src={homeScreen} className="project-img" alt="projectimage" />
-          <div className="overview">
-            <div className="message">
-              <h3> Overview </h3>
+        <div className="overview-col">
+          <img
+            src={genesisMockup}
+            className="title-graphic"
+            alt="projectimage"
+          />
+          <div className="link-group">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              className="button-link"
+              href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
+            >
+              Check out on Figma!
+            </a>
+          </div>
+          <div className="message">
+            <h3> Overview </h3>
+            <p>
+              Genesis Group is a Hospitality and Entertainment conglomerate in
+              Nigeria, with business interests in Hotels, Restaurants, Cinemas,
+              Shopping Malls, Property Development, Outdoor Catering, Industrial
+              Catering/Camp Management and Food Production.
+            </p>
+            <p>
+              The company is going through a phase where more innovative and
+              creative business solutions are paramount. I was hired to work
+              alongside the Innovative Strategy team made up of two Software
+              developers and one Operations manager. We also worked in
+              conjunction with the Marketing team of the company.
+            </p>
+          </div>
+          <div className="wrapper">
+            <div className="role">
+              <h3>Role</h3>
               <p>
-                Genesis Group is a Hospitality and Entertainment company in
-                Nigeria, with business interests in Hotels, Restaurants,
-                Cinemas, Shopping Malls, Property Development, Outdoor Catering,
-                Industrial Catering/Camp Management and Food Production.
-                <br /> <br />
-                The company is going through a phase where more innovative and
-                creative business solutions are paramount. I was hired to work
-                alongside the Innovative Strategy team made up of two Software
-                developers and one Operations manager. We also worked in
-                conjunction with the Marketing team of the company.
+                User Research <br />
+                Visuals <br />
+                Interactions <br />
+                Prototyping <br />
+                Usability Testing <br />
               </p>
             </div>
-            <div className="wrapper">
-              <div className="role">
-                <h3>Role</h3>
-                <p>
-                  User Research <br />
-                  Visuals <br />
-                  Interactions <br />
-                  Prototyping <br />
-                  Usability Testing <br />
-                </p>
-              </div>
-              <div className="tools">
-                <h3>Tools</h3>
-                <p>
-                  <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
-                  <FontAwesomeIcon icon={faCss3} color="#28A4D9" />{" "}
-                  &nbsp;CSS/SCSS
-                  <br />
-                  <FontAwesomeIcon icon={faHtml5} color="#F06529" /> &nbsp;
-                  HTML5
-                  <br />
-                  <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> &nbsp;
-                  JavaScript
-                  <br />
-                  <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> &nbsp;
-                  React/React Native
-                  <br />
-                </p>
-              </div>
+            <div className="tools">
+              <h3>Tools</h3>
+              <p>
+                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
+                <FontAwesomeIcon icon={faCss3} color="#28A4D9" /> &nbsp;CSS/SCSS
+                <br />
+                <FontAwesomeIcon icon={faHtml5} color="#F06529" /> &nbsp; HTML5
+                <br />
+                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" /> &nbsp;
+                JavaScript
+                <br />
+                <FontAwesomeIcon icon={faReact} color="#5ED4F4" /> &nbsp;
+                React/React Native
+                <br />
+              </p>
             </div>
-            <div className="link-group">
-              <a
-                target="_blank"
-                rel="noreferrer"
-                className="button-link"
-                href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
-              >
-                Check out on Figma!
-              </a>
+          </div>
+          <div className="message">
+            <h3> Key Objectives </h3>
+            <div className="border-list">
+              <p>
+                Genesis Group is attempting to re-valuate their user group in
+                order to keep consistent in providing them with that luxury
+                experience. Defining the user group will be paramount in making
+                my design decisions.
+              </p>
+            </div>
+            <div className="border-list">
+              <p>
+                The company currently has a working website that customers can
+                make orders from. However, they are looking to expand their
+                arsenal and provide the customers with more ways to make an
+                order in order to generate more profits on the ecommerce front.
+              </p>
+            </div>
+            <div className="border-list">
+              <p>
+                The product suite should include some form of gamification to
+                keep customers entertained and engaged with the brand. First
+                idea that comes to mind is creating a Loyalty membership program
+                that allows our customers to get a certain amount of points per
+                purchase.
+              </p>
             </div>
           </div>
         </div>
 
-        <div className="hd"></div>
-        {<OpeningScreen />}
-        <div className="hd"></div>
-        {<AccountPages />}
-        {<MainPages />}
-        {<DockItems />}
-        {/* <div className="hd"></div> */}
-        {<OrderDetails />}
-        {/* <div className="hd"></div> */}
-        {/* {<UserJourney />} */}
+        <OpeningScreen />
+        <AccountPages />
 
         <div className="buttonlink-group">
           <Link className="button-link" to={"contact"}>

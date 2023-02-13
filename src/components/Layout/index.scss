@@ -11,7 +11,7 @@
 }
 
 .border-list {
-  border-left: 5px solid #fff;
+  border-left: 4px solid #fff;
   padding-left: 4rem;
   margin: 2rem 0;
 }
@@ -133,7 +133,7 @@
   top: 0;
   height: 100%;
   width: 100%;
-  background: #ffffff7a;
+  background: #41c9ff9b;
   z-index: -1;
   border-radius: 10rem;
   transition: 0.45 ease all;
@@ -294,22 +294,6 @@
   height: auto;
   padding: 0px;
 
-  .button-link {
-    color: #fff;
-    border: 1px solid #fff;
-
-    @media screen and (max-width: 800px) {
-      font-size: 0.8rem;
-    }
-
-    &:hover {
-      color: #00000050;
-    }
-  }
-  .button-link::after {
-    background: #fff;
-  }
-
   .figuretext {
     margin: auto;
     font-style: italic;
@@ -342,6 +326,8 @@
   }
 
   .project-detail {
+    width: 90%;
+    margin: 4.8rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -387,88 +373,11 @@
   h3 {
     font-size: 2.2rem;
     text-transform: uppercase;
-    margin-bottom: 0px;
     font-weight: 800;
     text-decoration: wavy;
 
     @media screen and (max-width: 800px) {
       font-size: 1.8rem;
-    }
-  }
-
-  .overview {
-    width: 55%;
-    text-align: left;
-    display: flex;
-    height: fit-content;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    position: relative;
-    font-size: 1.9rem;
-    z-index: 0;
-    animation: fadeIn 2s 2s backwards;
-
-    @media screen and (max-width: 800px) {
-      width: 100%;
-      text-align: left;
-      flex-direction: column;
-      z-index: 9999;
-      width: 80%;
-      padding: 2rem 3rem;
-    }
-
-    .zoomedimg {
-      width: 250px;
-      border-radius: 8px;
-      height: auto;
-
-      @media screen and (max-width: 800px) {
-        width: 150px;
-        height: auto;
-      }
-    }
-
-    .link-group {
-      display: flex;
-      width: 100%;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-evenly;
-
-      @media screen and (max-width: 800px) {
-        width: 100%;
-        font-size: 1rem;
-      }
-    }
-
-    h1 {
-      font-size: 2.6rem;
-      text-transform: uppercase;
-    }
-
-    .message,
-    .goals,
-    .role,
-    .tools {
-      width: 90%;
-      margin: 0 1.2rem;
-      display: flex;
-      flex-direction: column;
-
-      p {
-        font-size: 1.8rem;
-        margin: 1rem 0;
-
-        @media screen and (max-width: 800px) {
-          font-size: 1.4rem;
-        }
-      }
-
-      @media screen and (max-width: 800px) {
-        width: 100%;
-        font-size: 1.4rem;
-      }
     }
   }
 
@@ -482,36 +391,12 @@
     }
   }
 
-  .wrapper {
-    width: 100%;
-    display: flex;
-    margin: 2.4rem 0;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
-
-    @media screen and (max-width: 800px) {
-      width: 100%;
-      text-align: left;
-      font-size: 1.4rem;
-      flex-direction: column;
-    }
-
-    p.wrapper-text {
-      display: flex;
-      padding: 0 2rem;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-  }
-
   .overview-col {
     width: 95%;
     display: flex;
     height: fit-content;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-evenly;
     border-radius: 8px;
     position: relative;
@@ -523,10 +408,48 @@
       font-size: 1.2rem;
     }
 
+    .wrapper {
+      width: 100%;
+      display: flex;
+      margin: 2.4rem 0;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-around;
+
+      @media screen and (max-width: 800px) {
+        width: 100%;
+        text-align: left;
+        font-size: 1.4rem;
+        flex-direction: column;
+      }
+
+      p.wrapper-text {
+        display: flex;
+        padding: 0 2rem;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+
     .sketches {
       width: 100%;
       height: 300px;
+      margin: 2rem 0;
+      border-radius: 8px;
       object-fit: cover;
+      object-position: center center;
+    }
+
+    .title-graphic {
+      width: 70%;
+      margin: 4rem 0;
+      border-radius: 8px;
+      transition-duration: 0.8s;
+
+      &:hover {
+        opacity: 0.6;
+      }
     }
 
     .shortdivider {
@@ -538,7 +461,8 @@
     }
 
     .message {
-      width: 50%;
+      width: 80%;
+      margin: 3rem 0;
       padding: 0 3rem;
       text-align: left;
       display: flex;

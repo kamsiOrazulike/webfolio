@@ -2,7 +2,10 @@
   height: auto;
   padding: 0px;
   color: #fff;
-  background: #6d729d;
+
+  .border-list {
+    border-left: 4px solid #eea3ff;
+  }
 
   .animate-text-hover {
     min-width: 10px;
@@ -11,7 +14,7 @@
 
     &:hover {
       animation: rubberBand 1s;
-      color: #1f4cff;
+      color: #eea3ff;
     }
   }
 
@@ -34,12 +37,15 @@
     background: #485aff;
   }
 
-  .vd {
-    border-left: 2px solid #ffffff60;
-  }
-
-  .hd {
-    border-bottom: 1px solid #ffffff60;
+  .header-backdrop {
+    width: 100%;
+    padding: 5rem 0;
+    z-index: 0;
+    justify-content: space-around;
+    background-image: url("https://acutrans.com/wp-content/uploads/2020/08/ASL.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   }
 
   .header-zone {

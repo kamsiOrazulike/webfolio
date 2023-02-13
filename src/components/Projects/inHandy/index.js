@@ -17,6 +17,7 @@ import pagesketch5 from "../../../assets/portfolio-imgs/inHandy/pageDesign5.jpg"
 // import pagedesign1 from "../../../assets/portfolio-imgs/inHandy/testexample1.png";
 import pagedesign2 from "../../../assets/portfolio-imgs/inHandy/gamePage.png";
 import pagedesign3 from "../../../assets/portfolio-imgs/inHandy/gamePageFail.png";
+import inHandyMock from "../../../assets/portfolio-imgs/inHandy/inHandyPhoneMock.jpg";
 // import pagedesign4 from "../../../assets/portfolio-imgs/inHandy/scenariotest.png";
 // import pagedesign5 from "../../../assets/portfolio-imgs/inHandy/scenariotest2.png";
 import appscreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/AppScreenshot.jpg";
@@ -62,45 +63,45 @@ const Introduction = () => {
           <i>My design manifesto.</i>
         </p>
 
-        <div className="divRow">
-          <div className="wrapper">
-            <p style={{ textAlign: "center" }}>
-              Having a cousin that was born and grew up deaf and without proper
-              treatment is something I’m reminded of every time I come home. The
-              issue of accessibility and/or awareness of methods to provide help
-              rendered his ability to communicate limited to loud hums and hand
-              movements that are most times difficult to understand. This
-              communication barrier between him and I prompted me to ask the
-              question, “Why wasn’t aid possible as he was growing up?”
-            </p>
-          </div>
+        <div className="wrapper">
+          <p style={{ textAlign: "left" }}>
+            Having a cousin that was born and grew up deaf and without proper
+            treatment is something I’m reminded of every time I come home. The
+            issue of accessibility and/or awareness of methods to provide help
+            rendered his ability to communicate limited to loud hums and hand
+            movements that are most times difficult to understand. This
+            communication barrier between him and I prompted me to ask the
+            question, “Why wasn’t aid possible as he was growing up?”
+          </p>
         </div>
-      </div>
 
-      <div className="overview-col">
         <div className="wrapper">
           <div className="message">
             <p>
               Some of the most popular methods for treating hearing impairment
               involve:
-              <ul className="cool-list">
-                <li>Earwax treatment</li>
-                <li style={{ background: "#c8e6ff", color: "black" }}>
-                  <LinkScroll
-                    to="whybsl"
-                    spy={true}
-                    smooth={true}
-                    offset={-200}
-                    duration={700}
-                    className="track-link"
-                  >
-                    Sign Language and Lip reading
-                  </LinkScroll>
-                </li>
-                <li>Assistive Listening Devices (ALD’s) </li>
-                <li>Purchasing hearing aids or hearing implants</li>
-              </ul>
             </p>
+            <div className="border-list">
+              <p>Earwax treatment</p>
+            </div>
+            <div className="border-list">
+              <p>Assistive Listening Devices (ALD’s)</p>
+            </div>
+            <div className="border-list">
+              <p>Purchasing hearing aids or hearing implants</p>
+            </div>
+            <div className="border-list">
+              <LinkScroll
+                to="whybsl"
+                spy={true}
+                smooth={true}
+                offset={-200}
+                duration={700}
+                className="track-link"
+              >
+                Sign Language and Lip reading
+              </LinkScroll>
+            </div>
           </div>
           <div className="message">
             <p>
@@ -119,15 +120,7 @@ const Introduction = () => {
             </a>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
 
-const Research = () => {
-  return (
-    <div className="project-detail">
-      <div className="overview-col">
         <div className="wrapper">
           <div className="message">
             <h3>Earwax treatment</h3>
@@ -152,7 +145,7 @@ const Research = () => {
           </div>
         </div>
 
-        <div className="wrapper">
+        <div className="wrapper" style={{ flexDirection: "row-reverse" }}>
           <div className="message">
             <h3>ASSISTIVE listening devices</h3>
             <p>
@@ -175,19 +168,25 @@ const Research = () => {
               Sign Language is a popular method of establishing communication
               between the deaf and the hearing. Learning Sign Language comes
               with many benefits such as
-              <ul>
-                <li>Enhancing language and listening skills</li>
-                <li>
+              <div className="border-list">
+                <p>Enhancing language and listening skills</p>
+              </div>
+              <div className="border-list">
+                <p>Breaking down communication barriers</p>
+              </div>
+              <div className="border-list">
+                <p>
                   Learning Sign Language can help with all aspects of
                   communicating effectively because it has to also do with
-                  gestures, facial expressions and body language.{" "}
-                </li>
-                <li>Breaking down communication barriers, </li>
-                <li>
+                  gestures, facial expressions and body language
+                </p>
+              </div>
+              <div className="border-list">
+                <p>
                   Promotion of awareness and sensitivity towards the deaf
-                  community and an appreciation for deaf culture.
-                </li>
-              </ul>
+                  community and an appreciation for deaf culture
+                </p>
+              </div>
             </p>
           </div>
         </div>
@@ -195,6 +194,7 @@ const Research = () => {
     </div>
   );
 };
+
 
 const ProjectBrief = () => {
   return (
@@ -540,7 +540,7 @@ const Ideation = () => {
   return (
     <div className="project-detail">
       <div className="header-zone" style={{ margin: "0" }}>
-        <h1 id="ideation">Ideation Process</h1>
+        <h1 id="ideation">Ideation</h1>
       </div>
 
       <div className="overview-col">
@@ -846,7 +846,12 @@ const Ideation = () => {
 
             <img
               src={pagesketch3}
-              style={{ width: "300px", margin: "auto" }}
+              style={{
+                width: "300px",
+                margin: "auto",
+                background: "#FFFFFF",
+                borderRadius: "8px",
+              }}
               alt="sketch1"
             />
           </div>
@@ -927,7 +932,7 @@ const Prototypes = () => {
           <img
             src={pagesketch1}
             className="screenshot"
-            style={{ margin: "auto" }}
+            style={{ margin: "auto", background: "#ffffff" }}
             alt="opening"
           />
 
@@ -1303,16 +1308,6 @@ const DevelopedPrototype = () => {
   );
 };
 
-// const NextSteps = () => {
-//   return (
-//     <div className="project-detail">
-//       <div className="header-zone">
-//         <h1> Next steps </h1>
-//       </div>
-//     </div>
-//   );
-// };
-
 const InHandy = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
   const TitleArray = ["i", "n", "H", "a", "n", "d", "y"];
@@ -1324,83 +1319,81 @@ const InHandy = () => {
   return (
     <>
       <div className="projects-page inhandy">
-        <div className="header-zone" id="top">
-          <h1 id="top">
-            <AnimatedLetters
-              CharArray={TitleArray}
-              CharClass={CharClass}
-              indx={15}
-            />
-          </h1>
-          <h2> Project duration: 8 months </h2>
+        <div className="header-backdrop">
+          <div className="header-zone" id="top">
+            <h1 id="top">
+              <AnimatedLetters
+                CharArray={TitleArray}
+                CharClass={CharClass}
+                indx={15}
+              />
+            </h1>
+            <h2> Project duration: 8 months </h2>
+          </div>
         </div>
-        <div className="rowDiv">
-          <img src={homeScreen} className="project-img" alt="projectimage" />
-          <div className="overview">
-            <div className="message">
-              <h3> Overview </h3>
+
+        <div className="overview-col">
+          <img src={inHandyMock} className="title-graphic" alt="projectimage" />
+          <div className="message">
+            <h3> Overview </h3>
+            <p>
+              With Sign Language being the 4th most popular language in the UK,
+              it is only fair that it should have learning content as accessible
+              as the other languages like French, German, or Spanish.
+            </p>
+            <p>
+              inHandy is a platform that will provide people (users) with a more
+              engaging way to learn British Sign Language. It will provide this
+              by focusing mainly on:
+            </p>
+            <div className="border-list">
+              <p>Effective visual communication</p>
+            </div>
+            <div className="border-list">
+              <p>Contextual learning</p>
+            </div>
+            <p>
+              The aim of this project is to combine these two concepts to
+              provide a more engaging learning experience of the language for
+              users. Providing them with the conversational basics and the
+              choice to pursue their learning further as well as how to do so.
+              The company is going through a phase where more innovative and
+              creative business solutions are paramount. I was hired to work
+              alongside the Innovative Strategy team made up of two Software
+              developers and one Operations manager. We also worked in
+              conjunction with the Marketing team of the company.
+            </p>
+          </div>
+          <div className="wrapper">
+            <div className="role">
+              <h3>Role</h3>
               <p>
-                With Sign Language being the 4th most popular language in the
-                UK, it is only fair that it should have learning content as
-                accessible as the other languages like French, German, or
-                Spanish.
-                <br /> <br />
-                inHandy is a platform that will provide people (users) with a
-                more engaging way to learn British Sign Language. It will
-                provide this by focusing mainly on:
-                <ul>
-                  <li>Effective visual communication </li>
-                  <li>Contextual learning </li>
-                </ul>
-                The aim of this project is to combine these two concepts to
-                provide a more engaging learning experience of the language for
-                users. Providing them with the conversational basics and the
-                choice to pursue their learning further as well as how to do so.
-                The company is going through a phase where more innovative and
-                creative business solutions are paramount. I was hired to work
-                alongside the Innovative Strategy team made up of two Software
-                developers and one Operations manager. We also worked in
-                conjunction with the Marketing team of the company.
+                User Research <br />
+                Product Designer <br />
+                Graphic Designer <br />
+                Character Designer <br />
+                Analysis <br />
               </p>
             </div>
-            <div className="wrapper">
-              <div className="role">
-                <h3>Role</h3>
-                <p>
-                  User Research <br />
-                  Product Designer <br />
-                  Graphic Designer <br />
-                  Character Designer <br />
-                  Analysis <br />
-                </p>
-              </div>
-              <div className="tools">
-                <h3>Tools</h3>
-                <p>
-                  <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
-                </p>
-                <p style={{ display: "flex", alignItems: "center" }}>
-                  <img src={procreate} className="iconimg" alt="procreate" />
-                  &nbsp; Procreate <br />
-                </p>
-              </div>
+            <div className="tools">
+              <h3>Tools</h3>
+              <p>
+                <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma <br />
+              </p>
+              <p style={{ display: "flex", alignItems: "center" }}>
+                <img src={procreate} className="iconimg" alt="procreate" />
+                &nbsp; Procreate <br />
+              </p>
             </div>
           </div>
         </div>
 
-        <div className="hd"></div>
         <Introduction />
-        <Research />
-        <div className="hd"></div>
         <ProjectBrief />
-        <div className="hd"></div>
         <Ideation />
-        <div className="hd"></div>
         <Prototypes />
         <CharacterDesign />
-        <div className="hd"></div>
         <DevelopedPrototype />
-        {/* <div className="hd"></div> */}
         {/* <NextSteps /> */}
 
         <div className="buttonlink-group">

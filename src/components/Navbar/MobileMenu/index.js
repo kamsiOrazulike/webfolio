@@ -3,33 +3,52 @@ import { useState } from "react";
 import { Link as LinkRoute } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHamburger, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const NavLinks = (props) => {
   return (
     <div className="link-container">
-      <ul className="nav-links">
+      <div className="nav-links">
+        <LinkRoute
+          to="/"
+          onClick={() => props.isMobile && props.closeMobileMenu()}
+        >
+          Home
+        </LinkRoute>
+
         <LinkRoute
           to="projects"
           onClick={() => props.isMobile && props.closeMobileMenu()}
-          style={{ width: "100%" }}
         >
           All Projects
         </LinkRoute>
-        {/* <LinkRoute
-          to="about"
-          onClick={() => props.isMobile && props.closeMobileMenu()}
-          style={{ width: "100%" }}
-        >
-          About Me
-        </LinkRoute> */}
+
         <LinkRoute
           to="contact"
           onClick={() => props.isMobile && props.closeMobileMenu()}
-          style={{ width: "100%" }}
         >
           Contact Me
         </LinkRoute>
-      </ul>
+
+        <div className="link-group">
+          <a
+            className="to-section"
+            href="https://www.linkedin.com/in/kamsiyonnaorazulike"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} />
+          </a>
+          <a
+            className="to-section"
+            href="https://github.com/kamsiOrazulike"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
+      </div>
     </div>
   );
 };

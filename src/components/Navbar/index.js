@@ -3,6 +3,7 @@ import MobileMenuButton from "./MobileMenu";
 import { Link as LinkRoute } from "react-router-dom";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   return (
@@ -38,16 +39,6 @@ const Navbar = () => {
           >
             Projects
           </LinkRoute>
-          {/* <LinkRoute
-            className="to-section"
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
-            About
-          </LinkRoute> */}
           <LinkRoute
             className="to-section"
             to="contact"
@@ -58,6 +49,22 @@ const Navbar = () => {
           >
             Contact
           </LinkRoute>
+          <a
+            className="to-section"
+            href="https://www.linkedin.com/in/kamsiyonnaorazulike"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} />
+          </a>
+          <a
+            className="to-section"
+            href="https://github.com/kamsiOrazulike"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
         </div>
 
         <MobileMenuButton />
