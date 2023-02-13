@@ -3,8 +3,8 @@ import { useRef, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-// import contact from '../../assets/imgs/contactsign.png'
+import { faEnvelope, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import contact from "../../assets/imgs/contactsign.png";
 
 const Contact = () => {
   const [CharClass, setLetterClass] = useState("animate-text");
@@ -41,24 +41,7 @@ const Contact = () => {
               indx={15}
             />
           </h1>
-          {/* <img src={contact} alt="contactMeme" className="imageMeme" /> */}
-
-          <p>
-            I am interested in both Designer and Developer opportunities from
-            permanent positions to short-term contracts. You can checkout my
-            Github account attached to the footer!
-          </p>
-          <p>
-            You can also email me at <br />
-            <a
-              href="mailto:kamsi_orazulike@icloud.com"
-              className="hover-link grow"
-            >
-              <FontAwesomeIcon icon={faEnvelope} />
-              &nbsp; kamsi _orazulike@icloud.com
-            </a>
-            <br />
-          </p>
+          <img src={contact} alt="contactMeme" className="imageMeme" />
         </div>
         <div className="contact-form">
           <form ref={form} onSubmit={sendEmail}>
@@ -85,7 +68,7 @@ const Contact = () => {
                 ></textarea>
               </li>
               <li>
-                <input type="submit" className="flat-button" value="SEND" />
+                <button type="submit" className="flat-button"> SEND <FontAwesomeIcon icon={faPaperPlane}/></button>
               </li>
             </ul>
           </form>
