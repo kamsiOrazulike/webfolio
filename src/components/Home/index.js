@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Loader from "react-loaders";
 import {
   faCss3,
   faHtml5,
@@ -108,8 +107,6 @@ const Home = () => {
         </div>
       </div>
       <ArrowToTop />
-      <Loader type="ball-pulse" />
-
       <About />
     </>
   );

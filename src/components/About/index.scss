@@ -6,6 +6,7 @@
     list-style: none;
     text-decoration: none;
     display: flex;
+    font-size: 1.4rem;
     flex-direction: row;
     flex-wrap: wrap;
 
@@ -17,6 +18,10 @@
       border: 1px solid #000;
       border-radius: 100px;
       background: #384a537f;
+    }
+
+    svg {
+      margin: 0 0.5rem;
     }
   }
 

@@ -288,11 +288,43 @@
   image-rendering: pixelated;
 }
 
+.fulldetails-page,
 .soundcloud-ui,
 .go-genesis,
 .inhandy {
   height: auto;
   padding: 0px;
+
+  h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    text-decoration: wavy;
+
+    @media screen and (max-width: 800px) {
+      font-size: 3rem;
+    }
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-decoration: wavy;
+
+    @media screen and (max-width: 800px) {
+      font-size: 2rem;
+    }
+  }
+
+  h3 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: wavy;
+
+    @media screen and (max-width: 800px) {
+      font-size: 1.8rem;
+    }
+  }
 
   .figuretext {
     margin: auto;
@@ -367,17 +399,6 @@
 
     @media screen and (max-width: 800px) {
       width: 25px;
-    }
-  }
-
-  h3 {
-    font-size: 2.2rem;
-    text-transform: uppercase;
-    font-weight: 800;
-    text-decoration: wavy;
-
-    @media screen and (max-width: 800px) {
-      font-size: 1.8rem;
     }
   }
 

@@ -1,5 +1,6 @@
 import "./index.scss";
 import Me from "../../assets/imgs/Me5.png";
+import { Link } from "react-router-dom";
 import {
   faCss3,
   faHtml5,
@@ -10,7 +11,6 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
-
   return (
     <>
       <div className="about-page" id="about">
@@ -56,9 +56,9 @@ const About = () => {
                 My passion is to create beautiful and functional solutions that
                 have an direct positive impact on User Experience when using a
                 digital product. Using a cross-disciplinary approach to design,
-                I am able to think outside the box through combining UX
-                fundamentals with my growing experience in Product Marketing,
-                Market Research and Design principles learnt during my degree.
+                I am able to think outside the box by combining UX design
+                principles with my growing experience in Software Development,
+                UI, Visual and Digital Design.
               </p>
               <p>
                 I'm a Software Developer based in London with 2 years experience
@@ -67,6 +67,10 @@ const About = () => {
                   <li className="grow">
                     <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
                     &nbsp;JavaScript
+                  </li>
+                  <li className="grow">
+                    <FontAwesomeIcon icon={faReact} color="#EFD81D" />
+                    &nbsp;TypeScript
                   </li>
                   <li className="grow">
                     <FontAwesomeIcon icon={faHtml5} color="#F06529" />
@@ -78,7 +82,7 @@ const About = () => {
                   </li>
                   <li className="grow">
                     <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-                    &nbsp;React/TypeScript
+                    &nbsp;React
                   </li>
                   <li className="grow">
                     <FontAwesomeIcon icon={faPython} />
@@ -86,17 +90,10 @@ const About = () => {
                   </li>
                 </ul>
               </p>
-              <p>
-                As a
-                <span className="highlight">
-                  &nbsp;Design, Innovation and Creative Engineering&nbsp;
-                </span>
-                graduate. I understand the process of product development and
-                have a strong desire to design useful products for my user. My
-                main approach is to empathise with the user, stepping into their
-                shoes in order to get to the root of problems and therefore
-                design creative solutions to them.
-              </p>
+
+              <Link className="button-link" to="/about">
+                + Read more
+              </Link>
             </div>
           </div>
         </div>

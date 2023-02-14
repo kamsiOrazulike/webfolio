@@ -802,8 +802,8 @@ const Ideation = () => {
       </div>
 
       <div className="header-zone">
-        <h1 id="ideation">Storyboarding</h1>
-        <h2> + Low Fidelity Prototypes +</h2>
+        <h1 id="ideation">User Research</h1>
+        <h2> Storyboarding + Low Fidelity Prototypes</h2>
       </div>
 
       <div className="overview-col">

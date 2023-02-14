@@ -1,7 +1,7 @@
 import './App.scss'
 import Layout from './components/Layout'
 import Home from './components/Home'
-import About from './components/About'
+import AboutFull from './components/AboutFull'
 import Footer from './components/Footer'
 import Contact from './components/Contact'
 import SoundCloudProject from './components/Projects/SoundCloudUI'
@@ -21,7 +21,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<About />} />
+        <Route path="about" element={<AboutFull />} />
         <Route path="contact" element={<Contact />} />
         <Route path="projectsoundcloud" element={<SoundCloudProject />} />
         <Route path="inhandy" element={<InHandy />} />

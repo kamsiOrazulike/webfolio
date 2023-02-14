@@ -1,0 +1,210 @@
+.fulldetails-page {
+  flex-direction: column;
+
+  .header-backdrop {
+    z-index: 0;
+    padding: 5rem 0;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #990000, #f30000);
+    background-repeat: repeat;
+    background-size: 150px;
+  }
+
+  .myimage {
+    width: 400px;
+    border-radius: 100%;
+    border: 1px solid #00ff80;
+    transition-duration: 1s;
+
+    &:hover {
+      filter: drop-shadow(4px 4px 8px #000000);
+    }
+
+    @media screen and (max-width: 800px) {
+      width: 200px;
+    }
+  }
+
+  .header-zone {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+
+    h1 {
+      width: 100%;
+      text-align: left;
+      font-size: 6rem;
+    }
+    h2 {
+      width: 100%;
+      text-align: left;
+      color: #ffffffb5;
+      font-size: 2rem;
+      font-weight: 400;
+    }
+  }
+
+  .overview-col {
+    width: 100%;
+    align-items: center;
+    color: white;
+
+    .message {
+      h1 {
+        width: 100%;
+        text-align: left;
+        font-size: 6rem;
+        margin: 1rem 0;
+      }
+
+      h2 {
+        width: 100%;
+        margin-bottom: 1rem;
+        text-align: left;
+        color: #ffffffb5;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      h3 {
+        font-size: 2rem;
+        margin: 1rem 0;
+      }
+
+      p {
+        width: 100%;
+        text-align: left;
+        font-size: 1.8rem;
+        font-weight: 300;
+      }
+
+      ul.ui-list {
+        list-style: none;
+        text-decoration: none;
+        display: flex;
+        font-size: 1.6rem;
+        font-weight: 400;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1rem;
+        }
+
+        li {
+          width: fit-content;
+          margin: 1rem;
+          padding: 1.5rem;
+          color: #fff;
+          border: 1px solid #000;
+          border-radius: 100px;
+          background: #384a537f;
+        }
+
+        svg {
+          margin: 0 0.5rem;
+        }
+      }
+    }
+
+    .statgroup {
+      width: 50%;
+      margin: 3rem 0;
+      padding: 0 3rem;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+
+      @media screen and (max-width: 800px) {
+        width: 80%;
+      }
+
+      h2 {
+        @media screen and (max-width: 800px) {
+          font-size: 3rem;
+        }
+      }
+
+      .points {
+        width: 100%;
+        margin: 0.2rem 0;
+
+        label {
+          font-size: 1.5rem;
+          font-weight: 400;
+          opacity: 0.5;
+          transition-duration: 0.6s;
+
+          &:hover {
+            opacity: 1;
+            font-size: 1.6rem;
+          }
+        }
+        progress {
+          width: 100%;
+          background-color: #111213;
+        }
+        progress::-webkit-progress-bar {
+          height: 5px;
+          background-color: #24282a;
+          border-radius: 100px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+        }
+        progress::-moz-progress-bar {
+          height: 5px;
+          background-color: #24282a;
+          border-radius: 100px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+        }
+        progress::-webkit-progress-value {
+          background-color: #00ff80;
+        }
+      }
+    }
+  }
+
+  .flip-box {
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+
+    @media screen and (max-width: 800px) {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-box-front,
+  .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-box-front {
+    color: black;
+  }
+
+  .flip-box-back {
+    color: white;
+    transform: rotateY(180deg);
+  }
+}
