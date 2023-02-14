@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.ade33690.css",
-    "main.js": "/webfolio/static/js/main.54011d9b.js",
+    "main.css": "/webfolio/static/css/main.fec5e79c.css",
+    "main.js": "/webfolio/static/js/main.14c3c99f.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/GenesisMockup.jpg": "/webfolio/static/media/GenesisMockup.879f6f4bb9ada24e3140.jpg",
     "static/media/GenesisMockupTwo.jpg": "/webfolio/static/media/GenesisMockupTwo.f81bdaf5f6c19085443b.jpg",
@@ -48,12 +48,12 @@
     "static/media/NHSLogo.png": "/webfolio/static/media/NHSLogo.71add9e6a0e03d07ee89.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.ade33690.css.map": "/webfolio/static/css/main.ade33690.css.map",
-    "main.54011d9b.js.map": "/webfolio/static/js/main.54011d9b.js.map",
+    "main.fec5e79c.css.map": "/webfolio/static/css/main.fec5e79c.css.map",
+    "main.14c3c99f.js.map": "/webfolio/static/js/main.14c3c99f.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ade33690.css",
-    "static/js/main.54011d9b.js"
+    "static/css/main.fec5e79c.css",
+    "static/js/main.14c3c99f.js"
   ]
 }
