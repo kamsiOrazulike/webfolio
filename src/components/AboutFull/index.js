@@ -157,6 +157,34 @@ const AboutFull = () => {
             </div>
           </div>
         </div>
+
+        {/* <div className="overview-col">
+          <div className="message">
+            <h3> My Experience </h3>
+            <div className="border-list">
+              <h4 style={{ margin: "1rem 0" }}>
+                Berenberg Bank, London | Graduate Software Developer
+              </h4>
+              <h4 style={{ margin: "0", color: "#00ff80" }}>
+                September 2021 - December 2022
+              </h4>
+            </div>
+            <div className="border-list">
+              <h4 style={{ margin: "1rem 0" }}>
+                Genesis Group Ltd, Nigeria | Frontend Developer
+              </h4>
+              <h4 style={{ margin: "0", color: "#00ff80" }}>
+                June 2019 - August 2021
+              </h4>
+            </div>
+          </div>
+        </div> */}
+
+        <div className="header-backdrop">
+          <div
+            style={{ display: "flex", width: "100px", height: "100px" }}
+          ></div>
+        </div>
       </div>
     </>
   );
