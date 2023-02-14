@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.fec5e79c.css",
-    "main.js": "/webfolio/static/js/main.14c3c99f.js",
+    "main.css": "/webfolio/static/css/main.0c53ed8a.css",
+    "main.js": "/webfolio/static/js/main.90c5082d.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/GenesisMockup.jpg": "/webfolio/static/media/GenesisMockup.879f6f4bb9ada24e3140.jpg",
     "static/media/GenesisMockupTwo.jpg": "/webfolio/static/media/GenesisMockupTwo.f81bdaf5f6c19085443b.jpg",
@@ -26,6 +26,7 @@
     "static/media/characterDesign.png": "/webfolio/static/media/characterDesign.db5062188192f00905cc.png",
     "static/media/mainpage1.png": "/webfolio/static/media/mainpage1.7199fe85dcf62be10443.png",
     "static/media/characterInspiration.jpg": "/webfolio/static/media/characterInspiration.079a4b87f36921bd3625.jpg",
+    "static/media/Me3.png": "/webfolio/static/media/Me3.95315b530e967c7c06b1.png",
     "static/media/allPages.png": "/webfolio/static/media/allPages.1595dac00e97023f7791.png",
     "static/media/AppScreenshot2.jpg": "/webfolio/static/media/AppScreenshot2.a202a3300ac291a59d5e.jpg",
     "static/media/LBCLogo.png": "/webfolio/static/media/LBCLogo.f12d00c9208d8c8f4ac1.png",
@@ -48,12 +49,12 @@
     "static/media/NHSLogo.png": "/webfolio/static/media/NHSLogo.71add9e6a0e03d07ee89.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.fec5e79c.css.map": "/webfolio/static/css/main.fec5e79c.css.map",
-    "main.14c3c99f.js.map": "/webfolio/static/js/main.14c3c99f.js.map",
+    "main.0c53ed8a.css.map": "/webfolio/static/css/main.0c53ed8a.css.map",
+    "main.90c5082d.js.map": "/webfolio/static/js/main.90c5082d.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fec5e79c.css",
-    "static/js/main.14c3c99f.js"
+    "static/css/main.0c53ed8a.css",
+    "static/js/main.90c5082d.js"
   ]
 }
