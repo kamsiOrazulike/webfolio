@@ -2,9 +2,9 @@
   position: fixed;
   z-index: 9999999;
   color: #ffffff42;
-  font-size: 8rem;
-  bottom: 5%;
-  right: 5%;
+  font-size: 5rem;
+  bottom: 1%;
+  right: 1%;
   transition-duration: 0.4s;
 
   &:hover {
@@ -12,8 +12,8 @@
   }
 
   @media screen and (max-width: 768px) {
-    bottom: 10%;
-    right: 10%;
-    font-size: 3rem;
+    bottom: 2%;
+    right: 2%;
+    font-size: 3.2rem;
   }
 }

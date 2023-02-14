@@ -3,9 +3,17 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  background-image: url("https://wallpapers.com/images/featured-full/cyberpunk-city-dpqrj66joh42kt7d.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
+  }
+
+  .fadeOut-container {
+    background: #000000af;
   }
 
   .header-zone {
@@ -93,9 +101,9 @@
     input[type="text"],
     input[type="email"] {
       width: 100%;
-      border: 1px solid #ffffff;
+      border: 1px solid #ffffff60;
       border-radius: 6px;
-      background: transparent;
+      background: #2c2c2c;
       height: 50px;
       font-size: 16px;
       color: #000;
@@ -105,9 +113,9 @@
 
     textarea {
       width: 100%;
-      border: 1px solid #ffffff;
+      border: 1px solid #ffffff60;
       border-radius: 6px;
-      background: transparent;
+      background: #2c2c2c;
       height: 50px;
       font-size: 16px;
       color: #000;

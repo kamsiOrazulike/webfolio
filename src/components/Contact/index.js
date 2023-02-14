@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import emailjs from "@emailjs/browser";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import contact from "../../assets/imgs/contactsign.png";
 
 const Contact = () => {
@@ -33,6 +33,7 @@ const Contact = () => {
   return (
     <>
       <div className="contact-page" id="contact">
+        <div className="fadeOut-container"></div>
         <div className="header-zone">
           <h1>
             <AnimatedLetters
@@ -68,7 +69,10 @@ const Contact = () => {
                 ></textarea>
               </li>
               <li>
-                <button type="submit" className="flat-button"> SEND <FontAwesomeIcon icon={faPaperPlane}/></button>
+                <button type="submit" className="flat-button">
+                  {" "}
+                  SEND <FontAwesomeIcon icon={faPaperPlane} />
+                </button>
               </li>
             </ul>
           </form>

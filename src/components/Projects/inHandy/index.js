@@ -1369,9 +1369,9 @@ const InHandy = () => {
               <p>
                 User Research <br />
                 Product Designer <br />
+                Product Analysis <br />
                 Graphic Designer <br />
-                Character Designer <br />
-                Analysis <br />
+                Character Illustrator <br />
               </p>
             </div>
             <div className="tools">

@@ -39,7 +39,7 @@ const About = () => {
 
               <div className="border-list">
                 <h1>Cranleigh School, Surrey</h1>
-                <h2 className="highlight">September 2018 - June 2021</h2>
+                <h2 className="highlight">September 2013 - June 2018</h2>
                 <p>
                   A Levels: Mathematics, Physics, Chemistry, Extended Project
                 </p>

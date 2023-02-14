@@ -377,6 +377,7 @@ const GoGenesisProject = () => {
 
         <OpeningScreen />
         <AccountPages />
+        
 
         <div className="buttonlink-group">
           <Link className="button-link" to={"contact"}>
