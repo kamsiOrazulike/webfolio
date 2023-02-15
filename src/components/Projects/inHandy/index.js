@@ -4,6 +4,7 @@ import Loader from "react-loaders";
 import ArrowToTop from "../../ArrowToTop";
 import { Link } from "react-router-dom";
 import { Link as LinkScroll } from "react-scroll";
+import SlideShow from "../../Carousel";
 import NHSLogo from "../../../assets/portfolio-imgs/inHandy/NHSLogo.png";
 import drawings from "../../../assets/portfolio-imgs/inHandy/Project_Plan.jpg";
 import allPages from "../../../assets/portfolio-imgs/inHandy/allPages.png";
@@ -27,6 +28,8 @@ import handDesigns from "../../../assets/portfolio-imgs/inHandy/handDesign.png";
 import alphabet2 from "../../../assets/portfolio-imgs/inHandy/alphabettone.jpg";
 import characterDesigns from "../../../assets/portfolio-imgs/inHandy/characterInspiration.jpg";
 import characterDesign1 from "../../../assets/portfolio-imgs/inHandy/characterdesign2.png";
+import Persona1 from "../../../assets/portfolio-imgs/inHandy/Persona1.jpg";
+import Persona2 from "../../../assets/portfolio-imgs/inHandy/Persona2.jpg";
 import karenTony from "../../../assets/portfolio-imgs/inHandy/characterDesign.png";
 import Elliot from "../../../assets/portfolio-imgs/inHandy/character3.png";
 import Charles from "../../../assets/portfolio-imgs/inHandy/character.png";
@@ -48,6 +51,22 @@ import {
   faArrowRight,
 } from "@fortawesome/free-solid-svg-icons";
 import AnimatedLetters from "../../AnimatedLetters";
+
+const Carousel = () => {
+  const slides = [
+    { path: `${'http://localhost:3000/webfolio/inhandy', Persona1}`, title: "Persona One" },
+    { path: `${'http://localhost:3000/webfolio/inhandy', Persona2}`, title: "Persona Two" },
+  ];
+
+  return (
+    <>
+      <h1> Carousel Header </h1>
+      <div className="carousel-container">
+        <SlideShow slides={slides} />
+      </div>
+    </>
+  );
+};
 
 const Introduction = () => {
   return (
@@ -194,7 +213,6 @@ const Introduction = () => {
   );
 };
 
-
 const ProjectBrief = () => {
   return (
     <div className="project-detail">
@@ -329,6 +347,8 @@ const ProjectBrief = () => {
           />
         </div>
       </div>
+
+      <Carousel />
 
       <div className="header-zone">
         <h1 id="whybsl">
