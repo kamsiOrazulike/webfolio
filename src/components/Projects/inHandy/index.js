@@ -54,13 +54,19 @@ import AnimatedLetters from "../../AnimatedLetters";
 
 const Carousel = () => {
   const slides = [
-    { path: `${'http://localhost:3000/webfolio/inhandy', Persona1}`, title: "Persona One" },
-    { path: `${'http://localhost:3000/webfolio/inhandy', Persona2}`, title: "Persona Two" },
+    {
+      path: `${("http://localhost:3000/webfolio/inhandy", Persona1)}`,
+      title: "Persona One",
+    },
+    {
+      path: `${("http://localhost:3000/webfolio/inhandy", Persona2)}`,
+      title: "Persona Two",
+    },
   ];
 
   return (
     <>
-      <h1> Carousel Header </h1>
+      <h1> User Personas </h1>
       <div className="carousel-container">
         <SlideShow slides={slides} />
       </div>
