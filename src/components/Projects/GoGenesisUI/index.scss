@@ -2,6 +2,8 @@
   height: auto;
   padding: 0px;
   color: #fff;
+  align-items: center;
+  flex-direction: column;
 
   .header-backdrop {
     width: 100%;
@@ -101,7 +103,7 @@
       font-size: 1.4rem;
       flex-direction: row;
       flex-wrap: wrap;
-  
+
       li {
         width: fit-content;
         margin: 1rem;
@@ -111,7 +113,7 @@
         border-radius: 100px;
         background: #759caf7f;
       }
-  
+
       svg {
         margin: 0 0.5rem;
       }
