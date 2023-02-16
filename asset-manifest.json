@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.0183639f.css",
-    "main.js": "/webfolio/static/js/main.b05056e3.js",
+    "main.css": "/webfolio/static/css/main.c4910eb4.css",
+    "main.js": "/webfolio/static/js/main.20d4754e.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/Persona1.jpg": "/webfolio/static/media/Persona1.14fed4f1018d23b2336d.jpg",
     "static/media/Persona2.jpg": "/webfolio/static/media/Persona2.4139e62d0de2c4faff51.jpg",
@@ -13,22 +13,21 @@
     "static/media/alphabettone.jpg": "/webfolio/static/media/alphabettone.fded5a9fd9498761f465.jpg",
     "static/media/cardbackdesign.png": "/webfolio/static/media/cardbackdesign.68a7d0c0b8641c47adcb.png",
     "static/media/Project_Plan.jpg": "/webfolio/static/media/Project_Plan.17d7f7ab127504140813.jpg",
+    "static/media/404Baby.png": "/webfolio/static/media/404Baby.941db1da321d5713230f.png",
     "static/media/StoryboardComics.jpg": "/webfolio/static/media/StoryboardComics.061aab9a95077e7415c3.jpg",
     "static/media/Mockup.jpg": "/webfolio/static/media/Mockup.67cac829ad3f184141d4.jpg",
-    "static/media/login.png": "/webfolio/static/media/login.28b1b29741942b93c5fe.png",
+    "static/media/MockTutorials.png": "/webfolio/static/media/MockTutorials.ae767b5c902b46c88e75.png",
     "static/media/handDesign.png": "/webfolio/static/media/handDesign.044c0caa81e285344c91.png",
-    "static/media/createAccount.png": "/webfolio/static/media/createAccount.aed9a924140064146327.png",
     "static/media/gamePage.png": "/webfolio/static/media/gamePage.49314cc17a667d77f93b.png",
-    "static/media/flowDiagram.jpg": "/webfolio/static/media/flowDiagram.f9257e41f0c78496f487.jpg",
     "static/media/Me6.png": "/webfolio/static/media/Me6.86dfb126fcbc1eb3bd38.png",
     "static/media/Me5.png": "/webfolio/static/media/Me5.fbffe528d9f50934d001.png",
     "static/media/minoscard.png": "/webfolio/static/media/minoscard.e4f8a81e3782efd44267.png",
     "static/media/gamePageFail.png": "/webfolio/static/media/gamePageFail.1513fa3a9d2a6b0d08cc.png",
-    "static/media/MockTutorials.png": "/webfolio/static/media/MockTutorials.1766b36225472aadbd2e.png",
     "static/media/characterDesign.png": "/webfolio/static/media/characterDesign.db5062188192f00905cc.png",
     "static/media/mainpage1.png": "/webfolio/static/media/mainpage1.7199fe85dcf62be10443.png",
     "static/media/characterInspiration.jpg": "/webfolio/static/media/characterInspiration.079a4b87f36921bd3625.jpg",
     "static/media/Me3.png": "/webfolio/static/media/Me3.95315b530e967c7c06b1.png",
+    "static/media/createAccount.png": "/webfolio/static/media/createAccount.ad45722dbe0b0d28b7cb.png",
     "static/media/allPages.png": "/webfolio/static/media/allPages.1595dac00e97023f7791.png",
     "static/media/AppScreenshot2.jpg": "/webfolio/static/media/AppScreenshot2.a202a3300ac291a59d5e.jpg",
     "static/media/LBCLogo.png": "/webfolio/static/media/LBCLogo.f12d00c9208d8c8f4ac1.png",
@@ -38,7 +37,7 @@
     "static/media/OasisFinal.png": "/webfolio/static/media/OasisFinal.b928cdfb4c2cebbe4bfe.png",
     "static/media/Character1.png": "/webfolio/static/media/Character1.1586d16d5c01d6017bb0.png",
     "static/media/character.png": "/webfolio/static/media/character.8322113f72eaefe37b24.png",
-    "static/media/acloserlook-spacing.png": "/webfolio/static/media/acloserlook-spacing.9d55ac0746af6c1ca298.png",
+    "static/media/acloserlook-spacing.jpg": "/webfolio/static/media/acloserlook-spacing.d21d4fcf0d8b4d443fdb.jpg",
     "static/media/pageDesign.png": "/webfolio/static/media/pageDesign.9aa8e651743d2ce7494b.png",
     "static/media/pageDesign4.png": "/webfolio/static/media/pageDesign4.5ccaa2c02412334f0f62.png",
     "static/media/pageDesign3.png": "/webfolio/static/media/pageDesign3.0f9eb93a75af3bb62642.png",
@@ -51,12 +50,12 @@
     "static/media/NHSLogo.png": "/webfolio/static/media/NHSLogo.71add9e6a0e03d07ee89.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.0183639f.css.map": "/webfolio/static/css/main.0183639f.css.map",
-    "main.b05056e3.js.map": "/webfolio/static/js/main.b05056e3.js.map",
+    "main.c4910eb4.css.map": "/webfolio/static/css/main.c4910eb4.css.map",
+    "main.20d4754e.js.map": "/webfolio/static/js/main.20d4754e.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0183639f.css",
-    "static/js/main.b05056e3.js"
+    "static/css/main.c4910eb4.css",
+    "static/js/main.20d4754e.js"
   ]
 }
