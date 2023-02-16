@@ -76,7 +76,8 @@
 .fadeOut-container {
   position: absolute;
   width: 100%;
-  height: inherit;
+  max-width: 9000px;
+  height: -webkit-fill-available;
   background: #0000009d;
 }
 
@@ -197,16 +198,12 @@
 .home-page,
 .about-page,
 .contact-page,
-.featured-page,
-.projects-page {
-  width: 100%;
+.projects-page,
+.no-page-found {
   height: 100%;
   color: #fff;
-  background: #111213;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 
   .header-zone {
     position: relative;
@@ -399,6 +396,18 @@
     }
   }
 
+  .subphoto {
+    width: 50%;
+    position: relative;
+
+    @media screen and (max-width: 800px) {
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      position: relative;
+    }
+  }
+
   .iconphoto {
     width: 50px;
     height: auto;
@@ -509,18 +518,6 @@
         @media screen and (max-width: 800px) {
           font-size: 1.4rem;
         }
-      }
-    }
-
-    .subphoto {
-      width: 300px;
-      position: relative;
-
-      @media screen and (max-width: 800px) {
-        width: 100px;
-        display: flex;
-        flex-direction: row;
-        position: relative;
       }
     }
   }

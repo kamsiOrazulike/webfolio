@@ -2,6 +2,7 @@ import "./index.scss";
 import Loader from "react-loaders";
 import ArrowToTop from "../../ArrowToTop";
 import { Link } from "react-router-dom";
+import PageDesign1 from "../../../assets/portfolio-imgs/GenesisUI/createAccount.png";
 // import homeScreen from "../../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
 // import tutorialScreen2 from "../../../assets/portfolio-imgs/GenesisUI/tutorial2.png";
 // import tutorialScreen3 from "../../../assets/portfolio-imgs/GenesisUI/tutorial3.png";
@@ -11,16 +12,14 @@ import { Link } from "react-router-dom";
 import genesisMockup from "../../../assets/portfolio-imgs/GenesisUI/GenesisMockupTwo.jpg";
 import Tutorials from "../../../assets/portfolio-imgs/GenesisUI/MockTutorials.png";
 // import chosenMeal2 from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal2.png";
-import drawings from "../../../assets/portfolio-imgs/GenesisUI/flowDiagram.jpg";
-import login from "../../../assets/portfolio-imgs/GenesisUI/login.png";
-import closerLook1 from "../../../assets/portfolio-imgs/GenesisUI/acloserlook-spacing.png";
+// import drawings from "../../../assets/portfolio-imgs/GenesisUI/flowDiagram.jpg";
+import CloserLookLogin from "../../../assets/portfolio-imgs/GenesisUI/acloserlook-spacing.jpg";
 // import homeIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/HomeIcon.png";
 // import searchIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/SearchIcon.png";
 // import basketIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/BasketIcon.png";
 // import accountIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/AccountIcon.png";
 // import deliveryToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic.png";
 // import collectToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic2.png";
-import createAccount from "../../../assets/portfolio-imgs/GenesisUI/createAccount.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFigma,
@@ -30,38 +29,86 @@ import {
   faReact,
 } from "@fortawesome/free-brands-svg-icons";
 
-const OpeningScreen = () => {
+const Ideation = () => {
+  const logos = [
+    {
+      name: "McDonald's U.K.",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png",
+    },
+    {
+      name: "KFC",
+      url: "https://upload.wikimedia.org/wikipedia/sco/thumb/b/bf/KFC_logo.svg/1200px-KFC_logo.svg.png",
+    },
+    {
+      name: "Burger King",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Burger_King_logo_%281999%29.svg/2024px-Burger_King_logo_%281999%29.svg.png",
+    },
+    {
+      name: "Dominoes",
+      url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Dominos_pizza_logo.svg/1200px-Dominos_pizza_logo.svg.png",
+    },
+  ];
+
+  const logoList = logos.map((logo) => (
+    <li className="grow">
+      <img src={logo.url} className="logo" alt={logo.name.replace(" ", "")} />
+      {logo.name}
+    </li>
+  ));
+
   return (
     <div className="project-detail">
       <div className="header-zone">
-        <h1>Opening Screens</h1>
+        <h1>Ideation</h1>
       </div>
       <div className="overview-col">
-        <img src={drawings} className="sketches" alt="mySketches" />
-        <p className="figuretext">
-          Keeping the company goals in mind, I started sketching my ideas.
-        </p>
+        <div className="message">
+          <p>
+            After setting out the company key objectives for the project, I
+            started by looking at existing implementations of food delivery apps
+            in other established Restuarant/Fast-food businesses. I looked at:
+          </p>
+          <ul className="cool-list">{logoList}</ul>
+          <p>
+            What sets Genesis Group Ltd. apart from the list presented is the
+            fact that the fast-food offers a variety of cuisines. Unlike how KFC
+            focuses on chicken and how Dominoes focuses on Pizza for example.
+            Genesis offers fully balanced meals both Nigerian and Chinese
+            cuisines, a Pastry menu, a Burgers, Pizzas and Sharwarmas menu as
+            well as sides and drinks.
+          </p>
+          <p>
+            So regarding the scale of options available, this also needed to be
+            considered in the design and implementation of our food delivery
+            application.
+          </p>
+        </div>
         <div className="wrapper">
           <div className="message">
             <h3>Project setup</h3>
             <p>
-              I worked on this project end-to-end as a UX designer and Frontend
-              Developer in a 3 developer team. And begun my process drawing out
-              the flows on paper and discussing my design thinking before
-              translating them into Figma designs.
+              I worked on this project end-to-end as a UI designer and Frontend
+              Developer in team of 3 other developers. And begun my process
+              drawing out the flows on paper and discussing my design thinking
+              before translating them into Figma designs. The quicker I got this
+              done the quicker we could move onto the development of the
+              application.
             </p>
+            <p> So I started out with Tutorial pages.</p>
           </div>
           <div className="message">
             <h3>Colour and Alliteration</h3>
             <p>
-              It was important that these initial <b>tutorial-like</b> pages
-              were <b>engaging</b> and <b>memorable</b> not only through the
-              graphics/visuals but also through the use of language/text.
+              It was important that these initial <b>Tutorial-like</b> pages
+              were <b>engaging</b> and <b>communicative</b> of the company's
+              services not only through the graphics/visuals but also through
+              the use of language/text.
             </p>
             <p>
-              I used short alliterative phrases such as "Click and Collect" and
-              "Drive to Deliver" in my design to achieve this. Whilst repeating
-              the colour style for each header and spacing between each element
+              I used short <b>alliterative</b> phrases such as "Click and
+              Collect" and "Drive to Deliver" in my design to achieve this.
+              Whilst repeating the colour style for each header and spacing
+              between each element
             </p>
           </div>
         </div>
@@ -77,35 +124,12 @@ const AccountPages = () => {
       <div className="header-zone">
         <h1>Account pages</h1>
       </div>
-      <div className="overview-col">
-        <div className="message">
-          <h3>The importance of spacing</h3>
-          <p>
-            When it came to deciding on how much white space was too much white
-            space, that was a challenge altogether. It is paramount in my design
-            that I use a spacing system that brings about a sense of
-            <b> consistency</b> and <b>harmony</b> to the UI.
-          </p>
-          <p>
-            I mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
-            so on.
-          </p>
-        </div>
 
-        <div className="wrapper" style={{ flexDirection:'row', justifyContent: "center" }}>
-          <img src={createAccount} className="subphoto" alt="accountPage" />
-          <img src={login} className="subphoto" alt="accountPage" />
-        </div>
-
-        <div className="message">
-          <h3>Gestalt Principle: Law of similarity</h3>
-          <p>
-            Continuing on my use of spacing, this was paramount to allow my user
-            to be able to percieve certain elements as a group in the
-            application. Hence creating a more readable interface since all the
-            elements that are similar/function together are grouped together.
-          </p>
-        </div>
+      <div
+        className="wrapper"
+        style={{ flexDirection: "row", justifyContent: "center" }}
+      >
+        <img src={PageDesign1} className="subphoto" alt="accountPage" />
       </div>
 
       <div className="overview-col">
@@ -142,138 +166,38 @@ const AccountPages = () => {
               see and interact with first.
             </p>
           </div>
-          <img src={closerLook1} className="zoomedimg" alt="acloserlook1" />
+          <img src={CloserLookLogin} className="zoomedimg" alt="acloserlook1" />
         </div>
       </div>
+
+      {/* <div className="overview-col">
+        <div className="message">
+          <h3>The importance of spacing</h3>
+          <p>
+            When it came to deciding on how much white space was too much white
+            space, that was a challenge altogether. It is paramount in my design
+            that I use a spacing system that brings about a sense of
+            <b> consistency</b> and <b>harmony</b> to the UI.
+          </p>
+          <p>
+            I mainly closely followed spacing values 4, 8, 12, 16, 32, 48... and
+            so on.
+          </p>
+        </div>
+
+        <div className="message">
+          <h3>Gestalt Principle: Law of similarity</h3>
+          <p>
+            Continuing on my use of spacing, this was paramount to allow my user
+            to be able to percieve certain elements as a group in the
+            application. Hence creating a more readable interface since all the
+            elements that are similar/function together are grouped together.
+          </p>
+        </div>
+      </div> */}
     </div>
   );
 };
-
-// const UserJourney = () => {
-//   return (
-//     <div className="project-detail">
-//       <div className="header-zone">
-//         <h1>User Journey</h1>
-//       </div>
-//     </div>
-//   );
-// };
-
-// const OrderDetails = () => {
-//   return (
-//     <div className="project-detail">
-//       <div className="header-zone">
-//         <h1>Order creation </h1>
-//       </div>
-//       <div className="overview-col">
-//         <div className="wrapper">
-//           <div className="message" style={{ top: "20%" }}>
-//             <h3>Overview</h3>
-//             <p>
-//               The next stage in the user journey after they have selected the
-//               order on the main page is for them to input further details
-//               creating their order exactly as they want it.
-//             </p>
-
-//             <p>
-//               <b>Goal</b>: Design to make item suggestions to the user. Making
-//               the option to purchase more available to them.
-//             </p>
-//           </div>
-//           <img src={chosenMeal} className="subphoto" alt="mainPageDelivery" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// const MainPages = () => {
-//   return (
-//     <>
-//       <div className="header-zone">
-//         <h1>Main page</h1>
-//       </div>
-//       <div className="rowDiv">
-//         <img
-//           src={mainPageDelivery}
-//           className="project-img"
-//           alt="mainPageDelivery"
-//         />
-
-//         <div className="overview">
-//           <div className="message">
-//             <h3> Toggle graphic </h3>
-//             <p>
-//               A delivery man and collection item graphic drawn using the
-//               Illustrator tool.
-//             </p>
-//             <div className="wrapper">
-//               <img
-//                 src={deliveryToggle}
-//                 style={{ padding: "4rem" }}
-//                 className="zoomedimg"
-//                 alt="deliverytoggle"
-//               />
-//               <img
-//                 src={collectToggle}
-//                 style={{ padding: "4rem" }}
-//                 className="zoomedimg"
-//                 alt="deliverytoggle"
-//               />
-//             </div>
-//           </div>
-//           <div className="hd"></div>
-//         </div>
-//       </div>
-//     </>
-//   );
-// };
-
-// const DockItems = () => {
-//   return (
-//     <div className="project-detail">
-//       <div className="header-zone">
-//         <h1>Dock Items</h1>
-//       </div>
-//       <div className="overview-col">
-//         <div className="wrapper">
-//           <div className="message">
-//             <h3>Simplicity</h3>
-//             <p>
-//               In general, navigation through an application is made easier using
-//               a dock with components that specify what the user should expect
-//               after interacting with a specific component. I chose to use a dock
-//               for this project because the user would require access to
-//               different pages on the app.
-//             </p>
-//           </div>
-//           <div className="vd"></div>
-//           <div className="message">
-//             <h3>Modes</h3>
-//             <p>
-//               Each of these elements have:
-//               <ul>
-//                 <li> Light mode version.png </li>
-//                 <li> Dark mode version.png - below</li>
-//                 <li>
-//                   Selected version.png (Highlighted Red) as can view in the
-//                   prototypes.
-//                 </li>
-//               </ul>
-//             </p>
-//           </div>
-//         </div>
-
-//         <div className="wrapper">
-//           <img src={homeIcon} className="iconphoto" alt="dockicons" />
-//           <img src={searchIcon} className="iconphoto" alt="dockicons" />
-//           <img src={basketIcon} className="iconphoto" alt="dockicons" />
-//           <img src={accountIcon} className="iconphoto" alt="dockicons" />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
 
 const GoGenesisProject = () => {
   return (
@@ -375,9 +299,8 @@ const GoGenesisProject = () => {
           </div>
         </div>
 
-        <OpeningScreen />
+        <Ideation />
         <AccountPages />
-        
 
         <div className="buttonlink-group">
           <Link className="button-link" to={"contact"}>

@@ -9,44 +9,18 @@ const Navbar = () => {
   return (
     <>
       <div className="nav">
-        <LinkRoute
-          to="/"
-          spy="true"
-          offset={-70}
-          duration={500}
-          className="home-icon grow"
-        >
+        <LinkRoute to="/" className="home-icon grow">
           <FontAwesomeIcon icon={faHome} />
         </LinkRoute>
-        <LinkRoute
-          to="/"
-          spy="true"
-          offset={-70}
-          duration={500}
-          className="home-text"
-        >
+        <LinkRoute to="/" className="home-text">
           Home
         </LinkRoute>
 
         <div className="navbar-container">
-          <LinkRoute
-            className="to-section"
-            to="projects"
-            spy={true}
-            smooth={true}
-            offset={-80}
-            duration={500}
-          >
+          <LinkRoute className="to-section" to="projects">
             Projects
           </LinkRoute>
-          <LinkRoute
-            className="to-section"
-            to="contact"
-            spy={true}
-            smooth={true}
-            offset={-70}
-            duration={500}
-          >
+          <LinkRoute className="to-section" to="contact">
             Contact
           </LinkRoute>
           <a
