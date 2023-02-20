@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.11f2eac3.css",
-    "main.js": "/webfolio/static/js/main.03adcb28.js",
+    "main.css": "/webfolio/static/css/main.056006e1.css",
+    "main.js": "/webfolio/static/js/main.67e40075.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/Persona1.jpg": "/webfolio/static/media/Persona1.14fed4f1018d23b2336d.jpg",
     "static/media/Persona2.jpg": "/webfolio/static/media/Persona2.4139e62d0de2c4faff51.jpg",
+    "static/media/GenesisMockupTwo.png": "/webfolio/static/media/GenesisMockupTwo.9b4f574749e3eb7d7308.png",
     "static/media/GenesisMockup.jpg": "/webfolio/static/media/GenesisMockup.879f6f4bb9ada24e3140.jpg",
-    "static/media/GenesisMockupTwo.jpg": "/webfolio/static/media/GenesisMockupTwo.f81bdaf5f6c19085443b.jpg",
     "static/media/SoundcloudHome.png": "/webfolio/static/media/SoundcloudHome.cd7615b68fae8d1f9939.png",
-    "static/media/inHandyPhoneMock.jpg": "/webfolio/static/media/inHandyPhoneMock.fdf1b62698747f884150.jpg",
+    "static/media/Me3.jpg": "/webfolio/static/media/Me3.54d437cc238e38b37f58.jpg",
     "static/media/mainpage.png": "/webfolio/static/media/mainpage.c7f508bd7938cfbf44c5.png",
     "static/media/alphabettone.jpg": "/webfolio/static/media/alphabettone.fded5a9fd9498761f465.jpg",
     "static/media/cardbackdesign.png": "/webfolio/static/media/cardbackdesign.68a7d0c0b8641c47adcb.png",
@@ -17,6 +17,7 @@
     "static/media/StoryboardComics.jpg": "/webfolio/static/media/StoryboardComics.061aab9a95077e7415c3.jpg",
     "static/media/Mockup.jpg": "/webfolio/static/media/Mockup.67cac829ad3f184141d4.jpg",
     "static/media/MockTutorials.png": "/webfolio/static/media/MockTutorials.ae767b5c902b46c88e75.png",
+    "static/media/inHandyPhoneMock.png": "/webfolio/static/media/inHandyPhoneMock.2b546d03ddedab1aef32.png",
     "static/media/handDesign.png": "/webfolio/static/media/handDesign.044c0caa81e285344c91.png",
     "static/media/gamePage.png": "/webfolio/static/media/gamePage.49314cc17a667d77f93b.png",
     "static/media/Me6.png": "/webfolio/static/media/Me6.86dfb126fcbc1eb3bd38.png",
@@ -26,7 +27,6 @@
     "static/media/characterDesign.png": "/webfolio/static/media/characterDesign.db5062188192f00905cc.png",
     "static/media/mainpage1.png": "/webfolio/static/media/mainpage1.7199fe85dcf62be10443.png",
     "static/media/characterInspiration.jpg": "/webfolio/static/media/characterInspiration.079a4b87f36921bd3625.jpg",
-    "static/media/Me3.png": "/webfolio/static/media/Me3.95315b530e967c7c06b1.png",
     "static/media/createAccount.png": "/webfolio/static/media/createAccount.ad45722dbe0b0d28b7cb.png",
     "static/media/allPages.png": "/webfolio/static/media/allPages.1595dac00e97023f7791.png",
     "static/media/AppScreenshot2.jpg": "/webfolio/static/media/AppScreenshot2.a202a3300ac291a59d5e.jpg",
@@ -50,12 +50,12 @@
     "static/media/NHSLogo.png": "/webfolio/static/media/NHSLogo.71add9e6a0e03d07ee89.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.11f2eac3.css.map": "/webfolio/static/css/main.11f2eac3.css.map",
-    "main.03adcb28.js.map": "/webfolio/static/js/main.03adcb28.js.map",
+    "main.056006e1.css.map": "/webfolio/static/css/main.056006e1.css.map",
+    "main.67e40075.js.map": "/webfolio/static/js/main.67e40075.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11f2eac3.css",
-    "static/js/main.03adcb28.js"
+    "static/css/main.056006e1.css",
+    "static/js/main.67e40075.js"
   ]
 }
