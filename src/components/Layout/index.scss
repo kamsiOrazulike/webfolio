@@ -482,10 +482,6 @@
       margin: 4rem 0;
       border-radius: 8px;
       transition-duration: 0.8s;
-
-      &:hover {
-        opacity: 0.6;
-      }
     }
 
     .shortdivider {
@@ -513,6 +509,7 @@
 
       p {
         font-size: 1.8rem;
+        font-weight: 200;
         margin: 1rem 0;
 
         @media screen and (max-width: 800px) {

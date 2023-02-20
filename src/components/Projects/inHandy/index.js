@@ -17,7 +17,7 @@ import pagesketch5 from "../../../assets/portfolio-imgs/inHandy/pageDesign5.jpg"
 // import pagedesign1 from "../../../assets/portfolio-imgs/inHandy/testexample1.png";
 import pagedesign2 from "../../../assets/portfolio-imgs/inHandy/gamePage.png";
 import pagedesign3 from "../../../assets/portfolio-imgs/inHandy/gamePageFail.png";
-import inHandyMock from "../../../assets/portfolio-imgs/inHandy/inHandyPhoneMock.jpg";
+import inHandyMock from "../../../assets/portfolio-imgs/inHandy/inHandyPhoneMock.png";
 // import pagedesign4 from "../../../assets/portfolio-imgs/inHandy/scenariotest.png";
 // import pagedesign5 from "../../../assets/portfolio-imgs/inHandy/scenariotest2.png";
 import appscreenshot from "../../../assets/portfolio-imgs/inHandy/screenshots/AppScreenshot.jpg";

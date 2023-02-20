@@ -12,6 +12,8 @@
 
   .myimage {
     width: 400px;
+    height: 400px;
+    object-fit: cover;
     border-radius: 100%;
     border: 1px solid #00ff80;
     transition-duration: 1s;

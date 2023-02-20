@@ -1,6 +1,6 @@
 import "./index.scss";
 import SelfPortrait from "../../assets/imgs/Me5.png";
-import SelfPortrait2 from "../../assets/imgs/Me3.png";
+import SelfPortrait2 from "../../assets/imgs/Me3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowRotateBack,
@@ -100,14 +100,14 @@ const AboutFull = () => {
               <div className="flip-box-inner">
                 <div className="flip-box-front">
                   <img
-                    src={SelfPortrait}
+                    src={SelfPortrait2}
                     className="myimage"
                     alt="selfportrait"
                   />
                 </div>
                 <div className="flip-box-back">
                   <img
-                    src={SelfPortrait2}
+                    src={SelfPortrait}
                     className="myimage"
                     alt="selfportrait"
                   />
