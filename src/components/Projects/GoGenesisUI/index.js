@@ -214,7 +214,7 @@ const Ideation = () => {
           </p>
         </div>
         <div className="link-group">
-          <Link className="button-link" to={"contact"}>
+          <Link className="button-link" to={"../../contact"}>
             Contact me
           </Link>
         </div>
