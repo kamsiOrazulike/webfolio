@@ -6,21 +6,6 @@ import Tutorials from "../../../assets/portfolio-imgs/GenesisUI/MockTutorials.pn
 import PageDesign1 from "../../../assets/portfolio-imgs/GenesisUI/createAccount.png";
 import genesisMockup from "../../../assets/portfolio-imgs/GenesisUI/GenesisMockupTwo.png";
 import CloserLookLogin from "../../../assets/portfolio-imgs/GenesisUI/acloserlook-spacing.jpg";
-// import homeScreen from "../../../assets/portfolio-imgs/GenesisUI/tutorial1.png";
-// import tutorialScreen2 from "../../../assets/portfolio-imgs/GenesisUI/tutorial2.png";
-// import tutorialScreen3 from "../../../assets/portfolio-imgs/GenesisUI/tutorial3.png";
-// import accountPage from "../../../assets/portfolio-imgs/GenesisUI/accountPage.png";
-// import mainPageDelivery from "../../../assets/portfolio-imgs/GenesisUI/mainPageDelivery.png";
-// import chosenMeal from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal.png";
-
-// import chosenMeal2 from "../../../assets/portfolio-imgs/GenesisUI/chosenMeal2.png";
-// import drawings from "../../../assets/portfolio-imgs/GenesisUI/flowDiagram.jpg";
-// import homeIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/HomeIcon.png";
-// import searchIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/SearchIcon.png";
-// import basketIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/BasketIcon.png";
-// import accountIcon from "../../../assets/portfolio-imgs/GenesisUI/dockicons/AccountIcon.png";
-// import deliveryToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic.png";
-// import collectToggle from "../../../assets/portfolio-imgs/GenesisUI/elements/togglegraphic2.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFigma,
