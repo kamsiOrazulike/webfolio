@@ -346,7 +346,7 @@ const GoGenesisProject = () => {
               target="_blank"
               rel="noreferrer"
               className="button-link"
-              href="https://www.figma.com/file/IUecsg1rFqXbgknkNw6CDr/Genesis-Applications?node-id=833%3A913&t=MUCc3DqDO7iThoSY-1"
+              href="https://www.figma.com/proto/IUecsg1rFqXbgknkNw6CDr/Genesis-QSR-Application?page-id=833%3A913&node-id=1060%3A12052&viewport=-1374%2C946%2C0.73&scaling=scale-down&starting-point-node-id=833%3A936"
             >
               Check out on Figma!
             </a>
