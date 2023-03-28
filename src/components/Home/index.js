@@ -121,7 +121,6 @@ const Home = () => {
   return (
     <>
       <div className="home-page">
-        <div className="fadeOut-container"></div>
         <div className="header-zone">
           <h1 id="top">
             <span className={CharClass}>H</span>
