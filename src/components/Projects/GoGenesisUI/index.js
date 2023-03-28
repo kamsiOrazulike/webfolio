@@ -206,9 +206,7 @@ const Ideation = () => {
 
         <div className="hd"></div>
 
-        <div className="header-zone">
-          <h1>Opening Tutorial pages</h1>
-        </div>
+        <h1 style={{ textAlign: 'center' }}>Opening Tutorial pages</h1>
 
         <img src={Tutorials} className="title-graphic" alt="tutorialScreen2" />
         <div className="overview-col">
@@ -367,7 +365,7 @@ const GoGenesisProject = () => {
               conjunction with the Marketing team of the company.
             </p>
           </div>
-          <div className="wrapper" style={{flexDirection: 'row'}}>
+          <div className="wrapper" style={{ flexDirection: "row" }}>
             <div className="role">
               <h3>Role</h3>
               <p>

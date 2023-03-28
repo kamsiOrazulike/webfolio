@@ -7,13 +7,17 @@
 
   .header-backdrop {
     width: 100%;
-    padding: 5rem 0;
+    padding: 1rem 0;
     z-index: 0;
     justify-content: space-around;
     background-image: linear-gradient(to bottom, #ff4988, #ff8cb2);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+
+    @media screen and (max-width: 800px) {
+      padding: 0;
+    }
   }
 
   .border-list {
