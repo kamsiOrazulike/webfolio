@@ -1389,7 +1389,7 @@ const InHandy = () => {
               conjunction with the Marketing team of the company.
             </p>
           </div>
-          <div className="wrapper">
+          <div className="wrapper" style={{flexDirection: 'row'}}>
             <div className="role">
               <h3>Role</h3>
               <p>
