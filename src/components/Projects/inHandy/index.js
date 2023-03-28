@@ -1185,16 +1185,14 @@ const CharacterDesign = () => {
 
         <div className="shortdivider"></div>
 
-        <div className="header-zone">
-          <h1>Hand design</h1>
-          <p style={{ margin: "2rem 8rem" }}>
-            These hand drawings were developed for the "Guess the sign" game.
-            Graphic design must maintain the effective visual communication
-            principle mentioned in the brief. Challenge: Designing hands that
-            still emulate the simplicity in the graphic design for a complex
-            language.
-          </p>
-        </div>
+        <h1>Hand design</h1>
+        <p style={{ margin: "2rem 8rem" }}>
+          These hand drawings were developed for the "Guess the sign" game.
+          Graphic design must maintain the effective visual communication
+          principle mentioned in the brief. Challenge: Designing hands that
+          still emulate the simplicity in the graphic design for a complex
+          language.
+        </p>
 
         <img
           src={handDesigns}
