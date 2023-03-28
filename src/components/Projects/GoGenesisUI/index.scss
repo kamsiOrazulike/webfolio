@@ -18,6 +18,11 @@
 
   .border-list {
     border-left: 4px solid #ff6c6c;
+
+    @media screen and (max-width: 800px) {
+      border-left: 2px solid #ff6c6c;
+      padding-left: 1rem;
+    }
   }
 
   .button-link {
