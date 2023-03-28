@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.c6fa705a.css",
+    "main.css": "/webfolio/static/css/main.86308576.css",
     "main.js": "/webfolio/static/js/main.6ee179fe.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/Persona1.jpg": "/webfolio/static/media/Persona1.14fed4f1018d23b2336d.jpg",
@@ -50,12 +50,12 @@
     "static/media/NHSLogo.png": "/webfolio/static/media/NHSLogo.71add9e6a0e03d07ee89.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.c6fa705a.css.map": "/webfolio/static/css/main.c6fa705a.css.map",
+    "main.86308576.css.map": "/webfolio/static/css/main.86308576.css.map",
     "main.6ee179fe.js.map": "/webfolio/static/js/main.6ee179fe.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6fa705a.css",
+    "static/css/main.86308576.css",
     "static/js/main.6ee179fe.js"
   ]
 }
