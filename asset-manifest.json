@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/webfolio/static/css/main.e5fce161.css",
-    "main.js": "/webfolio/static/js/main.6e493416.js",
+    "main.css": "/webfolio/static/css/main.00165125.css",
+    "main.js": "/webfolio/static/js/main.425687fb.js",
     "static/js/787.00931a38.chunk.js": "/webfolio/static/js/787.00931a38.chunk.js",
     "static/media/Persona1.jpg": "/webfolio/static/media/Persona1.14fed4f1018d23b2336d.jpg",
     "static/media/Persona2.jpg": "/webfolio/static/media/Persona2.4139e62d0de2c4faff51.jpg",
@@ -50,12 +50,12 @@
     "static/media/NHSLogo.png": "/webfolio/static/media/NHSLogo.71add9e6a0e03d07ee89.png",
     "static/media/CoolveticaRg-Regular.woff2": "/webfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/webfolio/index.html",
-    "main.e5fce161.css.map": "/webfolio/static/css/main.e5fce161.css.map",
-    "main.6e493416.js.map": "/webfolio/static/js/main.6e493416.js.map",
+    "main.00165125.css.map": "/webfolio/static/css/main.00165125.css.map",
+    "main.425687fb.js.map": "/webfolio/static/js/main.425687fb.js.map",
     "787.00931a38.chunk.js.map": "/webfolio/static/js/787.00931a38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5fce161.css",
-    "static/js/main.6e493416.js"
+    "static/css/main.00165125.css",
+    "static/js/main.425687fb.js"
   ]
 }
