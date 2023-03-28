@@ -77,9 +77,7 @@ const Carousel = () => {
 const Introduction = () => {
   return (
     <div className="project-detail">
-      <div className="header-zone">
-        <h1>Introduction</h1>
-      </div>
+      <h1>Introduction</h1>
 
       <div className="overview-col">
         <img src={drawings} className="drawnplan" alt="mySketches" />
@@ -169,7 +167,7 @@ const Introduction = () => {
           </div>
         </div>
 
-        <div className="wrapper" style={{ flexDirection: "row-reverse" }}>
+        <div className="wrapper">
           <div className="message">
             <h3>ASSISTIVE listening devices</h3>
             <p>
@@ -222,10 +220,8 @@ const Introduction = () => {
 const ProjectBrief = () => {
   return (
     <div className="project-detail">
-      <div className="header-zone">
-        <h1>Project Brief</h1>
-        <h2>Why Sign Language?</h2>
-      </div>
+      <h1>Project Brief</h1>
+      <h2>Why Sign Language?</h2>
 
       <div className="overview-col">
         <img
@@ -356,13 +352,11 @@ const ProjectBrief = () => {
 
       <Carousel />
 
-      <div className="header-zone">
-        <h1 id="whybsl">
-          Pros and Cons &nbsp;
-          <FontAwesomeIcon icon={faBalanceScale} style={{ color: "#1129ff" }} />
-        </h1>
-        <h2>Looking at what resources exist</h2>
-      </div>
+      <h1 id="whybsl">
+        Pros and Cons &nbsp;
+        <FontAwesomeIcon icon={faBalanceScale} style={{ color: "#1129ff" }} />
+      </h1>
+      <h2>Looking at what resources exist</h2>
 
       <div className="overview-col">
         <div className="wrapper">
@@ -564,9 +558,7 @@ const ProjectBrief = () => {
 const Ideation = () => {
   return (
     <div className="project-detail">
-      <div className="header-zone" style={{ margin: "0" }}>
-        <h1 id="ideation">Ideation</h1>
-      </div>
+      <h1 id="ideation">Ideation</h1>
 
       <div className="overview-col">
         <div className="wrapper">
@@ -827,10 +819,8 @@ const Ideation = () => {
         </div>
       </div>
 
-      <div className="header-zone">
-        <h1 id="ideation">User Research</h1>
-        <h2> Storyboarding + Low Fidelity Prototypes</h2>
-      </div>
+      <h1 id="ideation">User Research</h1>
+      <h2> Storyboarding + Low Fidelity Prototypes</h2>
 
       <div className="overview-col">
         <div
@@ -939,21 +929,19 @@ const Ideation = () => {
 const Prototypes = () => {
   return (
     <div className="project-detail">
-      <div className="header-zone">
-        <h1> Lo-Fi Prototypes </h1>
-        <p style={{ margin: "2rem 8rem" }}>
-          To align my product more with the goals of being as accessible as
-          existing methods and also due to the time we also had on this project.
-          I decided not to pursue the assistance of a physical product method
-          and instead put more focus on making inHandy a mobile application.
-        </p>
-      </div>
+      <h1> Lo-Fi Prototypes </h1>
+      <p style={{ margin: "2rem 8rem" }}>
+        To align my product more with the goals of being as accessible as
+        existing methods and also due to the time we also had on this project. I
+        decided not to pursue the assistance of a physical product method and
+        instead put more focus on making inHandy a mobile application.
+      </p>
       <div className="overview-col">
         <img src={allPages} className="drawnplan" alt="allpageslofisketch" />
 
         <div className="shortdivider"></div>
 
-        <div className="wrapper" style={{ flexDirection: "row" }}>
+        <div className="wrapper">
           <img
             src={pagesketch1}
             className="screenshot"
@@ -983,7 +971,7 @@ const Prototypes = () => {
           </div>
         </div>
 
-        <div className="wrapper" style={{ flexDirection: "row-reverse" }}>
+        <div className="wrapper">
           <img
             src={pagesketch3}
             className="screenshot"
@@ -1014,6 +1002,7 @@ const Prototypes = () => {
         <div className="wrapper">
           <div
             style={{
+              width: "100%",
               display: "flex",
               flexDirection: "row",
               justifyContent: "space-evenly",
@@ -1022,7 +1011,7 @@ const Prototypes = () => {
             <img
               src={pagesketch4}
               style={{
-                width: "250px",
+                width: "50%",
                 objectFit: "cover",
                 objectPosition: "100% 100%",
                 background: "#fff",
@@ -1032,7 +1021,7 @@ const Prototypes = () => {
             <img
               src={pagesketch5}
               style={{
-                width: "250px",
+                width: "50%",
                 objectFit: "cover",
                 objectPosition: "100% 100%",
                 imageRendering: "pixelated",
@@ -1073,15 +1062,13 @@ const Prototypes = () => {
 const CharacterDesign = () => {
   return (
     <div className="project-detail">
-      <div className="header-zone">
-        <h1>Character Design</h1>
-        <p style={{ margin: "2rem 8rem" }}>
-          To ensure effective visual communication, the low fidelity prototypes
-          needed development. Starting from the development of characters for
-          both stills and animations that will be a part of InHandy's learning
-          experience.
-        </p>
-      </div>
+      <h1>Character Design</h1>
+      <p>
+        To ensure effective visual communication, the low fidelity prototypes
+        needed development. Starting from the development of characters for both
+        stills and animations that will be a part of InHandy's learning
+        experience.
+      </p>
       <div className="overview-col">
         <div className="wrapper">
           <div className="message">
@@ -1244,14 +1231,12 @@ const CharacterDesign = () => {
 const DevelopedPrototype = () => {
   return (
     <div className="project-detail">
-      <div className="header-zone">
-        <h1> Final product </h1>
-        <p style={{ margin: "2rem 8rem" }}>
-          The final presentation for this project was my 50 page report with my
-          research and a PowerPoint presentation. These are also available upon
-          request!
-        </p>
-      </div>
+      <h1> Final product </h1>
+      <p style={{ margin: "2rem 8rem" }}>
+        The final presentation for this project was my 50 page report with my
+        research and a PowerPoint presentation. These are also available upon
+        request!
+      </p>
 
       <div className="overview-col">
         <div className="wrapper">
@@ -1280,17 +1265,19 @@ const DevelopedPrototype = () => {
               <FontAwesomeIcon icon={faFigma} /> &nbsp; Figma Initial Prototype
             </a>
           </div>
-          <div style={{ display: "flex", alignItems: "center" }}>
+          <div style={{ width: "100%", display: "flex", alignItems: "center" }}>
             <img
               src={mainpageinitial}
               className="screenshot"
               alt="pagedesign"
+              style={{ width: "45%" }}
             />
             <FontAwesomeIcon icon={faArrowRight} />
             <img
               src={mainpagedeveloped}
               className="screenshot vibrate"
               alt="pagedesign"
+              style={{ width: "45%" }}
             />
           </div>
         </div>
@@ -1313,17 +1300,24 @@ const DevelopedPrototype = () => {
 
           <div
             style={{
+              width: "100%",
               display: "flex",
               alignItems: "center",
               flexDirection: "row",
             }}
           >
-            <img src={pagesketch5} className="screenshot" alt="pagedesign" />
+            <img
+              src={pagesketch5}
+              className="screenshot"
+              alt="pagedesign"
+              style={{ width: "45%" }}
+            />
             <FontAwesomeIcon icon={faArrowRight} />
             <img
               src={pagedesign2}
               className="vibrate screenshot"
               alt="pagedesign"
+              style={{ width: "45%" }}
             />
             <img src={pagedesign3} className="screenshot " alt="pagedesign" />
           </div>
@@ -1389,7 +1383,7 @@ const InHandy = () => {
               conjunction with the Marketing team of the company.
             </p>
           </div>
-          <div className="wrapper" style={{flexDirection: 'row'}}>
+          <div className="wrapper" style={{ flexDirection: "row" }}>
             <div className="role">
               <h3>Role</h3>
               <p>
@@ -1426,7 +1420,7 @@ const InHandy = () => {
             Contact me
           </Link>
           <Link className="button-link" to={"../projects"}>
-            Back to All Projects
+            Back
           </Link>
         </div>
 

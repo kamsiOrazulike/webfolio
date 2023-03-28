@@ -431,7 +431,7 @@ const GoGenesisProject = () => {
             Contact me
           </Link>
           <Link className="button-link" to={"../projects"}>
-            Back to All Projects
+            Back
           </Link>
         </div>
 
