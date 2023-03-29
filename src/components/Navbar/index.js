@@ -24,7 +24,7 @@ const Navbar = () => {
             Contact
           </LinkRoute>
           <a
-            className="to-section"
+            className="linkedin"
             href="https://www.linkedin.com/in/kamsiyonnaorazulike"
             target="_blank"
             rel="noreferrer"
@@ -32,7 +32,7 @@ const Navbar = () => {
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>
           <a
-            className="to-section"
+            className="github"
             href="https://github.com/kamsiOrazulike"
             target="_blank"
             rel="noreferrer"
