@@ -242,6 +242,12 @@ h2 {
     height: 100%;
     width: auto;
 
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      // background-image: linear-gradient(to bottom, #00000080, #00000000);
+      text-align: center;
+    }
+
     .title {
       width: 90%;
       display: flex;
@@ -249,12 +255,6 @@ h2 {
       align-items: center;
       justify-content: center;
       margin: 0 0 3rem 0;
-    }
-
-    @media screen and (max-width: 768px) {
-      width: 100%;
-      background-image: linear-gradient(to bottom, #00000080, #00000000);
-      text-align: center;
     }
 
     h1 {

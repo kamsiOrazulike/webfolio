@@ -1,5 +1,4 @@
 import "./index.scss";
-import SelfPortrait from "../../assets/imgs/Me5.png";
 import SelfPortrait2 from "../../assets/imgs/Me3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -96,24 +95,7 @@ const AboutFull = () => {
 
         <div className="overview-col">
           <div className="wrapper" style={{ alignItems: "center" }}>
-            <div className="flip-box">
-              <div className="flip-box-inner">
-                <div className="flip-box-front">
-                  <img
-                    src={SelfPortrait2}
-                    className="myimage"
-                    alt="selfportrait"
-                  />
-                </div>
-                <div className="flip-box-back">
-                  <img
-                    src={SelfPortrait}
-                    className="myimage"
-                    alt="selfportrait"
-                  />
-                </div>
-              </div>
-            </div>
+            <img src={SelfPortrait2} className="myimage" alt="selfportrait" />
 
             <div className="statgroup">
               <h3>Attribute points</h3>
