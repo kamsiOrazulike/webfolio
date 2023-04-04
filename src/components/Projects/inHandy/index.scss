@@ -6,18 +6,7 @@
   flex-direction: column;
 
   .border-list {
-    border-left: 4px solid #eea3ff;
-  }
-
-  .animate-text-hover {
-    min-width: 10px;
-    display: inline-block;
-    animation-fill-mode: both;
-
-    &:hover {
-      animation: rubberBand 1s;
-      color: #eea3ff;
-    }
+    border-left: 4px solid #ddc1a7;
   }
 
   .logo {
@@ -28,15 +17,15 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: #485aff;
-    border: 1px solid #485aff;
+    color: #ddc1a7;
+    border: 1px solid #ddc1a7;
 
     &:hover {
-      color: white;
+      color: black;
     }
   }
   .button-link::after {
-    background: #485aff;
+    background: #ddc1a7;
   }
 
   .header-backdrop {

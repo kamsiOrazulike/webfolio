@@ -1,13 +1,14 @@
 .fulldetails-page {
+  background: #111213;
   flex-direction: column;
 
   .header-backdrop {
     z-index: 0;
     padding: 5rem 0;
     justify-content: space-around;
-    background-image: linear-gradient(to right, #990000, #f30000);
+    background-image: linear-gradient(to right, #111213, #323538);
     background-repeat: repeat;
-    background-size: 150px;
+    background-size: 10px;
   }
 
   .myimage {

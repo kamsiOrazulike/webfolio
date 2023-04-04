@@ -354,7 +354,7 @@ const ProjectBrief = () => {
 
       <h1 id="whybsl">
         Pros and Cons &nbsp;
-        <FontAwesomeIcon icon={faBalanceScale} style={{ color: "#1129ff" }} />
+        <FontAwesomeIcon icon={faBalanceScale} style={{ color: "#ddc1a7" }} />
       </h1>
       <h2>Looking at what resources exist</h2>
 

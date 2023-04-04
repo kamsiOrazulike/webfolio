@@ -3,17 +3,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/473/410/441/cyberpunk-cyber-dark-cyberpunk-movies-wallpaper-preview.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
+  background-image: linear-gradient(to right, #1b1612, #2b231d);
+  background-repeat: repeat;
+  background-size:10px;
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
-  }
-
-  .fadeOut-container {
-    background: #000000af;
   }
 
   .header-zone {
@@ -125,7 +120,7 @@
     }
 
     .flat-button {
-      color: #d0acff;
+      color: #ddc1a7;
       font-size: 13px;
       font-weight: 400;
       letter-spacing: 4px;
@@ -134,16 +129,15 @@
       font-family: sans-serif;
       text-decoration: none;
       padding: 10px 18px;
-      border: 1px solid #d0acff;
+      border: 1px solid #ddc1a7;
       border-radius: 8px;
       animation: fadeIn 2s 2.5s backwards;
       white-space: nowrap;
-      transition-duration: 0.5s;
+      transition: all 0.5s linear;
 
       &:hover {
         color: #fff;
         border: 1px solid #ffffff;
-        background: #984aff;
       }
     }
   }

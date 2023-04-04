@@ -33,7 +33,6 @@ const Contact = () => {
   return (
     <>
       <div className="contact-page" id="contact">
-        <div className="fadeOut-container"></div>
         <div className="header-zone">
           <h1>
             <AnimatedLetters

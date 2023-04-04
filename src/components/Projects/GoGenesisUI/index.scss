@@ -7,16 +7,16 @@
 
   .header-backdrop {
     width: 100%;
-    padding: 1rem 0;
+    padding: 2rem 0;
     z-index: 0;
     justify-content: space-around;
-    background-image: linear-gradient(to bottom, #ff4988, #ff8cb2);
+    background-image: linear-gradient(to top, #00000040, #00000000);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 
     @media screen and (max-width: 800px) {
-      padding: 0;
+      padding: 2rem 0;
     }
   }
 
@@ -24,7 +24,7 @@
     border-left: 4px solid #ff6c6c;
 
     @media screen and (max-width: 800px) {
-      border-left: 2px solid #ff6c6c;
+      border-left: 3px solid #ff6c6c;
       padding-left: 1rem;
     }
   }
@@ -33,15 +33,15 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #ddc1a7;
+    border: 1px solid #ddc1a7;
 
     &:hover {
-      color: white;
+      color: black;
     }
   }
   .button-link::after {
-    background-image: linear-gradient(to right, #ff4988, #ff8cb2);
+    background: #ddc1a7;
   }
 
   .animate-text-hover {
@@ -121,7 +121,7 @@
         color: #fff;
         border: 1px solid rgb(227, 227, 227);
         border-radius: 100px;
-        background: #759caf7f;
+        background: #1b1612;
       }
 
       svg {
@@ -141,6 +141,7 @@
       list-style: none;
       text-decoration: none;
       display: flex;
+      padding: 0;
       flex-direction: row;
       flex-wrap: wrap;
 
@@ -152,7 +153,7 @@
         padding: 1.5rem;
         color: #fff;
         border-radius: 8px;
-        background: #2d31367f;
+        background: #251e18;
       }
 
       svg {

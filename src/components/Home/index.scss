@@ -14,10 +14,7 @@ $color-outline: #7f7f7f80;
 .home-page {
   align-items: center;
   justify-content: space-around;
-  background-image: url("https://c4.wallpaperflare.com/wallpaper/473/410/441/cyberpunk-cyber-dark-cyberpunk-movies-wallpaper-preview.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
+  background-image: linear-gradient(to top, #00000040, #00000000);
 
   .header-zone {
     position: relative;
@@ -28,10 +25,6 @@ $color-outline: #7f7f7f80;
     justify-content: space-between;
     height: 100%;
     width: auto;
-
-    @media screen and (max-width: 800px) {
-      background-image: linear-gradient(to bottom, #00000090, #00000040);
-    }
 
     h1 {
       font-size: 8rem;
@@ -107,7 +100,7 @@ $color-outline: #7f7f7f80;
         border: 1px solid $color-outline;
         text-transform: uppercase;
         letter-spacing: 0.08em;
-        font-family: "Roboto", sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 80px;
         font-weight: 500;
         @include flex;
@@ -170,7 +163,7 @@ $color-outline: #7f7f7f80;
         border: 1px solid $color-outline;
         text-transform: uppercase;
         letter-spacing: 0.08em;
-        font-family: "Roboto", sans-serif;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-size: 80px;
         font-weight: 500;
         @include flex;
@@ -307,7 +300,7 @@ $color-outline: #7f7f7f80;
 
       h2 {
         font-size: 1.5rem;
-        color: #afe4ff;
+        color: #ddc1a7;
         text-align: left;
         font-weight: 500;
         margin: 0px;
@@ -342,6 +335,13 @@ $color-outline: #7f7f7f80;
       p {
         text-align: left;
       }
+
+      quote {
+        margin: 4rem 0 2rem 0;
+        font-size: 3rem;
+        font-weight: 100;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
     }
 
     @media screen and (max-width: 800px) {
@@ -374,9 +374,9 @@ $color-outline: #7f7f7f80;
       margin: 1rem;
       padding: 1.5rem;
       color: #fff;
-      border: 1px solid #000;
       border-radius: 100px;
-      background: #384a537f;
+      background: #56463b;
+      box-shadow: 0px 3px #000;
     }
 
     svg {
@@ -385,7 +385,7 @@ $color-outline: #7f7f7f80;
   }
 
   .border-list {
-    border-left: 5px solid #afe4ff;
+    border-left: 5px solid #ddc1a7;
     padding-left: 4rem;
     margin: 2rem 0;
   }

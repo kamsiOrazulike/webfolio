@@ -25,7 +25,7 @@
     align-items: flex-start;
     justify-content: space-between;
     flex-direction: column;
-    background: #454652;
+    background: #1b161290;
     margin: 2rem 2rem;
     padding: 2rem 2rem;
     transition: all 0.4s ease-in-out;
@@ -36,11 +36,11 @@
     }
 
     &:hover {
-      background: #26272e;
+      background: #1b1612;
     }
 
     img {
-      width: 100%;
+      width: 60%;
       margin: auto;
       border-radius: 6px;
       z-index: 999;
@@ -57,7 +57,7 @@
     }
     h2 {
       font-size: 1.5rem;
-      color: #afe4ff;
+      color: #ddc1a7;
       font-weight: 900;
       margin: 0;
     }

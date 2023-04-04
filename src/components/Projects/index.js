@@ -42,11 +42,8 @@ const Projects = () => {
             </Link>
 
             <h1> inHandy </h1>
-            <h2> Research, UX/UI, Product Design </h2>
-            <p>
-              A more engaging way to learn British Sign Language focusing on
-              effective visual stimulation.
-            </p>
+            <h2> Research, UX/UI, Graphic Design, Product Design </h2>
+            <p>A brief, fun and engaging way to learn British Sign Language.</p>
             <Link to="/inhandy" className="button-link">
               View Project
             </Link>
@@ -58,10 +55,9 @@ const Projects = () => {
             </Link>
 
             <h1> GO! Genesis </h1>
-            <h2> UI Design, Market Analysis, Frontend development </h2>
+            <h2> UX/UI, Market Analysis, Frontend development </h2>
             <p>
               A new & improved Food Delivery application for Genesis Group Ltd.
-              and their customers.
             </p>
             <Link to="/gogenesis" className="button-link">
               View Project

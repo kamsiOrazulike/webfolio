@@ -60,8 +60,8 @@ const About = () => {
         </h2>
         <div className="goals">
           <i>
-            "I aim to use my skills to develop products that meet and surpass
-            the requests of the user."
+            "I have a passion for design innovation that drives my ambition to
+            use my skills to create products that make a real difference."
           </i>
         </div>
         <div className="education">
@@ -88,18 +88,24 @@ const About = () => {
       <div className="overview-bio">
         <div className="message">
           <p>
-            My passion is to create beautiful and functional solutions that have
-            an direct positive impact on User Experience when using a digital
-            product. Using a cross-disciplinary approach to design, I am able to
-            think outside the box by combining UX design principles with my
-            growing experience in Software Development, UI, Visual and Digital
-            Design.
-          </p>
-          <p>
             I'm a Software Developer based in London with 2 years experience
             using tech stacks:
           </p>
           <ul className="ui-list">{skillList}</ul>
+
+          <quote> "Design Innovation and Creative Engineering?" </quote>
+
+          <p>
+            Studying DICE at Queen Mary University of London, I discovered my
+            passion for combining design and technology to create powerful tools
+            for solving problems and identifying future innovation
+            opportunities. On the course I developed the courage to embrace this
+            passion and I learnt the different techniques I needed to bring it
+            to life. By adopting a cross-disciplinary approach to design, I am
+            able to think outside the box by combining both design and
+            Human-computer interaction principles with my growing experience and
+            skills in Software Development, UX/UI and Graphic Design.
+          </p>
 
           <Link className="button-link" to="/about">
             + Read more
