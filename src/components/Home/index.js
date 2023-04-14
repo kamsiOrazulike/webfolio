@@ -46,7 +46,7 @@ const About = () => {
   ];
 
   const skillList = skills.map((skill, key) => (
-    <li key={key} className="grow">
+    <li key={key}>
       {skill.icon} &nbsp; {skill.name}
     </li>
   ));
